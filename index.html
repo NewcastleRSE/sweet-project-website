@@ -1,0 +1,17 @@
+---
+layout: default
+title: The Sweet Project
+---
+  <body>
+    Testing Jekyll's data files with a for loop
+    <h1>Team Members</h1>
+    <div>
+        {% for member in site.data.data.staffMembers %} 
+        <div>{{member.name}}</div>
+
+        {% endfor %}
+
+        
+    </div>
+  </body>
+</html>
