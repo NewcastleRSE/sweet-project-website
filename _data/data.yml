@@ -1,7 +1,34 @@
 config:
   - useTailwind: true
 
+config:
+  - useTailwind: true
+
 teamMembers:
-  - name: Lucy Mcgeagh
-  - name: Lucy Mcgeagh
-  - name: Lucy Mcgeagh
+  - name: Thomas Brown
+    title: Researcher
+    affiliation: Newcastle University
+    imageURL: https://unsplash.com/photos/6anudmpILw4/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTB8fHBpY3R1cmVzJTIwb2YlMjB3b21lbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE2ODExNzI4ODQ&force=true
+    blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
+
+  - name: James Taylor
+    title: Researcher
+    affiliation: Newcastle University
+    imageURL: https://images.unsplash.com/photo-1651684215020-f7a5b6610f23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80
+    blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
+
+  - name: Benjamin Johnson
+    title: Researcher
+    affiliation: Newcastle University
+    imageURL: https://unsplash.com/photos/6anudmpILw4/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTB8fHBpY3R1cmVzJTIwb2YlMjB3b21lbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE2ODExNzI4ODQ&force=true
+    blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
+
+  - name: Edward Davis
+    title: Researcher
+    affiliation: Newcastle University
+    imageURL: https://unsplash.com/photos/9UVmlIb0wJU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8Nnx8d29tZW58ZW58MHx8fHwxNjgwNzg3Mzc4&force=true
+    blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam
+
+
+aboutProject:
+  description: "Cancer is a complex group of diseases that arise from the uncontrolled growth and spread of abnormal cells. These cells can invade and destroy nearby healthy tissues and organs, as well as spread to other parts of the body through the bloodstream or lymphatic system. There are over 100 different types of cancer, each with its own set of risk factors, symptoms, and treatment options. Despite significant progress in cancer research, it remains one of the leading causes of death worldwide. Early detection, effective treatments, and continued research are crucial in the fight against cancer."
