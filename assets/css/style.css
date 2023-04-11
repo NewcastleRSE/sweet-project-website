@@ -6,10 +6,28 @@ header nav {
   height: 100px;
 }
 
+.logo-img {
+  height: 150px;
+  width: auto;
+}
+
 .text-primary {
-  color: blue;
+  color: #633188;
 }
 
 .bg-primary {
-  background-color: blue;
+  background-color: #633188 !important;
+}
+
+.animate-marquee {
+  animation: marquee 5s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
 }
