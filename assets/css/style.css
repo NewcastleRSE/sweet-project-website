@@ -11,6 +11,11 @@ header nav {
   width: auto;
 }
 
+.section {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
 .text-primary {
   color: #633188;
 }
@@ -21,6 +26,11 @@ header nav {
 
 .animate-marquee {
   animation: marquee 5s linear infinite;
+}
+
+.workstream-img {
+  height: 300px;
+  object-fit: cover;
 }
 
 @keyframes marquee {
