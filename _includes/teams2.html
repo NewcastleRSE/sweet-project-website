@@ -1,4 +1,4 @@
-<div class="container mx-auto px-4 py-16">
+<div class="container mx-auto px-4 py-16" id="team">
   {%include teamsBase.html content = "Meet the team!" %}
   <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
     {% for member in site.data.data.teamMembers %}
@@ -11,8 +11,10 @@
       ></div>
       <div class="p-6">
         <h2 class="font-md text-xl mb-2">{{ member.name }}</h2>
-        <p class="text-base mb-1 text-purple-600 font-md">{{ member.title }}</p>
-        <p class="text-gray-700 text-base mb-4">Affiliation</p>
+        <p class="text-base mb-1 text-purple-600 font-md text-sm">
+          {{ member.title }}
+        </p>
+        <p class="text-gray-500 text-sm mb-4">Affiliation</p>
         <p class="text-gray-800 text-base">{{ member.blurb }}</p>
       </div>
     </div>

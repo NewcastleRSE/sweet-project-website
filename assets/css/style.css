@@ -52,7 +52,7 @@ header nav {
 }
 
 .workstream-img-overlay {
-  opacity: 0.5;
+  opacity: 40;
 }
 
 @keyframes marquee {
