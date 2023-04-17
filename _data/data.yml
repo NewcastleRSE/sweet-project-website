@@ -4,7 +4,8 @@ config:
     rounded: rounded-lg
 
 workstream:
-  img: https://unsplash.com/photos/6anudmpILw4/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTB8fHBpY3R1cmVzJTIwb2YlMjB3b21lbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE2ODExNzI4ODQ&force=true
+  # img: https://unsplash.com/photos/6anudmpILw4/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTB8fHBpY3R1cmVzJTIwb2YlMjB3b21lbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE2ODExNzI4ODQ&force=true
+  img: /assets/images/hero1.png
 
 teamMembers:
   - name: Thomas Brown
