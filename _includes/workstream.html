@@ -1,3 +1,4 @@
+{% for workstream in site.data.data.workstreams %}
 <div class="section">
   {%include teamsbase.html content = "Workstream 1" id = "workstream1" %}
   <img
@@ -20,4 +21,5 @@
     ratione dolores nemo inventore dignissimos porro nobis. Temporibus nostrum
     nemo suscipit deserunt amet perferendis?
   </p>
+  {% endfor %}
 </div>
