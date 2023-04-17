@@ -1,25 +1,36 @@
 {% for workstream in site.data.data.workstreams %}
 <div class="section">
-  {%include teamsbase.html content = "Workstream 1" id = "workstream1" %}
-  <img
-    src="{{site.data.data.workstream.img}}"
-    class="workstream-img mb-4 w-full"
-  />
-  <p class="workstream-text lead text-2xl mb-4">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, impedit
-    officiis dolorem doloribus quos consequatur perspiciatis, laudantium
-    voluptates quasi minus dolor at adipisci eligendi, illum aperiam unde
-    maxime! Sint distinctio excepturi, aliquam at deleniti eveniet, culpa
-    ratione dolores nemo inventore dignissimos porro nobis. Temporibus nostrum
-    nemo suscipit deserunt amet perferendis?
-  </p>
-  <p class="lead text-2xl">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, impedit
-    officiis dolorem doloribus quos consequatur perspiciatis, laudantium
-    voluptates quasi minus dolor at adipisci eligendi, illum aperiam unde
-    maxime! Sint distinctio excepturi, aliquam at deleniti eveniet, culpa
-    ratione dolores nemo inventore dignissimos porro nobis. Temporibus nostrum
-    nemo suscipit deserunt amet perferendis?
-  </p>
-  {% endfor %}
+  <div class="workstream-container relative">
+    {%include teamsbase.html content = "Workstream" id = "workstream1"
+    class="workstream-heading absolute top-2 left-2 z-10 text-4xl font-md mb-4
+    bg-primary text-white py-2 pl-3 pr-12 w-max" %}
+
+    <div class="workstream-img-wrapper relative mb-4 rounded-lg">
+      <img
+        src="{{site.data.data.workstream.img}}"
+        class="workstream-img w-full rounded-lg"
+      />
+      <div
+        class="workstream-img-overlay absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-black mb-4"
+      ></div>
+    </div>
+
+    <p class="workstream-text lead text-2xl mb-4">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+      impedit officiis dolorem doloribus quos consequatur perspiciatis,
+      laudantium voluptates quasi minus dolor at adipisci eligendi, illum
+      aperiam unde maxime! Sint distinctio excepturi, aliquam at deleniti
+      eveniet, culpa ratione dolores nemo inventore dignissimos porro nobis.
+      Temporibus nostrum nemo suscipit deserunt amet perferendis?
+    </p>
+    <p class="workstream-text lead text-2xl">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+      impedit officiis dolorem doloribus quos consequatur perspiciatis,
+      laudantium voluptates quasi minus dolor at adipisci eligendi, illum
+      aperiam unde maxime! Sint distinctio excepturi, aliquam at deleniti
+      eveniet, culpa ratione dolores nemo inventore dignissimos porro nobis.
+      Temporibus nostrum nemo suscipit deserunt amet perferendis?
+    </p>
+  </div>
 </div>
+{% endfor %}

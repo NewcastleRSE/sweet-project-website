@@ -33,6 +33,28 @@ header nav {
   object-fit: cover;
 }
 
+.workstream-text {
+  width: 80%;
+  margin: auto;
+}
+
+.workstream-container {
+  position: relative;
+}
+
+.workstream-heading {
+  position: absolute;
+  z-index: 1;
+}
+
+.workstream-img-wrapper {
+  overflow: hidden;
+}
+
+.workstream-img-overlay {
+  opacity: 0.5;
+}
+
 @keyframes marquee {
   0% {
     transform: translateX(0);
