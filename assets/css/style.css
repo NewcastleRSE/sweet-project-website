@@ -55,6 +55,10 @@ header nav {
   opacity: 40;
 }
 
+.text-styles {
+  font-weight: 300;
+}
+
 @keyframes marquee {
   0% {
     transform: translateX(0);
