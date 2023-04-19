@@ -36,17 +36,34 @@ aboutProject:
   description: "Cancer is a complex group of diseases that arise from the uncontrolled growth and spread of abnormal cells. These cells can invade and destroy nearby healthy tissues and organs, as well as spread to other parts of the body through the bloodstream or lymphatic system. There are over 100 different types of cancer, each with its own set of risk factors, symptoms, and treatment options. Despite significant progress in cancer research, it remains one of the leading causes of death worldwide. Early detection, effective treatments, and continued research are crucial in the fight against cancer."
 
 workstreams:
-  - name: 1. Intervention development & optimisation
+  - name: Intervention development & optimisation
+    title: Intervention
     description: description
-
-  - name: 2. Feasibility study
+    
+  - name: Feasibility study
+    title: Feasibility
     description: description 2
 
-  - name: 3. Evaluation of intervention effectiveness in reducing poor adherence and improving HRQoL in pragmatic RCT
+  - name: Evaluation of intervention effectiveness in reducing poor adherence and improving HRQoL in pragmatic RCT
+    title: Evaluation
     description: description 2
 
-  - name: 4. Health economic evaluation
+  - name: Health economic evaluation
+    title: Health economic evaluation
     description: description 2
 
-  - name: 5. Pathway to impact and potential scale-up to NHS implementation
+  - name: Pathway to impact and potential scale-up to NHS implementation
+    title: Pathway to NHS Implementation
     description: description 2
+
+
+publicInvolvement:
+  - name: John Doe
+    title: Researcher
+    blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi amet similique nesciunt quam beatae qui aliquam dolor, suscipit saepe harum atque obcaecati sed quisquam pariatur dignissimos facere unde incidunt illo.
+
+  - name: John Doe
+    title: Researcher
+    blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi amet similique nesciunt quam beatae qui aliquam dolor, suscipit saepe harum atque obcaecati sed quisquam pariatur dignissimos facere unde incidunt illo.
+
+    
