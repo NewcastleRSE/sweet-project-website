@@ -7,12 +7,13 @@
 <footer
   class="bg-primary text-white px-16 py-8 lg:flex lg:flex-col lg:justify-center lg:items-center"
 >  
-  <div class="lg:flex lg:flex-col lg:justify-center lg:items-center lg:w-2/3">
-    <div class="lg:w-1/3">
-    <img src="/assets/images/logo1.png" alt="Brand logo" class="brand-img" />
-  </div>
+  <div class="lg:flex lg:flex-row lg:justify-center lg:items-center lg:w-2/3">
+    
     <div class="lg:w-1/3 mb-4 lg:mb-0">
-      <h4 class="text-xl mb-2 font-medium">Column 1</h4>
+      <div class="lg:w-1/3">
+        <img src="/assets/images/logo1.png" alt="Brand logo" class="brand-img" />
+      </div>
+      <h4 class="text-xl mb-2 font-medium">Visit</h4>
       <ul class="list-desc list-inside">
         <li><a href="#">About the Project</a></li>
         <li><a href="#">News and Events</a></li>
@@ -21,8 +22,8 @@
     </div>       
     <div class="lg:w-1/3 lg:block">
       <p class="text-xl mb-2 font-medium">Contact Us</p>
-      <p>Phone : +4939394848</p>
-      <p>Email : example@gmail.com</p>
+      <p>Phone : {{ site.data.data.contactUs.phone }}</p>
+      <p>Email : {{ site.data.data.contactUs.email }}</p>
     </div>
   </div>  
 </footer>

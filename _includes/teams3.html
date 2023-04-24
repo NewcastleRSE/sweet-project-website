@@ -1,6 +1,5 @@
-
-<div class="py-10 bg-gray-100 my-5">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">        
+<div class="py-10 bg-gray-100 my-5 my-container">
+    <div class="mx-auto px-4 my-container">        
         {%include teamsBase.html content="Meet the team!" %}
       <p class="mt-4 max-w-2xl text-xl text-gray-500">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, repellat.
@@ -9,9 +8,7 @@
         <!-- Each card -->
         {% for member in site.data.data.teamMembers %}
         <div class="group relative">
-            <div
-              class="w-full h-64 rounded-lg overflow-hidden group-hover:opacity-75 transition duration-500 ease-in-out"
-            >
+          <div class="w-full h-64 rounded-lg overflow-hidden group-hover:opacity-75 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
               <img
                 src= {{ member.imageURL }}
                 alt=""
@@ -19,7 +16,7 @@
               />
             </div>
             <h3 class="mt-4 text-lg font-medium text-gray-900">{{ member.name }}</h3>
-            <p class="text-sm font-medium  text-primary">Researcher</p>
+            <p class="text-sm font-medium text-primary">Researcher</p>
             <p class="mt-2 text-sm text-gray-500 lead text-xl">
               {{ member.blurb }}
             </p>
