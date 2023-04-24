@@ -1,5 +1,6 @@
 <div class="my-container">
-{% include teamsBase.html content = "Workstreams" %} {% for workstream in
+{% include heading.html content = "Workstreams" %}
+{% for workstream in
 site.data.data.workstreams %}
 <div class="section">
   <div class="workstream-container relative">    
@@ -15,7 +16,7 @@ site.data.data.workstreams %}
         class="workstream-img-overlay absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-black mb-4"
       ></div>
     </div>
-    <h2 class="workstream-text mb-4 text-3xl font-extrabold tracking-tight">{{ workstream.name }}</h2>
+    <h2 class="workstream-text mb-4 text-3xl font-extrabold tracking-tight text-primary">{{ workstream.name }}</h2>
     <p class="workstream-text lead text-2xl mb-4">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
       impedit officiis dolorem doloribus quos consequatur perspiciatis,
