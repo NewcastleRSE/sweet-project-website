@@ -6,7 +6,7 @@ title: Home Page
 <body>  
   
     {% include navbar.html %}
-  {% include hero.html title="Welcome to Sweet Project" cta = "About the project" ctaHref = "#aboutProject" %}
+  {% include hero.html title= site.data.data.heroSection.title cta = site.data.data.heroSection.ctaText ctaHref = "#aboutProject" description = site.data.data.heroSection.blurb %}
   <div class="container"></div>
   {% include aboutProject.html %}
   {% include teams3.html %}  
@@ -20,4 +20,3 @@ title: Home Page
     {% include footer.html %}
     </div>
 </body>
-

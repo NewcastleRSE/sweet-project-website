@@ -3,6 +3,13 @@ config:
   design:
     rounded: rounded-lg
 
+
+heroSection:
+  title: Welcome to Sweet Project
+  blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nisi? Delectus sequi recusandae unde consequuntur eos odio eum dignissimos. Incidunt suscipit voluptatem aliquid quod ducimus provident voluptates nulla dignissimos ex sit. Consectetur mollitia eaque, odit perferendis voluptatem non sint at rerum laborum aliquam dolores, ipsam nobis nam ipsum reiciendis aliquid
+  ctaText: About the project
+
+
 workstream:
   # img: https://unsplash.com/photos/6anudmpILw4/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTB8fHBpY3R1cmVzJTIwb2YlMjB3b21lbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE2ODExNzI4ODQ&force=true
   img: /assets/images/hero1.png
@@ -66,4 +73,8 @@ publicInvolvement:
     title: Researcher
     blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi amet similique nesciunt quam beatae qui aliquam dolor, suscipit saepe harum atque obcaecati sed quisquam pariatur dignissimos facere unde incidunt illo.
 
-    
+
+
+contactUs:
+  phone: +44 75847 83743
+  email: exampleemail@gmail.com
