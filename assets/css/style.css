@@ -101,7 +101,7 @@ header nav {
 
 
 @media (max-width: 640px) {
-  body {
+  html, body {
     overflow-x: hidden;
   }
 
