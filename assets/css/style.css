@@ -101,10 +101,10 @@ header nav {
 
 
 @media (max-width: 640px) {
-  html, body {
+  .app-wrapper {
     overflow-x: hidden;
   }
-
+  
   .imgAndDesc img {
     height: 100px;
     width: 100px;
