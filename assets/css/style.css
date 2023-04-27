@@ -95,3 +95,9 @@ header nav {
     transform: translateX(0);
   }
 }
+
+.imgAndDesc img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}

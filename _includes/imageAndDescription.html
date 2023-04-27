@@ -1,15 +1,31 @@
-<div class="section my-container">
-    <div class="flex justify-between gap-40 mb-20">
-        <div><img src = {{ site.data.data.workstream.img }} class="rounded-full w-300 h-auto" style = "width: 300px" /></div>
-        <div>{% include heading.html content = "Lorem ipsuur adipisicing" %}
-        <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi exercitationem maxime tenetur nulla laboriosam magnam id quo nihil officia quos!</p>
-        <a class="text-primary text-lg tracking-light">Get involved now</a></div>    
+<div class="section my-container imgAndDesc">
+  <div class="flex justify-between gap-40 mb-20">
+    <img src="{{" site.data.data.workstream.img }} class="rounded-full" />
+    <div class="flex flex-end flex-col">
+      {% include heading.html content = "Lorem ipsuur adipisicing" %}
+      <p class="mb-2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+        exercitationem maxime tenetur nulla laboriosam magnam id quo nihil
+        officia quos!
+      </p>
+      <a class="text-primary text-lg tracking-light">Get involved now</a>
     </div>
+  </div>
 
-    <div class="flex justify-between gap-40 flex-row-reverse">
-        <div><img src = {{ site.data.data.workstream.img }} class="rounded-full w-300"  /></div>
-        <div>{% include heading.html content = "Lorem ipsuur adipisicing elit. Re" %}
-        <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi exercitationem maxime tenetur nulla laboriosam magnam id quo nihil officia quos!</p>
-        <a class="text-primary text-lg tracking-light">Get involved now</a></div>    
+  <div class="flex justify-between gap-40 flex-row-reverse">
+    <img
+      src="{{ site.data.data.workstream.img2 }}"
+      alt="..."
+      class="rounded-full"
+    />
+    <div>
+      {% include heading.html content = "Lorem ipsuur adipisicing elit. Re" %}
+      <p class="mb-2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+        exercitationem maxime tenetur nulla laboriosam magnam id quo nihil
+        officia quos!
+      </p>
+      <a class="text-primary text-lg tracking-light">Get involved now</a>
     </div>
+  </div>
 </div>
