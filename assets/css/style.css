@@ -70,23 +70,19 @@ header nav {
   padding-left: 8rem;  
 }
 
-@media (max-width: 640px) {
-  .my-container {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
 
-@media (max-width: 768px) {
-  .my-container {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
 
+
+
+.imgAndDesc img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
 
 
 @keyframes marquee {
+  
   0% {
     transform: translateX(0);
   }
@@ -96,8 +92,29 @@ header nav {
   }
 }
 
-.imgAndDesc img {
-  height: 250px;
-  width: 250px;
-  object-fit: cover;
+/* @media (max-width: 768px) {
+  .my-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+} */
+
+
+@media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .imgAndDesc img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .my-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
+
+
+
