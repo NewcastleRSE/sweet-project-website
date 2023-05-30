@@ -11,6 +11,16 @@ header nav {
   width: auto;
 }
 
+.nav-link {
+  color: black;
+  /* padding: 0; */
+}
+.nav-link:hover {
+  color: white;
+
+  background-color: #633188 !important;
+}
+
 .section {
   margin-bottom: 4rem;
   margin-top: 2rem;
@@ -29,13 +39,17 @@ header nav {
 }
 
 .workstream-img {
-  height: 300px;
+  height: 400px;
   object-fit: cover;
 }
 
 .workstream-text {
   /* width: 80%; */
   /* margin: auto; */
+  font-size: 2.25rem;
+
+  line-height: 1.3;
+  font-weight: 500;
 }
 
 .workstream-container {
@@ -58,7 +72,11 @@ header nav {
   width: 100%;
   height: 100%;
   opacity: 50%;
-  background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.8) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
 }
 
 .text-styles {
@@ -67,12 +85,8 @@ header nav {
 
 .my-container {
   padding-right: 8rem;
-  padding-left: 8rem;  
+  padding-left: 8rem;
 }
-
-
-
-
 
 .imgAndDesc img {
   height: 250px;
@@ -80,9 +94,7 @@ header nav {
   object-fit: cover;
 }
 
-
 @keyframes marquee {
-  
   0% {
     transform: translateX(0);
   }
@@ -99,12 +111,11 @@ header nav {
   }
 } */
 
-
 @media (max-width: 640px) {
   .app-wrapper {
     overflow-x: hidden;
   }
-  
+
   .imgAndDesc img {
     height: 100px;
     width: 100px;
@@ -113,5 +124,20 @@ header nav {
   .my-container {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+}
+
+@media (min-width: 1900px) {
+  body {
+    font-size: 2rem !important;
+  }
+
+  .my-container {
+    width: 50% !important;
+    margin: auto;
+  }
+
+  .workstream-img {
+    height: 500px;
   }
 }
