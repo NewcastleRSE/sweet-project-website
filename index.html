@@ -8,18 +8,15 @@ title: Home Page
     {% include navbar.html %} {% include hero.html title=
     site.data.data.heroSection.title cta = site.data.data.heroSection.ctaText
     ctaHref = "#aboutProject" description = site.data.data.heroSection.blurb %}
-    {% include aboutProject.html %} {% include imageAndDescription.html %} {%
-    include aboutProject2.html %} {% include teams3.html %} {% include
-    workstream.html %} {% include HTAndMe.html %} {% include News.html %} {%
-    include PPI.html %}
-    <!-- {% include teams.html %} -->
+    {% include aboutProject.html %} {% include aboutProject2.html %} {% include
+    teams3.html %} {% include workstream.html %} {% include HTAndMe.html %}
     <div class="mx-auto p-6 max-w-7xl">
       <h1 class="text-4xl font-semibold mb-4">News and Publications</h1>
 
       <div class="border-t-2 border-gray-200 py-6">
         <h2 class="text-2xl font-semibold mb-2">May 29, 2023</h2>
         <h3 class="text-xl font-semibold">
-          <a href="#link-to-article" class="text-blue-500 hover:underline"
+          <a href="#link-to-article" class="text-black hover:underline"
             >Title of the article</a
           >
         </h3>
@@ -27,7 +24,7 @@ title: Home Page
           This is a description of the news event or publication. It provides a
           brief overview of the content.
         </p>
-        <a href="#link-to-article" class="text-blue-500 hover:underline"
+        <a href="#link-to-article" class="text-primary hover:underline"
           >Read more</a
         >
       </div>
@@ -35,7 +32,7 @@ title: Home Page
       <div class="border-t-2 border-gray-200 py-6">
         <h2 class="text-2xl font-semibold mb-2">May 28, 2023</h2>
         <h3 class="text-xl font-semibold">
-          <a href="#link-to-article" class="text-blue-500 hover:underline"
+          <a href="#link-to-article" class="text-black hover:underline"
             >Title of the article</a
           >
         </h3>
@@ -43,13 +40,16 @@ title: Home Page
           This is a description of the news event or publication. It provides a
           brief overview of the content.
         </p>
-        <a href="#link-to-article" class="text-blue-500 hover:underline"
+        <a href="#link-to-article" class="text-primary hover:underline"
           >Read more</a
         >
       </div>
 
       <!-- More news events or publications can be added in the same format here -->
     </div>
+    <!-- {% include News.html %} -->
+    {% include PPI.html %}
+    <!-- {% include teams.html %} -->
 
     {% include PPIInfo.html %} {% include affiliations.html %} {% include
     footer.html %}
