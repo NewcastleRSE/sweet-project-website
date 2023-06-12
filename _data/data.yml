@@ -66,10 +66,22 @@ publicInvolvement:
   - name: John Doe
     title: Researcher
     blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi amet similique nesciunt quam beatae qui aliquam dolor, suscipit saepe harum atque obcaecati sed quisquam pariatur dignissimos facere unde incidunt illo.
+    img: https://unsplash.com/photos/Zz5LQe-VSMY/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MzN8fHdvbWFufGVufDB8fHx8MTY4MTY2OTgzMQ&force=true
 
   - name: John Doe
     title: Researcher
     blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi amet similique nesciunt quam beatae qui aliquam dolor, suscipit saepe harum atque obcaecati sed quisquam pariatur dignissimos facere unde incidunt illo.
+    img: https://unsplash.com/photos/Zz5LQe-VSMY/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MzN8fHdvbWFufGVufDB8fHx8MTY4MTY2OTgzMQ&force=true
+
+  - name: John Doe
+    title: Researcher
+    blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi amet similique nesciunt quam beatae qui aliquam dolor, suscipit saepe harum atque obcaecati sed quisquam pariatur dignissimos facere unde incidunt illo.
+    img: https://unsplash.com/photos/Zz5LQe-VSMY/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MzN8fHdvbWFufGVufDB8fHx8MTY4MTY2OTgzMQ&force=true
+
+  - name: John Doe
+    title: Researcher
+    blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi amet similique nesciunt quam beatae qui aliquam dolor, suscipit saepe harum atque obcaecati sed quisquam pariatur dignissimos facere unde incidunt illo.
+    img: https://unsplash.com/photos/Zz5LQe-VSMY/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MzN8fHdvbWFufGVufDB8fHx8MTY4MTY2OTgzMQ&force=true
 
 contactUs:
   phone: +44 75847 83743
