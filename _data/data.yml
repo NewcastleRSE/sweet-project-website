@@ -14,28 +14,28 @@ workstream:
   img2: https://unsplash.com/photos/9UVmlIb0wJU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8Nnx8d29tZW58ZW58MHx8fHwxNjgwNzg3Mzc4&force=true
 
 teamMembers:
-  - name: Thomas Brown
+  - name: Linda Sharp
     title: Researcher
     affiliation: Newcastle University
-    imageURL: https://unsplash.com/photos/6anudmpILw4/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTB8fHBpY3R1cmVzJTIwb2YlMjB3b21lbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE2ODExNzI4ODQ&force=true
+    imageURL: /assets/images/Linda.jpg
     blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
 
-  - name: James Taylor
+  - name: Lucy McGeagh
     title: Researcher
     affiliation: Newcastle University
-    imageURL: https://images.unsplash.com/photo-1651684215020-f7a5b6610f23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80
+    imageURL: /assets/images/Lucy.jpg
     blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
 
-  - name: Benjamin Johnson
+  - name: Eila Watson
     title: Researcher
     affiliation: Newcastle University
-    imageURL: https://unsplash.com/photos/6anudmpILw4/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTB8fHBpY3R1cmVzJTIwb2YlMjB3b21lbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE2ODExNzI4ODQ&force=true
+    imageURL: /assets/images/Eila.jpg
     blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
 
-  - name: Edward Davis
+  - name: Sue Thompson
     title: Researcher
     affiliation: Newcastle University
-    imageURL: https://unsplash.com/photos/9UVmlIb0wJU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8Nnx8d29tZW58ZW58MHx8fHwxNjgwNzg3Mzc4&force=true
+    imageURL: /assets/images/Sue.jpg
     blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam
 
 aboutProject:
