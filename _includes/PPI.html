@@ -20,14 +20,11 @@
             class="w-full h-full object-center object-cover"
           />
         </div>
-        <h3 class="mt-4 text-lg font-medium text-gray-900">John Doe</h3>
-        <p class="text-sm text-gray-500">Researcher</p>
-        <p class="mt-2 text-lg text-gray-800 text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi amet
-          similique nesciunt quam beatae qui aliquam dolor, suscipit saepe harum
-          atque obcaecati sed quisquam pariatur dignissimos facere unde incidunt
-          illo.
-        </p>
+        <h3 class="mt-4 text-lg font-medium text-gray-900">
+          {{ member.name }}
+        </h3>
+        <p class="text-sm text-gray-500">{{ member.title }}</p>
+        <p class="mt-2 text-lg text-gray-800 text-lg">{{ member.blurb }}</p>
       </div>
       {% endfor %}
     </div>
