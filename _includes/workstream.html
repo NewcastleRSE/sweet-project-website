@@ -1,6 +1,9 @@
 <div class="my-container">
-  {% include heading.html content = "Workstreams" id = "workstreams" %} {% for
-  workstream in site.data.data.workstreams %}
+  <!-- prettier-ignore -->
+  {% include heading.html content = "Workstreams" id = "workstreams" %}
+  
+  {% for workstream in site.data.data.workstreams %}
+
   <div class="section">
     <div class="workstream-container relative">
       {%include teamsBase.html content = workstream.title id = "workstream1"
