@@ -105,6 +105,23 @@ header nav {
   object-fit: cover;
 }
 
+/* @media (max-width: 768px) {
+  .my-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+} */
+
+/* Animation */
+
+.animate-fade-in {
+  transition: opacity 0.5s ease-out, transform 1s ease-out;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(20vh);
+  will-change: opacity, visibility;
+}
+
 @keyframes marquee {
   0% {
     transform: translateX(0);
@@ -115,12 +132,11 @@ header nav {
   }
 }
 
-/* @media (max-width: 768px) {
-  .my-container {
-    padding-left: 0;
-    padding-right: 0;
-  }
-} */
+.visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
 
 @media (max-width: 640px) {
   .app-wrapper {
