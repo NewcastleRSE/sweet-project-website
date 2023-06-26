@@ -12,7 +12,7 @@ const handleClassToggle = (entry) => {
 let options = {
   root: null,
   rootMargin: "0px",
-  threshold: 0.8,
+  threshold: 0.7,
 };
 
 function callback(entries) {
@@ -23,7 +23,7 @@ function callback(entries) {
 
 let observer = new IntersectionObserver(callback, options);
 
-elems = document.querySelectorAll(".workstream-2");
+elems = document.querySelectorAll(".workstream-2,.team-card-3");
 
 for (let i = 0; i < elems.length; i++) {
   const e = elems[i];
