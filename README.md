@@ -1,17 +1,15 @@
-# Standard Project
+# The Sweet Project Website
 
 A template repo for the standard RSE project
 
 ## About
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin ante at eleifend eleifend. Sed non vestibulum nisi. Aliquam vel condimentum quam. Donec fringilla et purus at auctor. Praesent euismod vitae metus non consectetur. Sed interdum aliquet nisl at efficitur. Nulla urna quam, gravida eget elementum eget, mattis nec tortor. Fusce ut neque tellus. Integer at magna feugiat lacus porta posuere eget vitae metus.
-
-Curabitur a tempus arcu. Maecenas blandit risus quam, quis convallis justo pretium in. Suspendisse rutrum, elit at venenatis cursus, dolor ligula iaculis dui, ut dignissim enim justo at ligula. Donec interdum dignissim egestas. Nullam nec ultrices enim. Nam quis arcu tincidunt, auctor purus sit amet, aliquam libero. Fusce rhoncus lectus ac imperdiet varius. Sed gravida urna eros, ac luctus justo condimentum nec. Integer ultrices nibh in neque sagittis, at pretium erat pretium. Praesent feugiat purus id iaculis laoreet. Proin in tellus tristique, congue ante in, sodales quam. Sed imperdiet est tortor, eget vestibulum tortor pulvinar volutpat. In et pretium nisl.
+Providing protection, safeguarding, empowerment, problem-solving skills and support
 
 ### Project Team
 
-Dr L. Ipsum, Newcastle University ([lorem.ipsum@newcastle.ac.uk](mailto:lorem.ipsum@newcastle.ac.uk))  
-Professor D. Sit Amet, XY University ([d.sit.amet@newcastle.ac.uk](mailto:d.sit.amet@example.com))
+Professor Linda Sharp ([linda.sharp@ncl.ac.uk](linda.sharp@ncl.ac.uk))  
+Professor Eila Watson, Oxford Brookes University ([ewatson@brookes.ac.uk](mailto:ewatson@brookes.ac.uk))
 
 ### RSE Contact
 
@@ -22,13 +20,24 @@ Newcastle University
 
 ## Built With
 
-This section is intended to list the frameworks and tools you're using to develop this software. Please link to the home page or documentatation in each case.
+This project is built with Jekyll and Tailwind CSS
 
-[Framework 1](https://something.com)  
-[Framework 2](https://something.com)  
-[Framework 3](https://something.com)
+[Jekyll](https://jekyllrb.com)  
+[Tailwind CSS](https://tailwindcss.com)
 
 ## Getting Started
+
+This is the repository for The Sweet Project. The majority of data that's being displayed on the website can be edited using the "data.yml" file.
+
+#### Location of the data file
+
+data.yml file can be located inside \_data folder. The complete path is : \_data/data.yml
+
+#### Contents of the file
+
+data.yml file have different contents that when changed, will update the live website to reflect the changes. Currently, the following content can be edited and updated:
+
+1. Hero Section: This is first section of the page. Usually gives a high level introduction about the project. This section has a heading, a small paragraph right below the heading and the text that should appear on the button.
 
 ### Prerequisites
 
