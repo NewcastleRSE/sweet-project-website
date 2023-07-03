@@ -1,10 +1,23 @@
 <header>
-  <nav class="navbar px-4 sticky top-0 bg-gray-100 flex justify-between">
+  <nav
+    class="navbar px-4 sticky top-0 bg-gray-100 flex justify-between navbar-light navbar-expand-lg"
+  >
     <a class="nav-item" href="/">
       <img src="{{site.baseurl}}/assets/images/logo1.png" class="brand-img" />
     </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <div class="flex items-center justify-between gap-6">
+    <div class="flex items-center justify-between gap-6 hidden md:flex">
       <a href="#aboutProject" class="nav-link mx-2 px-2 py-2 btn font-medium"
         >About</a
       >
@@ -33,6 +46,6 @@
     </div>
   </nav>
   <!-- <div class="px-4">
-    <a class="nav-link btn max-content">About the project</a>
-  </div> -->
+  <a class="nav-link btn max-content">About the project</a>
+</div> -->
 </header>
