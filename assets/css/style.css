@@ -13,11 +13,16 @@ header nav {
 
 .nav-link {
   color: black;
+  padding: 1rem;
+
   /* padding: 0; */
 }
 .nav-link:hover {
   color: white;
-
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   background-color: #633188 !important;
 }
 
