@@ -1,15 +1,14 @@
 # The Sweet Project Website
 
-A template repo for the standard RSE project
-
 ## About
 
-Providing protection, safeguarding, empowerment, problem-solving skills and support
+The Sweet Project: Providing protection, safeguarding, empowerment, problem-solving skills and support.
 
 ### Project Team
 
-Professor Linda Sharp ([linda.sharp@ncl.ac.uk](linda.sharp@ncl.ac.uk))  
-Professor Eila Watson, Oxford Brookes University ([ewatson@brookes.ac.uk](mailto:ewatson@brookes.ac.uk))
+Professor Linda Sharp ([linda.sharp@ncl.ac.uk](linda.sharp@ncl.ac.uk))
+
+Professor Eila Watson, Oxford Brookes University([ewatson@brookes.ac.uk](mailto:ewatson@brookes.ac.uk))
 
 ### RSE Contact
 
@@ -38,6 +37,51 @@ data.yml file can be located inside \_data folder. The complete path is : \_data
 data.yml file have different contents that when changed, will update the live website to reflect the changes. Currently, the following content can be edited and updated:
 
 1. Hero Section: This is first section of the page. Usually gives a high level introduction about the project. This section has a heading, a small paragraph right below the heading and the text that should appear on the button.
+
+2. Team Members: Information about the team members. Each team member includes data regarding
+<pre>
+   name
+   title
+   affiliation
+   imageUrl
+   blurb
+</pre>
+
+3. About the Project
+
+4. Workstreams: Each workstream have the following information
+<pre>
+    name
+    title
+    description
+</pre>
+
+5. Public Involvement:
+Public involvement section has the following data
+<pre>
+name
+title
+blurb
+img
+</pre>
+
+6. Contact Us
+
+### Editing information using github
+
+1. Visit the github URL and locate the data.yml file.
+
+<pre>The file can be found by clicking on _data and then cliking on data.yml file</pre>
+
+2. Once file is open in github, Click on the **edit icon** on the right hand side. The file should now be editable.
+
+3. Make the necessary changes.
+
+4. Click on the green highlighted button **Commit Changes** and a popup should appear with the fields commit message and extended description.
+<pre>The commit message field is a short description for describing the changes in the file. 
+       For example, if the contact information is edited, an appropriate commmit
+       message would be "Edited the contact information"</pre>
+5. Click on commit changes. The website should now be updated. It usually takes ~5 minutes for the changes to go live.
 
 ### Prerequisites
 
