@@ -154,7 +154,7 @@ header nav {
 
 @media (max-width: 640px) {
   .app-wrapper {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 
   .imgAndDesc img {
