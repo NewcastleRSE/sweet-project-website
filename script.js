@@ -39,7 +39,7 @@ for (let i = 0; i < elems.length; i++) {
 // Changing navbar color on scroll
 console.log(navElement);
 window.addEventListener("scroll", function () {
-  if (window.scrollY > 1000) {
+  if (window.scrollY > 800) {
     console.log("Greater than 250");
     navElement.classList.add("scrolled");
     for (const elem of navLinkElements) {
