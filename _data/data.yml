@@ -44,7 +44,10 @@ aboutProject:
 workstreams:
   - name: Intervention development & optimisation
     title: Intervention
-    description: Workstream 1 involved the design, development and optimisation of the HT&Me intervention. It was developed using an evidence-based and theory-informed approach with patient and public involvement (PPI) integral to all stages of design and development. We conducted two optimisation sub-studies to collect feedback from users. Changes were made to improve the HT&Me intervention as a result of these. Preliminary data suggests the HT&Me intervention is acceptable and engaging to users. Workstream 1 is complete. The diagram below provides an overview of the intervention development, design and optimisation process.
+    description:
+      - Workstream 1 involved the design, development and optimisation of the HT&Me intervention. It was developed using an evidence-based and theory-informed approach with patient and public involvement (PPI) integral to all stages of design and development.
+      - We conducted two optimisation sub-studies to collect feedback from users. Changes were made to improve the HT&Me intervention as a result of these. Preliminary data suggests the HT&Me intervention is acceptable and engaging to users. Workstream 1 is complete.
+      - The diagram below provides an overview of the intervention development, design and optimisation process.
 
   - name: Feasibility study
     title: Feasibility
@@ -52,11 +55,11 @@ workstreams:
 
   - name: Evaluation of intervention effectiveness in reducing poor adherence and improving HRQoL in pragmatic RCT
     title: Evaluation
-    description: description 2
+    description: Workstream 3 will deliver a randomised control trial (RCT) with a parallel process evaluation. A total of 1460 eligible women will be randomised to receive either the HT&Me intervention alongside usual care, or usual care alone. We are investigating whether the HT&Me intervention improves adherence to hormone therapy and cancer-specific health-related quality of life. Women will be asked to complete questionnaires 6, 12 and 18-months after they have been randomised in the study, measuring their adherence to hormone therapy, quality of life, and other additional factors that might impact the effectiveness of the intervention.
 
   - name: Health economic evaluation
     title: Evaluation
-    description: description 2
+    description: Workstream 4 will include i) analyses to establish the cost-effectiveness of the intervention within the context of the RCT (Workstream 3), ii) a budget impact analysis, and iii) modelling of long-term cost-effectiveness for the recommended 5-10+ year period of hormone therapy treatment.
 
   - name: Pathway to impact and potential scale-up to NHS implementation
     title: NHS

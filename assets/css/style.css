@@ -2,9 +2,16 @@ nav {
   transition: background-color 0.5s ease-in-out;
 }
 
+li {
+  list-style-type: disc;
+}
+
 nav.scrolled {
   background-color: #633188 !important;
   color: white !important;
+}
+
+.paragraph-normal {
 }
 
 header nav {
