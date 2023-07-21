@@ -31,7 +31,16 @@
         </ul>
       </div>
 
-      <p>The programme currently have 5 workstreams</p>
+      <p class="paragraph-normal">The programme currently have 5 workstreams</p>
+      <!-- prettier-ignore -->
+      {% for workstream in site.data.data.workstreams %}
+      <div class="flex flex-row justify-center my-8">
+        {% include heading.html content= workstream.title id = "workstreams" %}
+      </div>
+      <!-- prettier-ignore -->
+      {% for paragraph in workstream.description %}
+      <p class="paragraph-normal mb-4">{{ paragraph }}</p>
+      {% endfor %} {% endfor %}
     </div>
   </div>
 </section>
