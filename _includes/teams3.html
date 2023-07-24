@@ -1,9 +1,18 @@
 <div class="py-10 my-5" id="team">
-  <div class="mx-auto l:px-4 my-container">
+  <div class="mx-auto l:px-4 my-container text-center">
     {%include heading.html content="Meet the team!" %}
-    <p class="mt-4 max-w-2xl text-xl text-gray-500">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, repellat.
-    </p>
+    <div class="w-[60%] m-auto bg-yellow-300 p-4 rounded-md my-4">
+      <p class="mt-4 max-w-2xl paragraph-normal">
+        The SWEET programme is being led by academics from Newcastle and Oxford
+        Brookes Universities who are experts in cancer survivorship research and
+        adherence to hormone therapy. The wider research team involves several
+        other Universities and NHS Hospital Trusts and includes breast cancer
+        specialists (surgeons, oncologists, nurses, dietician), a GP, a
+        pharmacist, and researchers with expertise in breast cancer studies,
+        running trials, statistics and health economics, and patient
+        representatives.
+      </p>
+    </div>
     <div class="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
       <!-- Each card -->
       {% for member in site.data.data.teamMembers %}
