@@ -1,21 +1,27 @@
 <div class="py-10 my-5" id="team">
   <div class="mx-auto l:px-4 my-container text-center">
     {%include heading.html content="Meet the team!" %}
-    <div class="w-[60%] m-auto bg-yellow-300 p-4 rounded-md my-4">
-      <p class="mt-4 max-w-2xl paragraph-normal">
-        The SWEET programme is being led by academics from Newcastle and Oxford
-        Brookes Universities who are experts in cancer survivorship research and
-        adherence to hormone therapy. The wider research team involves several
-        other Universities and NHS Hospital Trusts and includes breast cancer
-        specialists (surgeons, oncologists, nurses, dietician), a GP, a
-        pharmacist, and researchers with expertise in breast cancer studies,
-        running trials, statistics and health economics, and patient
-        representatives.
-      </p>
+    <div class="my-8">
+      <div class="w-[60%] m-auto p-4 rounded-md my-4 bg-yellow-300">
+        <p class="mt-4 max-w-2xl paragraph-normal">
+          The SWEET programme is being led by academics from Newcastle and
+          Oxford Brookes Universities who are experts in cancer survivorship
+          research and adherence to hormone therapy. The wider research team
+          involves several other Universities and NHS Hospital Trusts and
+          includes breast cancer specialists (surgeons, oncologists, nurses,
+          dietician), a GP, a pharmacist, and researchers with expertise in
+          breast cancer studies, running trials, statistics and health
+          economics, and patient representatives.
+        </p>
+      </div>
     </div>
+    <h2 class="text-3xl font-bold tracking-tight text-prmary text-black">
+      Co-lead Investigators
+    </h2>
     <div class="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
       <!-- Each card -->
-      {% for member in site.data.data.teamMembers %}
+      {% for category in site.data.data.teamMembers %} {% for member in
+      category.categoryData %}
       <div class="team-card-3 group relative">
         <div
           class="w-full h-64 rounded-lg overflow-hidden group-hover:opacity-75 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
@@ -35,7 +41,7 @@
         <p class="text-sm font-medium text-primary">Researcher</p>
         <p class="mt-2 text-gray-800 text-lg">{{ member.blurb }}</p>
       </div>
-      {% endfor %}
+      {% endfor %} {% endfor %}
     </div>
   </div>
 </div>
