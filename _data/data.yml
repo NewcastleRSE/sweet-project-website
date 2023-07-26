@@ -17,28 +17,66 @@ teamMembers:
   - categoryName: Co-Lead Investigators
     categoryData:
       - name: Professor Linda Sharp
-        title: Researcher
+        title: Co-Lead Investigator
         affiliation: Newcastle University
         imageURL: /assets/images/Linda.jpg
         blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
 
-      - name: Lucy McGeagh
-        title: Researcher
-        affiliation: Newcastle University
-        imageURL: /assets/images/Lucy.jpg
-        blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
-
-      - name: Eila Watson
-        title: Researcher
-        affiliation: Newcastle University
+      - name: Professor Eila Watson
+        title: Co-Lead Investigator
+        affiliation: Oxford Brookes University
         imageURL: /assets/images/Eila.jpg
         blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
 
-      - name: Sue Thompson
+  - categoryName: The Core Team
+    categoryData:
+      - name: Dr Jo Brett
+        title: Researcher/Co-applicant
+        affiliation: Oxford Brookes University
+        imageURL: /assets/images/.jpg
+        blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
+
+      - name: Miss Alice Longe
+        title: Clinical Trial Manager
+        affiliation: Warwick Clinical Trials Unit
+        imageURL: /assets/images/.jpg
+        blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
+
+      - name: Mr Phil Mawson
+        title: Research Project Manager
+        affiliation: Newcastle University
+        imageURL: /assets/images/.jpg
+        blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
+
+      - name: Dr Lucy McGeagh
+        title: Researcher
+        affiliation: Oxford Brookes University
+        imageURL: /assets/images/.jpg
+        blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
+
+      - name: Dr Ruth Norris
         title: Researcher
         affiliation: Newcastle University
-        imageURL: /assets/images/Sue.jpg
-        blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam
+        imageURL: /assets/images/.jpg
+        blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
+
+      - name: Dr Sarah-Jane Stewart
+        title: Researcher
+        affiliation: University College London
+        imageURL: /assets/images/.jpg
+        blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
+
+      - name: Mrs Sue Thompson
+        title: Research Administrator
+        affiliation: Newcastle University
+        imageURL: /assets/images/.jpg
+        blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
+
+      - name: Professor Mary Wells
+        title: Research / Co-applicant
+        affiliation: Imperial College Healthcare NHS Trust
+        imageURL: /assets/images/.jpg
+        blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
 
 aboutProject:
   description: "Cancer is a complex group of diseases that arise from the uncontrolled growth and spread of abnormal cells. These cells can invade and destroy nearby healthy tissues and organs, as well as spread to other parts of the body through the bloodstream or lymphatic system. There are over 100 different types of cancer, each with its own set of risk factors, symptoms, and treatment options. Despite significant progress in cancer research, it remains one of the leading causes of death worldwide. Early detection, effective treatments, and continued research are crucial in the fight against cancer."

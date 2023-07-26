@@ -15,13 +15,16 @@
         </p>
       </div>
     </div>
-    <h2 class="text-3xl font-bold tracking-tight text-prmary text-black">
-      Co-lead Investigators
+    {% for category in site.data.data.teamMembers %}
+    <h2 class="text-3xl font-bold tracking-tight text-prmary text-black my-8">
+      {{ category.categoryName }}
     </h2>
-    <div class="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
+
+    <div
+      class="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 justify-items-center items-center"
+    >
       <!-- Each card -->
-      {% for category in site.data.data.teamMembers %} {% for member in
-      category.categoryData %}
+      {% for member in category.categoryData %}
       <div class="team-card-3 group relative">
         <div
           class="w-full h-64 rounded-lg overflow-hidden group-hover:opacity-75 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
@@ -41,7 +44,29 @@
         <p class="text-sm font-medium text-primary">Researcher</p>
         <p class="mt-2 text-gray-800 text-lg">{{ member.blurb }}</p>
       </div>
-      {% endfor %} {% endfor %}
+      {% endfor %}
+    </div>
+
+    <!-- prettier-ignore -->
+    {% endfor %}
+
+    <div class="mt-20">
+      {%include heading.html content="Patient Advisory Group" %}
+    </div>
+    <div class="w-[60%] m-auto bg-yellow-300 p-4 rounded-md paragraph-normal">
+      <p>
+        Our patient advisory group (also known as the PAG) is made up of X women
+        who have been prescribed hormone therapy for breast cancer. They have
+        been, and continue to be, actively involved throughout the research
+        programme, including developing design and content of the intervention,
+        testing usability, advising on patient-facing materials, reviewing
+        questionnaires, reviewing emerging findings, and contributing to
+        dissemination. We also set up a Community of Interest, a group of 28
+        women who have previously had breast cancer and have been prescribed
+        hormone therapy. They advise us on an ad hoc basis, via email, on a
+        range of topics such as real-life hints and tips for dealing with
+        side-effects, for inclusion on the HT&Me website.
+      </p>
     </div>
   </div>
 </div>

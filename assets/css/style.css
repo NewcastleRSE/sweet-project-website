@@ -58,6 +58,10 @@ header nav {
   background-color: #633188 !important;
 }
 
+.bg-secondary {
+  background-color: #f0c048 !important;
+}
+
 .animate-marquee {
   animation: marquee 5s linear infinite;
 }
