@@ -1,6 +1,16 @@
+{% if include.class %}
+<h2
+  class="text-4xl font-extrabold tracking-tight text-primary {{ include.class }}"
+  id="{{ include.id }}"
+>
+  {{ include.content }}
+</h2>
+
+{% else %}
 <h2
   class="mb-4 text-4xl font-extrabold tracking-tight text-primary {{ include.class }}"
   id="{{ include.id }}"
 >
   {{ include.content }}
 </h2>
+{% endif %}

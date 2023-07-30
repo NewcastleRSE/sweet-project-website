@@ -8,20 +8,19 @@ title: Home Page
     <!-- prettier-ignore -->
     {% include navbar.html %}
 
+    <!-- Hero -->
     <!-- prettier-ignore -->
     {% include hero.html title= site.data.data.heroSection.title cta =
     site.data.data.heroSection.ctaText ctaHref = "#aboutProject" description =
-    site.data.data.heroSection.blurb %}
-    {% include workstream-without-img.html %}
-    {% include updates.html %}
-    {% include teams3.html %}
-    {% include aboutProject.html %}
-    {% include aboutProject2.html %}
-    
-    {% include timeline.html %}
-    {% include workstream-2-modern.html %}
-    {% include workstream.html %}
-    {% include HTAndMe.html %}
+    site.data.data.heroSection.blurb %} 
+
+    {% include ui/button.html %}
+
+    {% include workstream-without-img.html
+    %} {% include updates.html %} {% include teams3.html %} {% include
+    aboutProject.html %} {% include aboutProject2.html %} {% include
+    timeline.html %} {% include workstream-2-modern.html %} {% include
+    workstream.html %} {% include HTAndMe.html %}
 
     <div class="mx-auto p-6 max-w-7xl" id="news">
       <h1 class="text-4xl font-semibold mb-4">News and Publications</h1>
