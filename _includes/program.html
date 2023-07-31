@@ -1,0 +1,43 @@
+<section class="py-16">
+  <div class="my-container mb-20">
+    <div class="flex flex-row justify-center">
+      {% include heading.html content = "Programme" id = "workstreams" %}
+    </div>
+    <!-- Centered content using width and margin -->
+    <div class="md:w-[60%] m-auto px-4">
+      <!-- Container for introduction text -->
+      <div class="bg-yellow-300 p-4 rounded-md my-4 pb-20">
+        <p class="leading-8 text-gray-800 text-lg mb-6 font-semibold">
+          The SWEET research programme will develop and investigate the
+          effectiveness of a blended intervention (HT&Me) to support adherence
+          to hormone therapy and improve quality of life for women with early
+          breast cancer.
+        </p>
+        <div class="paragraph-normal">
+          <p class="leading-7 text-gray-800 text-lg mb-2">
+            The intervention includes:
+          </p>
+          <ul
+            class="flex flex-col gap-2 leading-7 text-gray-800 text-lg mt-8 mb-8"
+          >
+            <li>
+              A short animation video providing information on how hormone
+              therapy works, why it is important to take daily, and advice for
+              managing side-effects.
+            </li>
+            <li>Two appointments with HT&Me study nurses.</li>
+            <li>Access to the interactive HT&Me website.</li>
+            <li>
+              Regular text/email messages reminding of the importance of hormone
+              therapy and signposting back to the HT&Me website.
+            </li>
+          </ul>
+          <div class="flex justify-center">
+            {% include ui/styled-a.html text = "Learn more about Workstreams"
+            href= "/workstreams" %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
