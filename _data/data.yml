@@ -6,7 +6,7 @@ config:
 heroSection:
   title: Welcome to Sweet Project
   blurb: SWEET is a research programme developing and testing an intervention (a support package called HT&Me) to help women who are prescribed hormone therapy following a breast cancer diagnosis.
-  ctaText: About the project
+  ctaText: Learn about the program
 
 workstream:
   # img: https://unsplash.com/photos/6anudmpILw4/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTB8fHBpY3R1cmVzJTIwb2YlMjB3b21lbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE2ODExNzI4ODQ&force=true
