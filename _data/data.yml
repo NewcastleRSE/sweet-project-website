@@ -69,13 +69,13 @@ teamMembers:
       - name: Mrs Sue Thompson
         title: Research Administrator
         affiliation: Newcastle University
-        imageURL: /assets/images/core-team/Sarah.png
+        imageURL: /assets/images/core-team/Sue-Thompson.jpg
         blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
 
       - name: Professor Mary Wells
         title: Research / Co-applicant
         affiliation: Imperial College Healthcare NHS Trust
-        imageURL: /assets/images/core-team/Sarah.png
+        imageURL: /assets/images/core-team/Mary.jpg
         blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
 
 aboutProject:
