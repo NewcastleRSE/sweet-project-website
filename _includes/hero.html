@@ -16,10 +16,18 @@
 </div> -->
 
 <div class="relative min-h-screen mb-20">
+  {% if include.page=worktreams %}
   <div
     class="absolute inset-0 bg-center bg-cover z-0 rounded-lg"
     style="background-image: url({{site.baseurl}}/assets/images/hero1.png)"
   ></div>
+
+  {% else %}
+  <div
+    class="absolute inset-0 bg-center bg-cover z-0 rounded-lg"
+    style="background-image: url({{site.baseurl}}/assets/images/hero1.png)"
+  ></div>
+  {% endif %}
   <div
     class="absolute inset-0 bg-opacity-50 bg-black z-10 flex flex-col items-center justify-center gap-8"
   >

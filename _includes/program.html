@@ -39,8 +39,11 @@
           </div>
 
           <div class="flex justify-center mt-8">
-            {% include ui/styled-a.html text = "Learn more about the programme"
-            href= "/workstreams" %}
+            <!-- prettier-ignore -->
+            {% if include.includeCta %} 
+            {% include ui/styled-a.html text =
+                "Learn more about the programme" href= "/workstreams" %}
+            {% endif %}
           </div>
         </div>
       </div>
