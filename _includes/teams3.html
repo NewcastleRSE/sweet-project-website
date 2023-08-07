@@ -1,6 +1,8 @@
 <div class="py-10 my-5" id="team">
-  <div class="mx-auto l:px-4 my-container text-center">
-    {%include heading.html content="Meet the team!" %}
+  <div class="mx-auto l:px-4 my-container">
+    <!-- Text center for all the child! Careful -->
+
+    {%include heading.html content="Meet the team!" class="text-center" %}
     <div class="my-8">
       <div class="p-4 rounded-md my-4 bg-yellow-50">
         <div class="w-[80%] mx-auto">
@@ -55,22 +57,68 @@
     {% endfor %}
 
     <div class="mt-20">
-      {%include heading.html content="Patient Advisory Group" %}
+      {%include heading.html content="Patient Advisory Group" class =
+      "text-center mb-4" %}
     </div>
-    <div class="md:w-[60%] m-auto bg-yellow-50 p-4 rounded-md paragraph-normal">
-      <p>
-        Our patient advisory group (also known as the PAG) is made up of X women
-        who have been prescribed hormone therapy for breast cancer. They have
-        been, and continue to be, actively involved throughout the research
-        programme, including developing design and content of the intervention,
-        testing usability, advising on patient-facing materials, reviewing
-        questionnaires, reviewing emerging findings, and contributing to
-        dissemination. We also set up a Community of Interest, a group of 28
-        women who have previously had breast cancer and have been prescribed
-        hormone therapy. They advise us on an ad hoc basis, via email, on a
-        range of topics such as real-life hints and tips for dealing with
-        side-effects, for inclusion on the HT&Me website.
-      </p>
+    <div class="bg-yellow-50 rounded-md paragraph-normal py-20">
+      <div class="w-[80%] m-auto">
+        <p class="mb-8">{{ site.data.data.patientAdvisory.description }}</p>
+        {% for categoryObject in site.data.data.patientAdvisory.membersData %}
+
+        <div>
+          <h2 class="font-semibold text-3xl mb-4 text-center">
+            {{ categoryObject.categoryName }}
+          </h2>
+          <div class="grid grid-cols-2 gap-8 mb-8">
+            {% for person in categoryObject.categoryData %}
+            <div class="p-4 shadow-sm bg-gray-100">
+              <p class="font-semibold">
+                {{ person.name }}<span class="font-normal"
+                  >, {{ person.designation }}</span
+                >
+              </p>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+
+        {% endfor %}
+
+        <div>
+          <h2 class="font-semibold text-3xl mb-4 text-center">
+            Patient Advisory Group Chairs
+          </h2>
+          <div class="grid grid-cols-2 gap-8 mb-8">
+            <div class="p-4 shadow-sm bg-gray-100">
+              <p class="font-semibold">
+                Jan Rose<span class="font-normal">, PAG co-chair</span>
+              </p>
+            </div>
+
+            <div class="p-4 shadow-sm bg-gray-100">
+              <p class="font-semibold">
+                Jan Rose<span class="font-normal">, PAG co-chair</span>
+              </p>
+            </div>
+          </div>
+          <h2 class="font-semibold text-3xl mb-4 text-center">
+            Patient Advisory Group Members
+          </h2>
+          <div class="grid grid-cols-2 gap-8 mb-8">
+            <div class="p-4 shadow-sm bg-gray-100">
+              <p class="font-semibold">
+                Jan Rose<span class="font-normal">, PAG co-chair</span>
+              </p>
+            </div>
+
+            <div class="p-4 shadow-sm bg-gray-100">
+              <p class="font-semibold">
+                Jan Rose<span class="font-normal">, PAG co-chair</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

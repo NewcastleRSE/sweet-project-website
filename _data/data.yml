@@ -78,6 +78,18 @@ teamMembers:
         imageURL: /assets/images/core-team/Mary.jpg
         blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nihil dolores earum placeat ex neque possimus dolorum quos dignissimos, tempora veritatis at iste odit ipsam eos adipisci corporis quaerat. Vel eaque earum eveniet at consequuntur ut omnis quaerat ea ullam.
 
+patientAdvisory:
+  description: Our patient advisory group (also known as the PAG) is made up of X women who have been prescribed hormone therapy for breast cancer. They have been, and continue to be, actively involved throughout the research programme, including developing design and content of the intervention, testing usability, advising on patient-facing materials, reviewing questionnaires, reviewing emerging findings, and contributing to dissemination. We also set up a Community of Interest, a group of 28 women who have previously had breast cancer and have been prescribed hormone therapy. They advise us on an ad hoc basis, via email, on a range of topics such as real-life hints and tips for dealing with side-effects, for inclusion on the HT&Me website.
+  membersData:
+    - categoryName: Patient Advisory Group Chairs
+      categoryData:
+        - name: efowefj
+          designation: foewjfweojwfe
+
+        - name: ofewjwo
+          designation: jewfojweo
+          institution: weojfewojef
+
 aboutProject:
   description: "Cancer is a complex group of diseases that arise from the uncontrolled growth and spread of abnormal cells. These cells can invade and destroy nearby healthy tissues and organs, as well as spread to other parts of the body through the bloodstream or lymphatic system. There are over 100 different types of cancer, each with its own set of risk factors, symptoms, and treatment options. Despite significant progress in cancer research, it remains one of the leading causes of death worldwide. Early detection, effective treatments, and continued research are crucial in the fight against cancer."
 
