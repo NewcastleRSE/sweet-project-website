@@ -231,6 +231,13 @@ publicInvolvement:
     blurb: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi amet similique nesciunt quam beatae qui aliquam dolor, suscipit saepe harum atque obcaecati sed quisquam pariatur dignissimos facere unde incidunt illo.
     img: /assets/images/Vic.jpg
 
+partners:
+  - logoSrc: /assets/images/logos/1.png
+  - logoSrc: /assets/images/logos/2.jpg
+  - logoSrc: /assets/images/logos/3.jpg
+  - logoSrc: /assets/images/logos/4.jpg
+  - logoSrc: /assets/images/logos/5.jpg
+
 contactUs:
   phone: +44 75847 83743
   email: exampleemail@gmail.com

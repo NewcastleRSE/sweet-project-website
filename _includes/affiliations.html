@@ -1,36 +1,15 @@
-<div class="flex justify-center items-center mb-8">
-  <div class="flex overflow-hidden space-x-4">
-    <div class="animate-marquee flex space-x-4">
-      <img
-        src="{{site.baseurl}}/assets/images/ncl.jpg"
-        alt="Affiliation logo"
-        class="rounded-md object-contain logo-img"
-      />
-      <img
-        src="{{site.baseurl}}/assets/images/logo1.png"
-        alt="Affiliation logo"
-        class="rounded-md object-contain logo-img"
-      />
-      <img
-        src="https://via.placeholder.com/150"
-        alt="Affiliation logo"
-        class="w-full h-auto rounded-md"
-      />
-      <img
-        src="https://via.placeholder.com/150"
-        alt="Affiliation logo"
-        class="w-full h-auto rounded-md"
-      />
-      <img
-        src="https://via.placeholder.com/150"
-        alt="Affiliation logo"
-        class="w-full h-auto rounded-md"
-      />
-      <img
-        src="https://via.placeholder.com/150"
-        alt="Affiliation logo"
-        class="w-full h-auto"
-      />
-    </div>
+<div class="flex justify-center items-center mb-8 my-container">
+  <div class="flex overflow-hidden space-x-4 flex-wrap">
+    <!-- <div class="animate-marquee flex space-x-4"> -->
+
+    <!-- prettier-ignore -->
+    {% for img in site.data.data.partners %}
+    <img
+      src="{{ img.logoSrc }}"
+      alt="Affiliation logo"
+      class="rounded-md object-contain logo-img"
+    />
+    {% endfor %}
   </div>
+  <!-- </div> -->
 </div>

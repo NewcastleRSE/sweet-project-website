@@ -65,10 +65,11 @@
         <p class="mb-8">{{ site.data.data.patientAdvisory.description }}</p>
         {% for categoryObject in site.data.data.patientAdvisory.membersData %}
 
-        <div>
+        <div class="my-16">
           <h2 class="font-semibold text-3xl mb-4 text-center">
             {{ categoryObject.categoryName }}
           </h2>
+
           <div class="grid grid-cols-2 gap-8 mb-8">
             {% for person in categoryObject.categoryData %}
             <div
@@ -76,57 +77,19 @@
             >
               <p class="font-semibold">
                 <!-- prettier-ignore -->
-                {{ person.name }} 
-                {% if person.designation %}
+                {{- person.name  -}}{% if person.designation %}
                 <span class="font-normal text-gray-500"
                   >, {{ person.designation }}</span
                 >
-                {% endif %}
-                {% if person.institution %}
-                <p class="text-sm text-gray-600">{{ person.institution }}</p>
-                {% endif %}
+                {% endif %} {% if person.institution %}
               </p>
+              <p class="text-sm text-gray-600">{{ person.institution }}</p>
+              {% endif %}
             </div>
             {% endfor %}
           </div>
         </div>
-
         {% endfor %}
-
-        <div>
-          <h2 class="font-semibold text-3xl mb-4 text-center">
-            Patient Advisory Group Chairs
-          </h2>
-          <div class="grid grid-cols-2 gap-8 mb-8">
-            <div class="p-4 shadow-sm bg-gray-50">
-              <p class="font-semibold">
-                Jan Rose<span class="font-normal">, PAG co-chair</span>
-              </p>
-            </div>
-
-            <div class="p-4 shadow-sm bg-gray-100">
-              <p class="font-semibold">
-                Jan Rose<span class="font-normal">, PAG co-chair</span>
-              </p>
-            </div>
-          </div>
-          <h2 class="font-semibold text-3xl mb-4 text-center">
-            Patient Advisory Group Members
-          </h2>
-          <div class="grid grid-cols-2 gap-8 mb-8">
-            <div class="p-4 shadow-sm bg-gray-100">
-              <p class="font-semibold">
-                Jan Rose<span class="font-normal">, PAG co-chair</span>
-              </p>
-            </div>
-
-            <div class="p-4 shadow-sm bg-gray-100">
-              <p class="font-semibold">
-                Jan Rose<span class="font-normal">, PAG co-chair</span>
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
