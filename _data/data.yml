@@ -15,6 +15,7 @@ workstream:
 
 teamMembers:
   - categoryName: Co-Lead Investigators
+    loadFlex: true
     categoryData:
       - name: Professor Linda Sharp
         title: Co-Lead Investigator
@@ -236,6 +237,7 @@ partners:
   - logoSrc: /assets/images/logos/2.jpg
   - logoSrc: /assets/images/logos/3.jpg
   - logoSrc: /assets/images/logos/4.jpg
+  - logoSrc: /assets/images/logos/5.jpg
   - logoSrc: /assets/images/logos/5.jpg
 
 contactUs:
