@@ -61,6 +61,7 @@
       <!-- prettier-ignore -->
       {% endfor %}
 
+      <!-- PAG -->
       <div class="mt-20">
         {%include heading.html content="Patient Advisory Group" class =
         "text-center mb-4" %}
@@ -75,7 +76,7 @@
               {{ categoryObject.categoryName }}
             </h2>
 
-            <div class="grid grid-cols-2 gap-8 mb-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
               {% for person in categoryObject.categoryData %}
               <div
                 class="p-4 shadow-sm bg-white rounded-md shadow-sm hover:bg-purple-500"
