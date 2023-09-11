@@ -37,18 +37,18 @@ for (let i = 0; i < elems.length; i++) {
 }
 
 // Changing navbar color on scroll
-console.log(navElement);
-window.addEventListener("scroll", function () {
-  if (window.scrollY > 800) {
-    console.log("Greater than 250");
-    navElement.classList.add("scrolled");
-    for (const elem of navLinkElements) {
-      elem.classList.add("text-white");
-    }
-  } else {
-    navElement.classList.remove("scrolled");
-    for (const elem of navLinkElements) {
-      elem.classList.remove("text-white");
-    }
-  }
-});
+// console.log(navElement);
+// window.addEventListener("scroll", function () {
+//   if (window.scrollY > 800) {
+//     console.log("Greater than 250");
+//     navElement.classList.add("scrolled");
+//     for (const elem of navLinkElements) {
+//       elem.classList.add("text-white");
+//     }
+//   } else {
+//     navElement.classList.remove("scrolled");
+//     for (const elem of navLinkElements) {
+//       elem.classList.remove("text-white");
+//     }
+//   }
+// });

@@ -1,8 +1,8 @@
-# The Sweet Project Website
+# The SWEET Project Website
 
 ## About
 
-The Sweet Project: Providing protection, safeguarding, empowerment, problem-solving skills and support.
+The SWEET Project: Providing protection, safeguarding, empowerment, problem-solving skills and support.
 
 ### Project Team
 
@@ -26,7 +26,7 @@ This project is built with Jekyll and Tailwind CSS
 
 ## Getting Started
 
-This is the repository for The Sweet Project. The majority of data that's being displayed on the website can be edited using the "data.yml" file.
+This is the repository for The SWEET Project. The majority of data that's being displayed on the website can be edited using the "data.yml" file.
 
 #### Location of the data file
 

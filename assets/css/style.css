@@ -6,10 +6,10 @@ li {
   list-style-type: disc;
 }
 
-nav.scrolled {
+/* nav.scrolled {
   background-color: #633188 !important;
   color: white !important;
-}
+} */
 
 .paragraph-normal {
   text-decoration-color: #1f2937;
@@ -30,11 +30,11 @@ header nav {
   width: auto;
 }
 
-.nav-link {
-  /* color: black; */
+/* .nav-link {
+  /* color: black;
   padding: 1rem;
 
-  /* padding: 0; */
+  /* padding: 0;
 }
 .nav-link:hover {
   color: white;
@@ -43,7 +43,7 @@ header nav {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-color: #633188 !important;
-}
+} */
 
 .section {
   margin-bottom: 4rem;
