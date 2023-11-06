@@ -1,4 +1,7 @@
-<div class="container mx-auto px-4 py-16" id="team">
+<div class="flex justify-center">
+  <div class="mb-32 border-t-2 w-1/4" id="team"></div>
+</div>
+<div class="container mb-32">
   {%include teamsBase.html content = "Meet the team!" %}
   <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
     {% for member in site.data.data.teamMembers %}
