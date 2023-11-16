@@ -6,16 +6,18 @@ title: Home Page
 <body>
   <div class="app-wrapper">
     <!-- prettier-ignore -->
+    <header>
     {% include navbar.html %}
-
-    <!-- Hero -->
-    <!-- prettier-ignore -->
-    {% include hero.html title= site.data.data.heroSection.title cta =
+    </header>
+    <main>
+      <!-- Hero -->
+      <!-- prettier-ignore -->
+      {% include hero.html title= site.data.data.heroSection.title cta =
     site.data.data.heroSection.ctaText ctaHref = "#program" description =
     site.data.data.heroSection.blurb %}
 
-    <!-- prettier-ignore -->
-    {% include program.html includeCta=true
+      <!-- prettier-ignore -->
+      {% include program.html includeCta=true
     %}
 
     
@@ -24,12 +26,11 @@ title: Home Page
 
     {% include News2.html %}
 
-    <!-- prettier-ignore -->
+      <!-- prettier-ignore -->
 
-    <!-- prettier-ignore -->
-
-    {% include
-    footer.html %}
+      <!-- prettier-ignore -->
+    </main>
+    <footer>{% include footer.html %}</footer>
   </div>
   <script src="script.js"></script>
 </body>

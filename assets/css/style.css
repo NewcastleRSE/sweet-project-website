@@ -1,3 +1,9 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 nav {
   transition: background-color 0.5s ease-in-out;
 }
@@ -13,11 +19,19 @@ li {
 
 .paragraph-normal {
   text-decoration-color: #1f2937;
-  font-size: 1.125rem; /* 18px */
+  font-size: 1.125rem;
+  /* 18px */
   line-height: 2rem;
 }
 
-header nav {
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
 }
 
 .brand-img {
@@ -102,11 +116,9 @@ header nav {
   width: 100%;
   height: 100%;
   opacity: 50%;
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.5) 0%,
-    rgba(0, 0, 0, 0.8) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.8) 100%);
 }
 
 /* Workstream 2 styles */
@@ -154,6 +166,7 @@ header nav {
   0% {
     transform: translateX(0);
   }
+
   100% {
     /* transform: translateX(-200%); */
     transform: translateX(0);
@@ -167,10 +180,6 @@ header nav {
 }
 
 @media (max-width: 640px) {
-  .app-wrapper {
-    /* overflow-x: hidden; */
-  }
-
   .imgAndDesc img {
     height: 100px;
     width: 100px;

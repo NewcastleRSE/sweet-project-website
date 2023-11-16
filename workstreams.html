@@ -6,10 +6,14 @@ title: Workstreams
 <body>
   <!-- prettier-ignore -->
   <div class="app-wrapper">
-  {% include navbar.html %} 
-  {% include hero.html cta="Explore the program" ctaHref="#program" page="workstreams" %}
-  {% include program.html includeCta=false %}
-  {% include workstream-without-img.html %}
-  {% include footer.html %}
+    <header>{% include navbar.html %} </header>
+    <main>
+      {% include hero.html cta="Explore the program" ctaHref="#program" page="workstreams" %}
+      {% include program.html includeCta=false %}
+      {% include workstream-without-img.html %}
+    </main>
+    <footer>
+      {% include footer.html %}
+    </footer>
   </div>
 </body>
