@@ -46,6 +46,7 @@
         </a>
       </div>
     </div>
+
     <div>
       <span class="text-base font-bold tracking-wide">Useful Links</span>
       <div class="flex items-center mt-1 space-x-3">
@@ -81,6 +82,19 @@
           </svg>
         </a>
       </div>
+    </div>
+  </div>
+  <!-- Partner Images Section -->
+  <div class="mt-8 mx-auto w-full">
+    <div class="flex justify-center items-center flex-wrap">
+      <!-- prettier-ignore -->
+      {% for img in site.data.data.partners %}
+      <img
+        src="{{ img.logoSrc }}"
+        alt="Affiliation logo"
+        class="h-16 w-auto mx-4 my-2"
+      />
+      {% endfor %}
     </div>
   </div>
   <div
