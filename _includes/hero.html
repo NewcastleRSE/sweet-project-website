@@ -1,54 +1,35 @@
-<!-- <div>
-  <div
-    class="bg-center bg-cover w-full h-screen"
-    style="
-      background-image: url(https://unsplash.com/photos/9UVmlIb0wJU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8Nnx8d29tZW58ZW58MHx8fHwxNjgwNzg3Mzc4&force=true);
-    "
-  >
+<div class="hero-section border-b-2 border-black h-screen mb-20">
+  <!-- Image Section -->
+  <div class="image-section w-full">
+    {% if include.page=="workstreams" %}
     <div
-      class="flex justify-center w-full h-full bg-purple-800 bg-opacity-70 py-12"
-    >
-      <h2 class="text-5xl text-white text-bold">
-        Welcome to the sweet project
-      </h2>
-    </div>
+      class="h-full bg-cover bg-center"
+      style="background-image: url({{site.baseurl}}/assets/images/workstreams.jpg)"
+    ></div>
+    {% else %}
+    <div
+      class="hero h-full bg-cover border-y-2 border-purple-800"
+      style="background-image: url({{site.baseurl}}/assets/images/hero1.png)"
+    ></div>
+    {% endif %}
   </div>
-</div> -->
 
-<div class="relative min-h-screen mb-20">
-  {% if include.page=="workstreams" %}
-
+  <!-- Information Section -->
   <div
-    class="absolute inset-0 bg-center bg-cover z-0 rounded-lg"
-    style="background-image: url({{site.baseurl}}/assets/images/workstreams.jpg)"
-  ></div>
-
-  {% else %}
-  <div
-    class="absolute inset-0 bg-center bg-cover z-0 rounded-lg"
-    style="background-image: url({{site.baseurl}}/assets/images/hero1.png)"
-  ></div>
-  {% endif %}
-  <div
-    class="absolute inset-0 bg-opacity-50 bg-black z-10 flex flex-col items-center justify-center gap-8"
+    class="info-section overflow-auto items-center mx-4 md:mx-12 lg:mx-[25rem] bg-white flex flex-col"
   >
-    <div
-      class="flex flex-col items-center justify-center gap-8 lg:w-1/2 md:w-50"
-    >
-      <h2 class="text-5xl text-white font-bold text-center px-6">
-        {{include.title}}
-      </h2>
+    <h2 class="mt-8 text-6xl md:text-[6.5rem] text-primary font-bold mb-2">
+      {{ include.title }}
+    </h2>
 
-      <p class="text-white leading-10 text-2xl px-2">
+    <div class="p-6 flex flex-col items-center space-y-6 h-auto">
+      <p
+        class="text-xl mx-[20rem] text-center md:text-2xl lg:text-3xl mb-4"
+        style="word-wrap: break-word; overflow-wrap: break-word"
+      >
         {{ include.description }}
       </p>
-
-      <a
-        class="btn bg-primary text-white font-bold text-xl px-4 py-3 rounded"
-        href="{{include.ctaHref}}"
-      >
-        {{include.cta}}
-      </a>
+      <a class="btn" href="{{ include.ctaHref }}"> {{ include.cta }} </a>
     </div>
   </div>
 </div>
