@@ -6,19 +6,21 @@
     <!-- Centered content using width and margin -->
 
     <!-- Container for introduction text -->
-    <div class="bg-yellow-50 rounded-md py-20">
+    <div class="bg-white shadow-sm border shadow-pink-200 py-20">
       <div class="w-[80%] mx-auto">
-        <p class="leading-8 text-gray-800 text-lg mb-6 font-semibold">
+        <p class="leading-8 text-paragraph text-lg mb-6 font-semibold">
           The SWEET research programme will develop and investigate the
           effectiveness of a blended intervention (HT&Me) to support adherence
           to hormone therapy and improve quality of life for women with early
           breast cancer.
         </p>
         <div class="paragraph-normal">
-          <p class="leading-7 text-gray-800 text-lg mb-2 font-semibold">
+          <p class="leading-7 text-paragraph text-lg mb-2 font-semibold">
             The intervention includes:
           </p>
-          <ul class="flex flex-col gap-2 leading-7 text-gray-800 text-xl mb-12">
+          <ul
+            class="flex flex-col gap-2 leading-7 text-paragraph text-xl mb-12"
+          >
             <li>
               A short animation video providing information on how hormone
               therapy works, why it is important to take daily, and advice for
@@ -40,10 +42,9 @@
 
           <div class="flex justify-center mt-8">
             <!-- prettier-ignore -->
-            {% if include.includeCta %} 
-            {% include ui/styled-a.html text =
-                "Learn more about the programme" href= "/workstreams" %}
-            {% endif %}
+            <div class="flex items-center gap-x-6">
+              <a href="{{ include.ctaHref }}" class="btn2">{{ include.cta }}</a>
+            </div>
           </div>
         </div>
       </div>

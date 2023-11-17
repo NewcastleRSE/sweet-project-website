@@ -17,8 +17,8 @@ li {
 .btn {
   border-radius: 10px;
   padding: 5px 10px 5px 10px;
-  font-size: 2rem;
-  border: 2px solid #633188;
+  font-size: 1.4rem;
+  border: 1px solid #633188;
   color: #633188;
   background-color: white;
 }
@@ -26,50 +26,65 @@ li {
 .btn:hover {
   color: white;
   background-color: #633188;
-  font-size: 2.1rem;
+  font-size: 1.42rem;
 }
 
-/* nav.scrolled {
-  background-color: #633188 !important;
-  color: white !important;
-} */
+.btn2 {
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  font-size: 1.4rem;
+  border: 1px solid black;
+  color: white;
+  background-color: #633188;
+}
+
+.btn2:hover {
+  color: #633188;
+  border: 2px solid #633188;
+  background-color: white;
+  font-size: 1.42rem;
+}
 
 .hero-section {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  box-sizing: border-box;
 }
 
-/* Hero Section */
-.image-section {
-  flex: 0 0 60%;
-  background-size: cover;
+.text-content {
+  flex: 1;
+  flex-basis: 30%;
 }
 
-.hero {
-  background-position: center top 20%;
+.image-container {
+  overflow: hidden;
+  flex: 1;
+  flex-basis: 70%;
 }
 
-.info-section {
-  flex: 0 0 40%;
-  display: flex;
-  align-items: start;
-  justify-content: start;
-  box-sizing: border-box;
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-@media (max-width: 768px) {
-  .hero-section {
-    flex-direction: column;
+@media (min-width: 1024px) {
+  .content-container {
+    flex-direction: row;
+    /* Side by side on larger screens */
   }
 
-  .image-section,
-  .info-section {
-    flex: 0 0 auto;
+  .text-content,
+  .image-container {
+    flex: 1;
+    /* Each takes half of the space */
+  }
+
+  .hero-image {
+    object-fit: cover;
   }
 }
 
+/* Your existing .btn styles */
 
 
 .paragraph-normal {
@@ -99,20 +114,21 @@ main {
   width: auto;
 }
 
-/* .nav-link {
-  /* color: black;
+.nav-link {
+  color: #633188;
   padding: 1rem;
-
-  /* padding: 0;
+  font-weight: 500;
 }
+
 .nav-link:hover {
   color: white;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  border-radius: 5px;
   background-color: #633188 !important;
-} */
+}
 
 .section {
   margin-bottom: 4rem;
@@ -123,12 +139,24 @@ main {
   color: #633188 !important;
 }
 
-.bg-primary {
-  background-color: #633188 !important;
+.text-secondary {
+  color: rgb(255, 222, 240)
+}
+
+.text-paragraph {
+  color: black;
+}
+
+.fill-primary {
+  fill: rgb(255, 222, 240) !important;
 }
 
 .bg-secondary {
-  background-color: #f0c048 !important;
+  background-color: #633188 !important;
+}
+
+.bg-primary {
+  background-color: rgb(255, 222, 240) !important;
 }
 
 .animate-marquee {

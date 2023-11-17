@@ -1,35 +1,46 @@
-<div class="hero-section border-b-2 border-black h-screen mb-20">
-  <!-- Image Section -->
-  <div class="image-section w-full">
-    {% if include.page=="workstreams" %}
-    <div
-      class="h-full bg-cover bg-center"
-      style="background-image: url({{site.baseurl}}/assets/images/workstreams.jpg)"
-    ></div>
-    {% else %}
-    <div
-      class="hero h-full bg-cover border-y-2 border-purple-800"
-      style="background-image: url({{site.baseurl}}/assets/images/hero1.png)"
-    ></div>
-    {% endif %}
-  </div>
-
-  <!-- Information Section -->
-  <div
-    class="info-section overflow-auto items-center mx-4 md:mx-12 lg:mx-[25rem] bg-white flex flex-col"
-  >
-    <h2 class="mt-8 text-6xl md:text-[6.5rem] text-primary font-bold mb-2">
-      {{ include.title }}
-    </h2>
-
-    <div class="p-6 flex flex-col items-center space-y-6 h-auto">
-      <p
-        class="text-xl mx-[20rem] text-center md:text-2xl lg:text-3xl mb-4"
-        style="word-wrap: break-word; overflow-wrap: break-word"
+<div class="relative border-y shadow-sm mb-12 bg-white">
+  <div class="mx-auto max-w-screen lg:max-w-7xl" ]>
+    <div class="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
+      <!-- SVG Decoration  -->
+      <svg
+        class="absolute inset-y-0 right-40 hidden h-full w-60 translate-x-1/2 transform fill-white lg:block"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+        aria-hidden="true"
       >
-        {{ include.description }}
-      </p>
-      <a class="btn" href="{{ include.ctaHref }}"> {{ include.cta }} </a>
+        <polygon class="bg-white" points="0,0 90,0 50,100 0,100" />
+      </svg>
+
+      <div class="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-[20rem]">
+        <div class="space-y-6 mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
+          <h1
+            class="text-4xl font-bold tracking-tight text-primary sm:text-6xl"
+          >
+            {{ include.title }}
+          </h1>
+          <p class="text-xl leading-8 text-paragraph">
+            {{ include.description }}
+          </p>
+          <div class="flex items-center gap-x-6">
+            <a href="{{ include.ctaHref }}" class="btn2">{{ include.cta }}</a>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+  <div class="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-7/12">
+    {% if include.page=="workstreams" %}
+    <img
+      class="hero-image aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
+      src="{{site.baseurl}}/assets/images/workstreams.jpg"
+      alt=""
+    />
+    {% else %}
+    <img
+      class="hero-image aspect-[3/2] p-1 object-cover bg-left-top lg:aspect-auto lg:h-full lg:w-full"
+      src="{{site.baseurl}}/assets/images/hero1.png"
+      alt=""
+    />
+    {% endif %}
   </div>
 </div>
