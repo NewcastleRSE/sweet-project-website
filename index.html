@@ -6,24 +6,25 @@ title: Home Page
 <body>
   <div class="app-wrapper">
     <!-- prettier-ignore -->
-    <header>
+
     {% include navbar.html %}
-    </header>
+
     <main>
       <!-- Hero -->
       <!-- prettier-ignore -->
       {% include hero.html title= site.data.data.heroSection.title cta =
     site.data.data.heroSection.ctaText ctaHref = "workstreams" description =
     site.data.data.heroSection.blurb %}
-
       <!-- prettier-ignore -->
-      {% include program.html includeCta=true ctaHref="workstreams" cta=site.data.data.heroSection.ctaText%}
-
+      {% include program.html %}
+      {% include workstream.html %}
     
-    {% include updates.html %}
-    {% include teams3.html %}
+      {% include updates.html %}
+      {% include teams3.html %}
 
-    {% include News2.html %}
+      {% include HTAndMe.html %}
+       
+      {% include contact.html %}
 
       <!-- prettier-ignore -->
 

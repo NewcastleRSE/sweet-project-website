@@ -1,8 +1,9 @@
-<div class="mb-32">
-  <div class="mx-auto l:px-4 my-container">
+<div class="mx-auto l:px-4 my-container">
+  <div>
     <!-- Text center for all the child! Careful -->
 
-    {%include heading.html content="Meet the team!" class="text-center" %}
+    {%include heading.html content="Meet the team!" id="team"
+    class="text-center" %}
     <div class="my-8">
       <div class="p-4 rounded-md my-4 bg-white">
         <div class="w-[80%] mx-auto">
@@ -37,9 +38,7 @@
         <!-- Each card -->
         {% for member in category.categoryData %}
         <div class="team-card-3 group relative">
-          <div
-            class="w-full h-64 rounded-lg overflow-hidden group-hover:opacity-75 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-          >
+          <div class="w-full h-64 rounded-lg overflow-hidden">
             <!-- prettier-ignore -->
             <img
             src={{
@@ -66,7 +65,7 @@
         {%include heading.html content="Patient Advisory Group" class =
         "text-center mb-4" %}
       </div>
-      <div class="bg-yellow-50 rounded-md paragraph-normal py-20">
+      <div class="bg-white border py-20 rounded-md paragraph-normal">
         <div class="w-[80%] m-auto">
           <p class="mb-8">{{ site.data.data.patientAdvisory.description }}</p>
           {% for categoryObject in site.data.data.patientAdvisory.membersData %}
@@ -79,17 +78,17 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
               {% for person in categoryObject.categoryData %}
               <div
-                class="p-4 shadow-sm bg-white rounded-md shadow-sm hover:bg-purple-500"
+                class="p-4 shadow-sm bg-white rounded-md shadow-sm bg-secondary text-white"
               >
                 <p class="font-semibold">
                   <!-- prettier-ignore -->
                   {{- person.name  -}}{% if person.designation %}
-                  <span class="font-normal text-gray-500"
+                  <span class="font-normal text-white"
                     >, {{ person.designation }}</span
                   >
                   {% endif %} {% if person.institution %}
                 </p>
-                <p class="text-sm text-gray-600">{{ person.institution }}</p>
+                <p class="text-sm text-white">{{ person.institution }}</p>
                 {% endif %}
               </div>
               {% endfor %}

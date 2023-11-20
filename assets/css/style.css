@@ -1,9 +1,9 @@
 html,
 body {
-  height: 100%;
+  height: 100vh;
   margin: 0;
   overflow-x: hidden;
-  max-width: 100%;
+  max-width: 100vw;
 }
 
 nav {
@@ -26,7 +26,6 @@ li {
 .btn:hover {
   color: white;
   background-color: #633188;
-  font-size: 1.42rem;
 }
 
 .btn2 {
@@ -42,7 +41,10 @@ li {
   color: #633188;
   border: 2px solid #633188;
   background-color: white;
-  font-size: 1.42rem;
+}
+
+.markdown-content p {
+  font-size: 1rem;
 }
 
 .hero-section {
@@ -131,7 +133,7 @@ main {
 }
 
 .section {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   margin-top: 2rem;
 }
 

@@ -191,27 +191,41 @@ workstreams:
       - Workstream 1 involved the design, development and optimisation of the HT&Me intervention. It was developed using an evidence-based and theory-informed approach with patient and public involvement (PPI) integral to all stages of design and development.
       - We conducted two optimisation sub-studies to collect feedback from users. Changes were made to improve the HT&Me intervention as a result of these. Preliminary data suggests the HT&Me intervention is acceptable and engaging to users. Workstream 1 is complete.
       - The diagram below provides an overview of the intervention development, design and optimisation process.
+    img: /assets/images/workstreams/workstream1.png
 
   - name: Feasibility study
     title: Workstream 2
-    description: Workstream 2 used both quantitative and qualitative methods to assess the feasibility and acceptability of the HT&Me intervention, and the future randomised controlled trial (Workstream 3). To do this, we have recruited X women prescribed hormone therapy for early breast cancer across 5 NHS sites in England to receive the HT&Me intervention for 8 weeks alongside their usual care. Women were asked to complete a questionnaire before they receive the intervention, and then another 8 weeks later.
+    description:
+      - Workstream 2 used both quantitative and qualitative methods to assess the feasibility and acceptability of the HT&Me intervention, and the future randomised controlled trial (Workstream 3). To do this, we have recruited X women prescribed hormone therapy for early breast cancer across 5 NHS sites in England to receive the HT&Me intervention for 8 weeks alongside their usual care. Women were asked to complete a questionnaire before they receive the intervention, and then another 8 weeks later.
+      - We have also tested the feasibility of accessing, and using, both prescription encashment and GP prescribing data to objectively measure adherence to hormone therapy.
+      - "We have recruited women from the following sites:"
+    recruitment_sites:
+      - "Newcastle-upon-Tyne Hospitals NHS Foundation Trust"
+      - "Oxford University Hospitals NHS Foundation Trust"
+      - "Imperial College Hospital Trust"
+      - "Gateshead Health NHS Foundation Trust"
+      - "Great Western Hospitals NHS Foundation Trust."
+    img: /assets/images/workstreams/workstream2.png
 
   - name: Evaluation of intervention effectiveness in reducing poor adherence and improving HRQoL in pragmatic RCT
     title: Workstream 3
     description:
-      - Workstream 3 will deliver a randomised control trial (RCT) with a parallel process evaluation. A total of 1460 eligible women will be randomised to receive either the HT&Me intervention alongside usual care, or usual care alone. We are investigating whether the HT&Me intervention improves adherence to hormone therapy and cancer-specific health-related quality of life. Women will be asked to complete questionnaires 6, 12 and 18-months after they have been randomised in the study, measuring their adherence to hormone therapy, quality of life, and other additional factors that might impact the effectiveness of the intervention.
-      - We aim to start recruitment to the RCT in January 2024. Recruitment will take place over two years. If you are a health professional at a site that delivers breast cancer care and would be interested in your site taking part, please contact the SWEET team to find out more on sweetstudy@newcastle.ac.uk.
-      - If you are a patient interested in taking part, please contact your hospital to see if they are taking part in the study, and whether you are eligible to take part.
+      - "Workstream 3 will deliver a randomised control trial (RCT) with a parallel process evaluation. A total of 1460 eligible women will be randomised to receive either the HT&Me intervention alongside usual care, or usual care alone. We are investigating whether the HT&Me intervention improves adherence to hormone therapy and cancer-specific health-related quality of life. Women will be asked to complete questionnaires 6, 12 and 18-months after they have been randomised in the study, measuring their adherence to hormone therapy, quality of life, and other additional factors that might impact the effectiveness of the intervention."
+      - "We aim to start recruitment to the RCT in January 2024. Recruitment will take place over two years. If you are a health professional at a site that delivers breast cancer care and would be interested in your site taking part, please [click here](http://127.0.0.1:4000/#contact) to find out more."
+      - "If you are a patient interested in taking part, please contact your hospital to see if they are taking part in the study, and whether you are eligible to take part."
+    img: /assets/images/workstreams/workstream3.png
 
   - name: Health economic evaluation
     title: Workstream 4
     description: Workstream 4 will include i) analyses to establish the cost-effectiveness of the intervention within the context of the RCT (Workstream 3), ii) a budget impact analysis, and iii) modelling of long-term cost-effectiveness for the recommended 5-10+ year period of hormone therapy treatment.
+    img: /assets/images/workstreams/workstream4.png
 
   - name: Pathway to impact and potential scale-up to NHS implementation
     title: Workstream 5
     description:
       - Workstream 5 will inform potential implementation and scale up across the NHS. We will be using findings from discussions and interviews with healthcare professionals conducted during Workstreams 1, 2 and 3, to guide this. In particular, we will identify ‘functions’ that are most important to delivery and how other contextual factors that influence delivery can maximise potential impact for patients, and others involved throughout the programme.
       - To scale up impact beyond the programme, we will i) form close working relationships with charities, the NHS and commissioning bodies, ii) link with the NHS Long Term Plan, and iii) engage with the NIHR Digital Strategy.
+    img: /assets/images/workstreams/workstream5.png
 
 publicInvolvement:
   - name: Amelia

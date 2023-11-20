@@ -1,15 +1,14 @@
+<div id="{{include.id}}" class="mb-24 h-2"></div>
 {% if include.class %}
 <h2
-  class="text-5xl font-extrabold tracking-tight text-primary {{ include.class }}"
-  id="{{ include.id }}"
+  class="text-center text-5xl pt-12 font-extrabold tracking-tight text-primary {{ include.class }}"
 >
   {{ include.content }}
 </h2>
 
 {% else %}
 <h2
-  class="mb-12 text-5xl font-extrabold tracking-tight text-primary {{ include.class }}"
-  id="{{ include.id }}"
+  class=" text-center mb-12 pt-12 text-5xl font-extrabold tracking-tight text-primary {{ include.class }}"
 >
   {{ include.content }}
 </h2>
