@@ -1,92 +1,10 @@
 <div class="my-container">
-  <div class="text-center">
-    {% include heading.html id="updates" content="Updates" %}
-  </div>
-  <div class="bg-white border py-20 rounded-md paragraph-normal">
-    <div class="w-[80%] m-auto space-y-4">
-      <p class="mt-4 font-semibold">
-        Keep an eye out on this page for regular updates on the SWEET programme.
-      </p>
-
-      <h5
-        class="text-xl font-bold tracking-tight text-prmary text-black mt-8 mb-1"
-      >
-        Trial updates
-      </h5>
-      <p>Data collection for our Feasibility study is now complete.</p>
-      <p>
-        We have recruited a total of X women to sub-study 1 investigating the
-        acceptability and feasibility of delivering the SWEET intervention
-        across our 5 sites:
-      </p>
-
-      <ul class="pl-6">
-        <li>Newcastle-upon-Tyne Hospitals NHS Foundation Trust</li>
-        <li>Oxford University Hospitals NHS Foundation Trust</li>
-        <li>Imperial College Hospital Trust,</li>
-        <li>Gateshead Health NHS Foundation Trust</li>
-        <li>Great Western Hospitals NHS Foundation Trust</li>
-      </ul>
-
-      <p>
-        We have also recruited a total of X women to sub-study 2, testing the
-        processes for collecting data on the number of prescription encashment
-        data.
-      </p>
-
-      <h5
-        class="text-xl font-bold tracking-tight text-prmary text-black mt-8 mb-1"
-      >
-        Conferences and meetings
-      </h5>
-      <p>
-        The SWEET team have presented, or will be presenting, findings from the
-        programme at the following conferences:
-      </p>
-      <ul class="list-disc pl-6 mt-2 flex flex-col gap-4">
-        <ul class="space-y-2">
-          <p class="font-semibold">2023</p>
-          <li>
-            International Psycho-oncology Society (IPOS) World Congress of
-            Psycho-Oncology
-          </li>
-          <li>
-            Cancer and Primary Care Research International Network (Ca-PRI)
-            Conference
-          </li>
-        </ul>
-        <ul class="space-y-2">
-          <p class="font-semibold">2022</p>
-          <li>Association of Breast Surgery (ABS)</li>
-          <li>UK Interdisciplinary of Breast Cancer Symposium (UKIBCS)</li>
-          <li>
-            British Psychological Society (BPS) Division of Health Psychology
-            (DHP) Annual Conference
-          </li>
-          <li>
-            British Psychosocial Oncology Society (BPOS) UK Society for
-            Behavioural Medicine (UKBSM)
-          </li>
-        </ul>
-        <ul class="space-y-2">
-          <p class="font-semibold">2021</p>
-          <li>UKONS - Virtual Annual Conference</li>
-          <li>
-            Multinational Association of Supportive Care in Cancer Annual
-            Meeting (MASCC)
-          </li>
-          <li>
-            International Psycho-oncology Society (IPOS) World Congress of
-            Psycho-Oncology (Virtual)
-          </li>
-          <li>Symposium Mammographicum</li>
-        </ul>
-        <ul class="space-y-2">
-          <p class="font-semibold">2020</p>
-          <li>National Cancer Research Institute (NCRI) Conference</li>
-          <li>UK Interdisciplinary of Breast Cancer Symposium (UKIBCS)</li>
-        </ul>
-      </ul>
+  <!-- prettier-ignore -->
+  <div class="section">
+      {% include heading.html id="updates" content="Updates" %}
+      {% capture updates_content %}{% include_relative _sections/updates.md %}{% endcapture %}
+      <div class="section-content content">
+      {{ updates_content | markdownify }}
+      </div>
     </div>
-  </div>
 </div>

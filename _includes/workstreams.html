@@ -1,0 +1,7 @@
+<div class="my-container">
+  <div class="flex flex-row justify-center">
+    {% include heading.html content="Workstreams" id="workstreams" %}
+  </div>
+  {% for workstream in site.workstreams %} {% include workstream_display.html
+  workstream=workstream %} {% endfor %}
+</div>

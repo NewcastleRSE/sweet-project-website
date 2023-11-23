@@ -1,58 +1,101 @@
-<!-- <div class="container">
-  <div class="row">
-    <div class="col-lg-4 col-md-6">
-      <div class="card mb-5 mb-lg-0">
-        <div class="card-body">
-          <h5 class="card-title text-muted text-uppercase text-center">
-            Team Member
-          </h5>
-          <img
-            src="https://via.placeholder.com/150"
-            alt="Team Member"
-            class="img-fluid rounded-circle w-50 mx-auto mb-3"
-          />
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<div class="mx-auto l:px-4 my-container">
+  <div>
+    <!-- Text center for all the child! Careful -->
+    {%include heading.html content="Meet the team!" id="team"
+    class="text-center" %}
+    <div class="my-8">
+      <div class="p-4 rounded-md my-4 bg-white">
+        <div class="w-[80%] mx-auto">
+          <p class="mt-4 paragraph-normal">
+            The SWEET programme is being led by academics from Newcastle and
+            Oxford Brookes Universities who are experts in cancer survivorship
+            research and adherence to hormone therapy. The wider research team
+            involves several other Universities and NHS Hospital Trusts and
+            includes breast cancer specialists (surgeons, oncologists, nurses,
+            dietician), a GP, a pharmacist, and researchers with expertise in
+            breast cancer studies, running trials, statistics and health
+            economics, and patient representatives.
           </p>
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6">
-      <div class="card mb-5 mb-lg-0">
-        <div class="card-body">
-          <h5 class="card-title text-muted text-uppercase text-center">
-            Team Member
-          </h5>
-          <img
-            src="https://via.placeholder.com/150"
-            alt="Team Member"
-            class="img-fluid rounded-circle w-50 mx-auto mb-3"
+    {% for category in site.data.data.teamMembers %}
+    <h2
+      class="text-3xl font-semibold tracking-tight text-prmary text-black mt-20 mb-8 text-center"
+    >
+      {{ category.categoryName }}
+    </h2>
+
+    {% if category.loadFlex %}
+    <div class="flex justify-center gap-8">
+      {% else %}
+      <div
+        class="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 justify-items-center items-center"
+      >
+        {% endif %}
+
+        <!-- Each card -->
+        {% for member in category.categoryData %}
+        <div class="team-card-3 group relative">
+          <div class="w-full h-64 rounded-lg overflow-hidden">
+            <!-- prettier-ignore -->
+            <img
+            src="{{
+            member.imageURL
+            }}"
+            alt=""
+            class="w-full h-full object-center object-cover"
           />
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+          </div>
+          <h3 class="mt-4 text-lg font-medium text-gray-900">
+            {{ member.name }}
+          </h3>
+          <p class="text-sm font-medium text-primary">Researcher</p>
+          <p class="mt-2 text-gray-800 text-lg">{{ member.blurb }}</p>
         </div>
+        {% endfor %}
       </div>
-    </div>
-    <div class="col-lg-4 col-md-6">
-      <div class="card mb-5 mb-lg-0">
-        <div class="card-body">
-          <h5 class="card-title text-muted text-uppercase text-center">
-            Team Member
-          </h5>
-          <img
-            src="https://via.placeholder.com/150"
-            alt="Team Member"
-            class="img-fluid rounded-circle w-50 mx-auto mb-3"
-          />
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+
+      <!-- prettier-ignore -->
+      {% endfor %}
+
+      <!-- PAG -->
+      <div class="my-12">
+        {%include heading.html content="Patient Advisory Group" class =
+        "text-center mb-4" %}
+      </div>
+      <div class="bg-white border pt-20 rounded-md paragraph-normal">
+        <div class="w-[80%] m-auto">
+          <p class="mb-8">{{ site.data.data.patientAdvisory.description }}</p>
+          {% for categoryObject in site.data.data.patientAdvisory.membersData %}
+
+          <div class="my-16">
+            <h2 class="font-semibold text-3xl mb-4 text-center">
+              {{ categoryObject.categoryName }}
+            </h2>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+              {% for person in categoryObject.categoryData %}
+              <div
+                class="p-4 shadow-sm bg-white rounded-md shadow-sm bg-secondary text-white"
+              >
+                <p class="font-semibold">
+                  <!-- prettier-ignore -->
+                  {{- person.name  -}}{% if person.designation %}
+                  <span class="font-normal text-white"
+                    >, {{ person.designation }}</span
+                  >
+                  {% endif %} {% if person.institution %}
+                </p>
+                <p class="text-sm text-white">{{ person.institution }}</p>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          {% endfor %}
         </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>

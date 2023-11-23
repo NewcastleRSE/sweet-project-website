@@ -7,13 +7,28 @@ heroSection:
   title: Welcome!
   blurb: >
     SWEET is a research programme developing and testing an intervention (a support package called HT&Me) to help women who are prescribed hormone therapy following a breast cancer diagnosis.
-
   ctaText: Learn about the programme
 
-workstream:
-  # img: https://unsplash.com/photos/6anudmpILw4/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTB8fHBpY3R1cmVzJTIwb2YlMjB3b21lbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE2ODExNzI4ODQ&force=true
-  img: /assets/images/hero1.png
-  img2: https://unsplash.com/photos/9UVmlIb0wJU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8Nnx8d29tZW58ZW58MHx8fHwxNjgwNzg3Mzc4&force=true
+programme:
+  programme:
+  title: About the programme
+  content:
+    - description:
+        - type: paragraph
+          text: The SWEET research programme will develop and investigate the effectiveness of a blended intervention (HT&Me) to support adherence to hormone therapy and improve quality of life for women with early breast cancer.
+        - type: paragraph
+          text: "The intervention includes:"
+        - type: list
+          items:
+            - A short animation video providing information on how hormone therapy works, why it is important to take daily, and advice for managing side-effects
+            - Two appointments with HT&Me study nurses
+            - Access to the interactive HT&Me website
+            - Regular text/email messages reminding of the importance of hormone therapy and signposting back to the HT&Me website
+      img: /assets/images/Programme1.png
+    - description:
+        - type: paragraph
+          text: The programme includes five workstreams, as shown below.
+      img: /assets/images/Programme2.png
 
 teamMembers:
   - categoryName: Co-Lead Investigators
@@ -187,45 +202,63 @@ aboutProject:
 workstreams:
   - name: Intervention development & optimisation
     title: Workstream 1
-    description:
-      - Workstream 1 involved the design, development and optimisation of the HT&Me intervention. It was developed using an evidence-based and theory-informed approach with patient and public involvement (PPI) integral to all stages of design and development.
-      - We conducted two optimisation sub-studies to collect feedback from users. Changes were made to improve the HT&Me intervention as a result of these. Preliminary data suggests the HT&Me intervention is acceptable and engaging to users. Workstream 1 is complete.
-      - The diagram below provides an overview of the intervention development, design and optimisation process.
     img: /assets/images/workstreams/workstream1.png
+    content:
+      - type: paragraph
+        text: Workstream 1 involved the design, development and optimisation of the HT&Me intervention. It was developed using an evidence-based and theory-informed approach with patient and public involvement (PPI) integral to all stages of design and development.
+      - type: paragraph
+        text: We conducted two optimisation sub-studies to collect feedback from users. Changes were made to improve the HT&Me intervention as a result of these. Preliminary data suggests the HT&Me intervention is acceptable and engaging to users. Workstream 1 is complete.
+      - type: paragraph
+        text: The diagram below provides an overview of the intervention development, design and optimisation process.
+      - type: image
+        source: /assets/images/PPIDiagram.png
+      - type: paragraph
+        text: "The development process has been published: https//www.sciencedirect.com/science/ arBcle/pii/S0960977623005039"
 
   - name: Feasibility study
     title: Workstream 2
-    description:
-      - Workstream 2 used both quantitative and qualitative methods to assess the feasibility and acceptability of the HT&Me intervention, and the future randomised controlled trial (Workstream 3). To do this, we have recruited X women prescribed hormone therapy for early breast cancer across 5 NHS sites in England to receive the HT&Me intervention for 8 weeks alongside their usual care. Women were asked to complete a questionnaire before they receive the intervention, and then another 8 weeks later.
-      - We have also tested the feasibility of accessing, and using, both prescription encashment and GP prescribing data to objectively measure adherence to hormone therapy.
-      - "We have recruited women from the following sites:"
-    recruitment_sites:
-      - "Newcastle-upon-Tyne Hospitals NHS Foundation Trust"
-      - "Oxford University Hospitals NHS Foundation Trust"
-      - "Imperial College Hospital Trust"
-      - "Gateshead Health NHS Foundation Trust"
-      - "Great Western Hospitals NHS Foundation Trust."
     img: /assets/images/workstreams/workstream2.png
+    content:
+      - type: paragraph
+        text: Workstream 2 used both quantitative and qualitative methods to assess the feasibility and acceptability of the HT&Me intervention, and the future randomised controlled trial (Workstream 3). To do this, we have recruited X women prescribed hormone therapy for early breast cancer across 5 NHS sites in England to receive the HT&Me intervention for 8 weeks alongside their usual care. Women were asked to complete a questionnaire before they receive the intervention, and then another 8 weeks later.
+      - type: paragraph
+        text: We have also tested the feasibility of accessing, and using, both prescription encashment and GP prescribing data to objectively measure adherence to hormone therapy.
+      - type: paragraph
+        text: "We have recruited women from the following sites:"
+      - type: list
+        items:
+          - "Newcastle-upon-Tyne Hospitals NHS Foundation Trust"
+          - "Oxford University Hospitals NHS Foundation Trust"
+          - "Imperial College Hospital Trust"
+          - "Gateshead Health NHS Foundation Trust"
+          - "Great Western Hospitals NHS Foundation Trust."
 
   - name: Evaluation of intervention effectiveness in reducing poor adherence and improving HRQoL in pragmatic RCT
     title: Workstream 3
-    description:
-      - "Workstream 3 will deliver a randomised control trial (RCT) with a parallel process evaluation. A total of 1460 eligible women will be randomised to receive either the HT&Me intervention alongside usual care, or usual care alone. We are investigating whether the HT&Me intervention improves adherence to hormone therapy and cancer-specific health-related quality of life. Women will be asked to complete questionnaires 6, 12 and 18-months after they have been randomised in the study, measuring their adherence to hormone therapy, quality of life, and other additional factors that might impact the effectiveness of the intervention."
-      - "We aim to start recruitment to the RCT in January 2024. Recruitment will take place over two years. If you are a health professional at a site that delivers breast cancer care and would be interested in your site taking part, please [click here](http://127.0.0.1:4000/#contact) to find out more."
-      - "If you are a patient interested in taking part, please contact your hospital to see if they are taking part in the study, and whether you are eligible to take part."
     img: /assets/images/workstreams/workstream3.png
+    content:
+      - type: paragraph
+        text: "Workstream 3 will deliver a randomised control trial (RCT) with a parallel process evaluation. A total of 1460 eligible women will be randomised to receive either the HT&Me intervention alongside usual care, or usual care alone. We are investigating whether the HT&Me intervention improves adherence to hormone therapy and cancer-specific health-related quality of life. Women will be asked to complete questionnaires 6, 12 and 18-months after they have been randomised in the study, measuring their adherence to hormone therapy, quality of life, and other additional factors that might impact the effectiveness of the intervention."
+      - type: paragraph
+        text: "We aim to start recruitment to the RCT in January 2024. Recruitment will take place over two years. If you are a health professional at a site that delivers breast cancer care and would be interested in your site taking part, please [click here](http://127.0.0.1:4000/#contact) to find out more."
+      - type: paragraph
+        text: "If you are a patient interested in taking part, please contact your hospital to see if they are taking part in the study, and whether you are eligible to take part."
 
   - name: Health economic evaluation
     title: Workstream 4
-    description: Workstream 4 will include i) analyses to establish the cost-effectiveness of the intervention within the context of the RCT (Workstream 3), ii) a budget impact analysis, and iii) modelling of long-term cost-effectiveness for the recommended 5-10+ year period of hormone therapy treatment.
     img: /assets/images/workstreams/workstream4.png
+    content:
+      - type: paragraph
+        text: Workstream 4 will include i) analyses to establish the cost-effectiveness of the intervention within the context of the RCT (Workstream 3), ii) a budget impact analysis, and iii) modelling of long-term cost-effectiveness for the recommended 5-10+ year period of hormone therapy treatment.
 
   - name: Pathway to impact and potential scale-up to NHS implementation
     title: Workstream 5
-    description:
-      - Workstream 5 will inform potential implementation and scale up across the NHS. We will be using findings from discussions and interviews with healthcare professionals conducted during Workstreams 1, 2 and 3, to guide this. In particular, we will identify ‘functions’ that are most important to delivery and how other contextual factors that influence delivery can maximise potential impact for patients, and others involved throughout the programme.
-      - To scale up impact beyond the programme, we will i) form close working relationships with charities, the NHS and commissioning bodies, ii) link with the NHS Long Term Plan, and iii) engage with the NIHR Digital Strategy.
     img: /assets/images/workstreams/workstream5.png
+    content:
+      - type: paragraph
+        text: Workstream 5 will inform potential implementation and scale up across the NHS. We will be using findings from discussions and interviews with healthcare professionals conducted during Workstreams 1, 2 and 3, to guide this. In particular, we will identify ‘functions’ that are most important to delivery and how other contextual factors that influence delivery can maximise potential impact for patients, and others involved throughout the programme.
+      - type: paragraph
+        text: To scale up impact beyond the programme, we will i) form close working relationships with charities, the NHS and commissioning bodies, ii) link with the NHS Long Term Plan, and iii) engage with the NIHR Digital Strategy.
 
 publicInvolvement:
   - name: Amelia
@@ -254,6 +287,15 @@ partners:
   - logoSrc: /assets/images/logos/3.jpg
   - logoSrc: /assets/images/logos/4.jpg
   - logoSrc: /assets/images/logos/5.jpg
+
+htandme:
+  description:
+    - Logging into the HT&Me website is only possible for women and clinicians taking part in the SWEET study. If you have a login for HT&Me, you can login by clicking on the button below.
+    - If you are interested in becoming involved, you can contact the SWEET research team by emailing sweetstudy@newcastle.ac.uk.
+    - For those unable to login and those who are not taking part in the study, here is a screenshot of the HT&Me homepage to give an example of what it looks like.
+    - "There are 4 key information-based sections (in purple) which provide information, hints and tips and videos and experiences from other women with breast cancer on: i) what hormone therapy is and how it works, ii) managing side-effects, iii) healthy living, and iv) getting support from others."
+    - There are also 4 interactive sections (in yellow) where users can log their own experiences and challenges with taking hormone therapy to help them to get the most out of the HT&Me website, by tailoring it to their needs.
+  img: /assets/images/htandme.png
 
 contactUs:
   phone: +44 75847 83743

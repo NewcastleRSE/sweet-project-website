@@ -1,0 +1,28 @@
+<div class="my-container">
+  <div class="section pb-8 border-b">
+    <div class="workstream-container relative">
+      <h2
+        class="text-4xl font-md rounded-sm mb-4 bg-secondary text-white py-2 pl-3 pr-12 w-max max-w-2xl rounded-sm workstream-heading absolute top-8 z-10 text-2xl font-md mb-4 bg-transparent text-white py-2 pl-3 pr-12 w-1/2"
+        id="workstream"
+      >
+        {{ include.workstream.number }}
+      </h2>
+      <div class="workstream-img-wrapper relative mb-4 rounded-lg">
+        <img
+          src="{{include.workstream.image  }}"
+          class="workstream-img w-full rounded-lg"
+          alt="{{include.workstream.title }}"
+        />
+        <div
+          class="workstream-img-overlay absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-black mb-4"
+        ></div>
+      </div>
+      <h2 class="workstream-text mb-4 tracking-tight text-primary">
+        {{ include.workstream.title }}
+      </h2>
+      <div class="workstream-content content">
+        {{ include.workstream.content | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,20 +1,13 @@
-<section class="py-12 mb-4 my-container">
-  <div class="mx-auto l:px-4">
+<div class="my-container">
+  <!-- prettier-ignore -->
+  <div class="section">
     {% include heading.html content="HT&amp;Me" id="htandme" %}
-
-    <div class="mt-12">
-      <p class="text-styles w-1/2 m-auto text-2xl">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde corrupti
-        ratione rerum necessitatibus similique, quod, animi numquam possimus
-        perspiciatis nesciunt dolorem at magnam? Ipsam veritatis impedit amet
-        nostrum ab totam nulla, laudantium tempore commodi magnam cupiditate
-        fugit excepturi a quas. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Cumque quam ut asperiores, pariatur laboriosam
-        mollitia officiis architecto incidunt animi minus.
-      </p>
+    {% capture htandme_content %}{% include_relative _sections/htandme.md %}{% endcapture %}
+    <div class="section-content content">
+    {{ htandme_content | markdownify }}
       <div class="mt-8 text-center">
         <a href="#" class="btn2">Visit HT&amp;Me Webapp</a>
       </div>
     </div>
   </div>
-</section>
+</div>
