@@ -1,4 +1,4 @@
-d# The SWEET Project Website
+# The SWEET Project Website
 
 ## About
 
