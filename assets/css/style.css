@@ -284,6 +284,10 @@ main {
   object-fit: cover;
 }
 
+.workstream-content a:hover {
+  text-decoration: underline;
+}
+
 /* Animation */
 
 .animate-fade-in {

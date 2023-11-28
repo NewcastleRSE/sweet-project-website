@@ -46,5 +46,5 @@ The SWEET team have presented, or will be presenting, findings from the programm
 
 Publications from the SWEET programme so far:
 
-- “Development of the HT&Me intervention to support women with breast cancer to adhere to adjuvant endocrine therapy and improve quality of life.” Stewart et al. 2023. The Breast. [https://www.sciencedirect.com/science/article/pii/S0960977623005039](https://www.sciencedirect.com/science/article/pii/S0960977623005039)
-- "Informing interventions to improve uptake of adjuvant endocrine therapy in women with breast cancer: a theoretical-based examination of modifiable influences on non-adherence” Cahir et al. 2023, Supportive Cancer Care. [https://pubmed.ncbi.nlm.nih.gov/36869943/](https://pubmed.ncbi.nlm.nih.gov/36869943/)
+- [“Development of the HT&Me intervention to support women with breast cancer to adhere to adjuvant endocrine therapy and improve quality of life.” Stewart et al. 2023. The Breast.](https://www.sciencedirect.com/science/article/pii/S0960977623005039)
+- ["Informing interventions to improve uptake of adjuvant endocrine therapy in women with breast cancer: a theoretical-based examination of modifiable influences on non-adherence” Cahir et al. 2023, Supportive Cancer Care.](https://pubmed.ncbi.nlm.nih.gov/36869943/)
