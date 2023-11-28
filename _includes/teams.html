@@ -32,22 +32,24 @@
       </div>
       {% endif %}
       <div class="min-w-0 flex-1 pl-4">
-        <p class="text-base lg:text-lg font-medium text-gray-900">
+        <a class="text-base lg:text-lg font-medium text-gray-900">
           {{ member.name }}
-        </p>
+        </a>
         <p class="text-sm lg:text-base text-gray-500">{{ member.title }}</p>
         <p class="text-sm lg:text-base text-gray-500">{{ member.jobTitle }}</p>
         <p class="text-sm lg:text-base text-gray-500">
           {{ member.affiliation }}
         </p>
-        {% if member.url %}
-        <a
-          class="flex pt-2 text-sm lg:text-base text-gray-500 cursor-pointer underline hover:font-bold"
-          href="{{ member.url }}"
-          >Find out more</a
-        >
-        {% endif %}
       </div>
+      {% if member.url %}
+      <a href="{{ member.url }}" class="inline-block mt-2">
+        <img
+          src="/assets/images/user-profile.jpg"
+          alt="Profile link"
+          class="h-6 w-6 2xl:h-8 2xl:w-8 inline hover:underline"
+        />
+      </a>
+      {% endif %}
     </div>
     {% endfor %}
   </div>
