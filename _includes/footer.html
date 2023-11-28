@@ -1,20 +1,22 @@
-<div class="bg-secondary text-white w-full mt-24">
+<div class="bg-primary text-white w-full mt-24">
   <!-- Top Section with Flexbox -->
   <div
-    class="flex flex-col justify-between md:flex-row pt-6 px-8 lg:px-24 mx-0"
+    class="flex flex-col justify-between p-4 mx-auto w-[80%] md:flex-row footer"
   >
     <!-- Sweet Section -->
-    <div class="md:w-6/12 md:pr-12 flex flex-col items-start">
+    <div class="md:w-6/12 flex flex-col items-start 2xl:ml-24">
       <a
         href="/"
         aria-label="Go home"
         title="Company"
         class="inline-flex items-center"
       >
-        <span class="text-xl font-bold tracking-wide uppercase">SWEET</span>
+        <span class="text-md lg:text-xl font-bold tracking-wide uppercase"
+          >SWEET</span
+        >
       </a>
       <div class="mt-2">
-        <p class="text-lg">
+        <p class="text-sm lg:text-lg">
           The SWEET research programme is funded by the National Institute for
           Health Research (NIHR) under the Programme Grants for Applied Research
           programme [NIHR200098].
@@ -23,9 +25,9 @@
     </div>
 
     <!-- Contacts Section -->
-    <div class="w-6/12 lg:pl-24">
-      <p class="text-xl font-bold tracking-wide">Contacts</p>
-      <div class="flex mt-2 text-lg">
+    <div class="w-6/12 lg:pl-32">
+      <p class="text-md mt-2 lg:text-xl font-bold tracking-wide">Contacts</p>
+      <div class="flex text-sm lg:text-lg">
         <p class="mr-1">Phone:</p>
         <a
           href="tel:850-123-5021"
@@ -33,7 +35,7 @@
           >850-123-5021</a
         >
       </div>
-      <div class="flex mt-2 text-lg">
+      <div class="flex text-sm lg:text-lg">
         <p class="mr-1">Email:</p>
         <a
           href="mailto:sweetstudy@newcastle.ac.uk"
@@ -45,16 +47,16 @@
   </div>
 
   <!-- Partner Images Section with CSS Grid -->
-  <div class="pt-8 rounded-lg w-full">
+  <div class="py-4 w-full bg-white">
     <div
-      class="flex bg-white justify-center items-center flex-wrap mx-auto py-2"
+      class="flex justify-center items-center flex-wrap mx-auto lg:w-[50%] py-2"
     >
       <!-- Partner images loop -->
-      {% for img in site.data.data.partners %}
+      {% for img in site.data.partners.logos %}
       <img
         src="{{ img.logoSrc }}"
         alt="Affiliation logo"
-        class="h-16 w-auto mx-auto my-2 rounded md:h-12 lg:h-16"
+        class="h-16 mx-auto my-4 rounded md:h-12 lg:h-24"
       />
       {% endfor %}
     </div>

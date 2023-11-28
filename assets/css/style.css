@@ -16,17 +16,12 @@ li {
 
 .btn {
   border-radius: 10px;
-  padding: 5px 10px 5px 10px;
+  padding: 10px 15px 10px 15px;
   font-size: 1.4rem;
-  border: 1px solid #633188;
-  color: #633188;
-  background-color: white;
+  color: white;
+  border: 4px solid white;
 }
 
-.btn:hover {
-  color: white;
-  background-color: #633188;
-}
 
 .btn2 {
   border-radius: 10px;
@@ -39,7 +34,7 @@ li {
 
 .btn2:hover {
   color: #633188;
-  border: 2px solid #633188;
+  border: 1px solid #633188;
   background-color: white;
 }
 
@@ -67,7 +62,10 @@ li {
   width: 100%;
   height: auto;
   object-fit: cover;
+  background-position: top;
 }
+
+
 
 @media (min-width: 1024px) {
   .content-container {
@@ -86,15 +84,6 @@ li {
   }
 }
 
-/* Your existing .btn styles */
-
-
-.paragraph-normal {
-  text-decoration-color: #1f2937;
-  font-size: 1.125rem;
-  /* 18px */
-  line-height: 2rem;
-}
 
 .app-wrapper {
   display: flex;
@@ -194,16 +183,11 @@ main {
 .content img {
   display: block;
   border-radius: 0.5rem;
-  width: 50%;
   max-width: 100%;
   height: auto;
-}
-
-.workstream-content img {
-  width: 75%;
+  width: 65%;
   margin: 2rem auto 2rem auto;
 }
-
 
 .text-primary {
   color: #633188 !important;
@@ -218,22 +202,39 @@ main {
 }
 
 .fill-primary {
-  fill: rgb(255, 222, 240) !important;
+  fill: #633188
 }
 
 .bg-secondary {
-  background-color: #633188 !important;
+  background: #633188;
+}
+
+.border-primary {
+  border: #633188 solid 1px;
+}
+
+.bg-gradient {
+  background: rgb(89, 44, 122);
+  background: linear-gradient(90deg, rgba(89, 44, 122, 1) 0%, rgba(99, 49, 136, 1) 50%, rgba(130, 90, 159, 1) 100%);
 }
 
 .bg-primary {
-  background-color: rgb(255, 222, 240) !important;
+  background-color: #633188;
 }
 
 .animate-marquee {
   animation: marquee 5s linear infinite;
 }
 
-/* workstream 1 styles */
+.polygon {
+  clip-path: polygon(100% 0%, 100% 100%, 0 100%, 10% 0);
+}
+
+/* workstream styles */
+.workstream-content img {
+  width: 75%;
+  margin: 2rem auto 2rem auto;
+}
 
 .workstream-img {
   height: 400px;
@@ -241,10 +242,7 @@ main {
 }
 
 .workstream-text {
-  /* width: 80%; */
-  /* margin: auto; */
   font-size: 2.25rem;
-
   line-height: 1.3;
   font-weight: 500;
 }
@@ -274,36 +272,17 @@ main {
       rgba(0, 0, 0, 0.8) 100%);
 }
 
-/* Workstream 2 styles */
-
-.workstream-2-img {
-  height: 250px !important;
-  flex: 0 0 250px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.text-styles {
-  font-weight: 300;
-}
-
 .my-container {
   padding-right: 8rem;
   padding-left: 8rem;
 }
+
 
 .imgAndDesc img {
   height: 250px;
   width: 250px;
   object-fit: cover;
 }
-
-/* @media (max-width: 768px) {
-  .my-container {
-    padding-left: 0;
-    padding-right: 0;
-  }
-} */
 
 /* Animation */
 
@@ -338,10 +317,7 @@ main {
     width: 100px;
   }
 
-  .my-container {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+
 }
 
 @media (min-width: 1900px) {
@@ -350,11 +326,107 @@ main {
   }
 
   .my-container {
+    width: 60% !important;
+    margin: auto;
+  }
+
+  .footer {
     width: 50% !important;
     margin: auto;
   }
 
   .workstream-img {
     height: 500px;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 850px) {
+  .section {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .content h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .my-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .btn {
+    border-radius: 10px;
+    padding: 8px 12px 8px 12px;
+    font-size: 1rem;
+    color: white;
+    border: 2px solid white;
+  }
+
+  .polygon {
+    clip-path: polygon(100% 0%, 100% 100%, 0 100%, 0 0);
+  }
+
+  .content h2 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .content h3 {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+  }
+
+  .section-content {
+    padding: 2rem;
+  }
+
+  .content img,
+  .workstream-content img {
+    width: 85%;
+  }
+
+  .workstream-text {
+    font-size: 1.75rem;
+    line-height: 1.2;
+    font-weight: 500;
+  }
+
+  .workstream-img {
+    height: auto;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .content {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .content h1 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .content h2 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .content h3 {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .section-content {
+    padding: 1rem;
+  }
+
+  .content img,
+  .workstream-content img {
+    width: 100%;
   }
 }

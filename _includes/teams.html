@@ -1,101 +1,109 @@
 <div class="mx-auto l:px-4 my-container">
-  <div>
-    <!-- Text center for all the child! Careful -->
-    {%include heading.html content="Meet the team!" id="team"
-    class="text-center" %}
-    <div class="my-8">
-      <div class="p-4 rounded-md my-4 bg-white">
-        <div class="w-[80%] mx-auto">
-          <p class="mt-4 paragraph-normal">
-            The SWEET programme is being led by academics from Newcastle and
-            Oxford Brookes Universities who are experts in cancer survivorship
-            research and adherence to hormone therapy. The wider research team
-            involves several other Universities and NHS Hospital Trusts and
-            includes breast cancer specialists (surgeons, oncologists, nurses,
-            dietician), a GP, a pharmacist, and researchers with expertise in
-            breast cancer studies, running trials, statistics and health
-            economics, and patient representatives.
-          </p>
-        </div>
+  <!-- Text center for all the child! Careful -->
+  {% include heading.html content="Meet the team!" id="team" class="text-center"
+  %}
+  <div class="my-8">
+    <div class="w-[80%] mx-auto">
+      {% capture team_content %}{% include_relative _sections/team.md %}{%
+      endcapture %}
+      <div class="mt-4 text-base lg:text-lg">
+        {{ team_content | markdownify }}
       </div>
     </div>
-    {% for category in site.data.data.teamMembers %}
-    <h2
-      class="text-3xl font-semibold tracking-tight text-prmary text-black mt-20 mb-8 text-center"
+  </div>
+  {% for category in site.data.team %}
+  <h2
+    class="text-3xl font-semibold tracking-tight text-primary mt-20 mb-8 text-center"
+  >
+    {{ category.categoryName }}
+  </h2>
+  <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+    {% for member in category.categoryData %}
+    <div
+      class="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-purple-800 focus-within:ring-offset-2 hover:border-gray-400"
     >
-      {{ category.categoryName }}
-    </h2>
+      {% if member.imageURL %}
+      <div class="flex-shrink-0">
+        <img
+          class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32"
+          src="{{ member.imageURL }}"
+          alt="{{ member.name }}"
+        />
+      </div>
+      {% endif %}
+      <div class="min-w-0 flex-1 pl-4">
+        <p class="text-base lg:text-lg font-medium text-gray-900">
+          {{ member.name }}
+        </p>
+        <p class="text-sm lg:text-base text-gray-500">{{ member.title }}</p>
+        <p class="text-sm lg:text-base text-gray-500">{{ member.jobTitle }}</p>
+        <p class="text-sm lg:text-base text-gray-500">
+          {{ member.affiliation }}
+        </p>
+        {% if member.url %}
+        <a
+          class="flex pt-2 text-sm lg:text-base text-gray-500 cursor-pointer underline hover:font-bold"
+          href="{{ member.url }}"
+          >Find out more</a
+        >
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+  <!-- PAG -->
+  <div class="my-12">
+    {% include heading.html content="Patient Advisory Group" class="text-center
+    mb-4" %}
+  </div>
+  {% for category in site.data.patientAdvisory %}
 
-    {% if category.loadFlex %}
-    <div class="flex justify-center gap-8">
-      {% else %}
+  <h2
+    class="text-3xl font-semibold tracking-tight text-primary mt-20 mb-8 text-center"
+  >
+    {{ category.categoryName }}
+  </h2>
+  {% if category.categoryName == "Patient Advisory Group Chairs" %}
+  <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+    {% else %}
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-4">
+      {% endif %} {% for member in category.categoryData %}
       <div
-        class="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 justify-items-center items-center"
+        class="relative flex items-start space-x-3 rounded-lg border border-gray-300 bg-white px-4 py-2 shadow-sm focus-within:ring-2 focus-within:ring-purple-800 focus-within:ring-offset-2 hover:border-gray-400"
       >
+        {% if member.imageURL %}
+        <div class="flex-shrink-0">
+          <img
+            class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32"
+            src="{{ member.imageURL }}"
+            alt="{{ member.name }}"
+          />
+        </div>
         {% endif %}
 
-        <!-- Each card -->
-        {% for member in category.categoryData %}
-        <div class="team-card-3 group relative">
-          <div class="w-full h-64 rounded-lg overflow-hidden">
-            <!-- prettier-ignore -->
-            <img
-            src="{{
-            member.imageURL
-            }}"
-            alt=""
-            class="w-full h-full object-center object-cover"
-          />
-          </div>
-          <h3 class="mt-4 text-lg font-medium text-gray-900">
+        <div class="min-w-0 flex-1">
+          <p class="text-base lg:text-xl font-medium text-gray-900">
             {{ member.name }}
-          </h3>
-          <p class="text-sm font-medium text-primary">Researcher</p>
-          <p class="mt-2 text-gray-800 text-lg">{{ member.blurb }}</p>
+          </p>
+          <p class="text-sm lg:text-base text-gray-500">{{ member.title }}</p>
+          <p class="text-sm lg:text-base text-gray-500">
+            {{ member.jobTitle }}
+          </p>
+          <p class="text-sm lg:text-base text-gray-500">
+            {{ member.affiliation }}
+          </p>
+          {% if member.url %}
+          <a
+            class="flex pt-2 text-sm lg:text-base text-gray-500 cursor-pointer underline hover:font-bold"
+            href="{{ member.url }}"
+            >Find out more</a
+          >
+          {% endif %}
         </div>
-        {% endfor %}
       </div>
-
-      <!-- prettier-ignore -->
       {% endfor %}
-
-      <!-- PAG -->
-      <div class="my-12">
-        {%include heading.html content="Patient Advisory Group" class =
-        "text-center mb-4" %}
-      </div>
-      <div class="bg-white border pt-20 rounded-md paragraph-normal">
-        <div class="w-[80%] m-auto">
-          <p class="mb-8">{{ site.data.data.patientAdvisory.description }}</p>
-          {% for categoryObject in site.data.data.patientAdvisory.membersData %}
-
-          <div class="my-16">
-            <h2 class="font-semibold text-3xl mb-4 text-center">
-              {{ categoryObject.categoryName }}
-            </h2>
-
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-              {% for person in categoryObject.categoryData %}
-              <div
-                class="p-4 shadow-sm bg-white rounded-md shadow-sm bg-secondary text-white"
-              >
-                <p class="font-semibold">
-                  <!-- prettier-ignore -->
-                  {{- person.name  -}}{% if person.designation %}
-                  <span class="font-normal text-white"
-                    >, {{ person.designation }}</span
-                  >
-                  {% endif %} {% if person.institution %}
-                </p>
-                <p class="text-sm text-white">{{ person.institution }}</p>
-                {% endif %}
-              </div>
-              {% endfor %}
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
     </div>
+    {% endfor %}
   </div>
 </div>

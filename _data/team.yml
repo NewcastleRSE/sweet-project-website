@@ -1,0 +1,58 @@
+# You can add extra categories by sticking to this format, just ensure each section has a categoryName and categoryData.
+- categoryName: Co-Lead Investigators
+  categoryData:
+    - name: Professor Linda Sharp
+      title: Co-Lead Investigator
+      jobTitle: Professor of Cancer Epidemiology
+      affiliation: Newcastle University
+      imageURL: /assets/images/Linda.jpg
+      url: https://www.ncl.ac.uk/medical-sciences/people/profile/lindasharp.html
+
+    - name: Professor Eila Watson
+      title: Co-Lead Investigator
+      jobTitle: Professor of Supportive Cancer Care
+      affiliation: Oxford Brookes University
+      imageURL: /assets/images/Eila.jpg
+      url: https://www.brookes.ac.uk/profiles/staff/eila-watson
+
+- categoryName: The Core Team
+  categoryData:
+    - name: Dr Jo Brett
+      title: Researcher/Co-applicant
+      affiliation: Oxford Brookes University
+      imageURL: "/assets/images/core-team/Jo-Brett.jpg"
+
+    - name: Miss Alice Longe
+      title: Clinical Trial Manager
+      affiliation: Warwick Clinical Trials Unit
+      imageURL: "/assets/images/core-team/Alice-Longe.jpg"
+
+    - name: Mr Phil Mawson
+      title: Research Project Manager
+      affiliation: Newcastle University
+      imageURL: "/assets/images/core-team/Phil-Mawson.jpg"
+
+    - name: Dr Lucy McGeagh
+      title: Researcher
+      affiliation: Oxford Brookes University
+      imageURL: "/assets/images/core-team/Lucy-McGeagh.png"
+
+    - name: Dr Ruth Norris
+      title: Researcher
+      affiliation: Newcastle University
+      imageURL: /assets/images/core-team/Ruth.jpg
+
+    - name: Dr Sarah-Jane Stewart
+      title: Researcher
+      affiliation: University College London
+      imageURL: /assets/images/core-team/Sarah.png
+
+    - name: Mrs Sue Thompson
+      title: Research Administrator
+      affiliation: Newcastle University
+      imageURL: /assets/images/core-team/Sue-Thompson.jpg
+
+    - name: Professor Mary Wells
+      title: Research / Co-applicant
+      affiliation: Imperial College Healthcare NHS Trust
+      imageURL: /assets/images/core-team/Mary.jpg
