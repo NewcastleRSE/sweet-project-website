@@ -1,22 +1,25 @@
 <div>
   <div class="section pb-8 border-b">
     <div class="workstream-container relative">
+      {% if include.workstream.image %}
       <h2
         class="text-lg lg:text-4xl font-md rounded-sm mb-4 bg-primary mb-4 text-white text-white py-1 pl-3 pr-4 lg:pr-12 w-max max-w-2xl rounded-sm workstream-heading absolute top-4 lg:top-8 z-10 w-1/2"
         id="workstream"
       >
-        {{ include.workstream.number }}
+        {% endif %} {{ include.workstream.number }}
       </h2>
+      {% if include.workstream.image %}
       <div class="workstream-img-wrapper relative mb-4 rounded-lg">
         <img
-          src="{{include.workstream.image  }}"
+          src="{{ include.workstream.image }}"
           class="workstream-img md:w-full rounded-lg"
-          alt="{{include.workstream.title }}"
+          alt="{{ include.workstream.title }}"
         />
         <div
           class="workstream-img-overlay absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-black mb-4"
         ></div>
       </div>
+      {% endif %}
       <h2 class="workstream-text mb-4 tracking-tight text-primary">
         {{ include.workstream.title }}
       </h2>
