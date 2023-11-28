@@ -21,6 +21,7 @@
       title: Researcher/Co-applicant
       affiliation: Oxford Brookes University
       imageURL: "/assets/images/core-team/Jo-Brett.jpg"
+      url: https://www.brookes.ac.uk/profiles/staff/jo-brett
 
     - name: Miss Alice Longe
       title: Clinical Trial Manager
@@ -31,21 +32,25 @@
       title: Research Project Manager
       affiliation: Newcastle University
       imageURL: "/assets/images/core-team/Phil-Mawson.jpg"
+      url: https://www.ncl.ac.uk/medical-sciences/people/profile/philmawson.html
 
     - name: Dr Lucy McGeagh
       title: Researcher
       affiliation: Oxford Brookes University
       imageURL: "/assets/images/core-team/Lucy-McGeagh.png"
+      url: https://www.brookes.ac.uk/profiles/staff/lucy-mcgeagh
 
     - name: Dr Ruth Norris
       title: Researcher
       affiliation: Newcastle University
       imageURL: /assets/images/core-team/Ruth.jpg
+      url: https://www.ncl.ac.uk/medical-sciences/people/profile/ruthnorris.html
 
     - name: Dr Sarah-Jane Stewart
       title: Researcher
       affiliation: University College London
       imageURL: /assets/images/core-team/Sarah.png
+      url: https://profiles.ucl.ac.uk/87338
 
     - name: Mrs Sue Thompson
       title: Research Administrator
@@ -56,3 +61,4 @@
       title: Research / Co-applicant
       affiliation: Imperial College Healthcare NHS Trust
       imageURL: /assets/images/core-team/Mary.jpg
+      url: https://www.imperial.ac.uk/people/mary.wells

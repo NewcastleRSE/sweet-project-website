@@ -11,7 +11,9 @@ Click the pencil on the right of the screen.
 Make any changes you want to make.
 Click preview to see if everything looks as it should.
 If you're happy with the changes - press Commit changes, the green button on the right.
-A popup will open, enure it says 'pushing direclick the Commit changes button again.
+A popup will open, enure 'Commit directly to the main branch' is selected.
+Click the Commit changes button.
+The website will redeploy with your changes, you should be able to see them within a few minutes.
 
 ## Workstream guides
 
