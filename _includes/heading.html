@@ -1,16 +1,7 @@
-{% if include.class %}
-<h2
-  class="text-4xl font-extrabold tracking-tight text-primary {{ include.class }}"
-  id="{{ include.id }}"
->
-  {{ include.content }}
-</h2>
+<div id="{{include.id}}" class="lg:mb-24 h-2"></div>
 
-{% else %}
 <h2
-  class="mb-4 text-4xl font-extrabold tracking-tight text-primary {{ include.class }}"
-  id="{{ include.id }}"
+  class=" text-center mb-8 lg:mb-12 pt-12 text-3xl lg:text-5xl font-extrabold tracking-tight text-primary {{ include.class }}"
 >
   {{ include.content }}
 </h2>
-{% endif %}

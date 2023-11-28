@@ -1,62 +1,32 @@
-<!-- <div>
-  <div
-    class="bg-center bg-cover w-full h-screen"
-    style="
-      background-image: url(https://unsplash.com/photos/9UVmlIb0wJU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8Nnx8d29tZW58ZW58MHx8fHwxNjgwNzg3Mzc4&force=true);
-    "
-  >
-    <div
-      class="flex justify-center w-full h-full bg-purple-800 bg-opacity-70 py-12"
-    >
-      <h2 class="text-5xl text-white text-bold">
-        Welcome to the sweet project
-      </h2>
+<div class="relative border-y shadow-sm mt-[113px]">
+  <div class="max-w-screen">
+    <div class="relative z-0 bg-gradient">
+      <div
+        class="relative z-0 w-full h-full bg-transparent px-6 py-12 lg:py-32 sm:py-40 lg:px-8 lg:py-56 2xl:pl-[10rem]"
+      >
+        <div class="space-y-6 mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
+          <h1
+            class="text-3xl lg:text-4xl font-bold tracking-tight text-white sm:text-6xl"
+          >
+            {{ include.title }}
+          </h1>
+          <p class="text-base lg:text-xl text-white leading-8 text-paragraph">
+            {{ include.description }}
+          </p>
+          <div class="flex items-center gap-x-6">
+            <a href="{{ include.ctaHref }}" class="btn">{{ include.cta }}</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div> -->
-
-<div class="relative min-h-screen mb-20">
-  {% if include.page=="workstreams" %}
-
   <div
-    class="absolute inset-0 bg-center bg-cover z-0 rounded-lg"
-    style="background-image: url({{site.baseurl}}/assets/images/workstreams.jpg)"
-  ></div>
-
-  {% else %}
-  <div
-    class="absolute inset-0 bg-center bg-cover z-0 rounded-lg"
-    style="background-image: url({{site.baseurl}}/assets/images/hero1.png)"
-  ></div>
-  {% endif %}
-  <div
-    class="absolute inset-0 bg-opacity-50 bg-black z-10 flex flex-col items-center justify-center gap-8"
+    class="bg-gray-50 z-100 lg-max-w-50% polygon lg:absolute lg:inset-y-0 lg:right-0 lg:w-7/12"
   >
-    <div
-      class="flex flex-col items-center justify-center gap-8 lg:w-1/2 md:w-50"
-    >
-      <h2 class="text-5xl text-white font-bold text-center px-6">
-        {{include.title}}
-      </h2>
-
-      <p class="text-white leading-10 text-2xl px-2">
-        {{ include.description }}
-      </p>
-      <p class="text-white leading-8 text-xl">
-        The programme includes a feasibility study, followed by a randomised
-        controlled trial comparing the influence of the HT&Me intervention,
-        versus routine care, on adherence to hormone therapy and quality of
-        life. We are also exploring whether the HT&Me intervention is cost
-        effective and are developing a plan for how it could be scaled-up in the
-        NHS.
-      </p>
-
-      <a
-        class="btn bg-primary text-white font-bold text-xl px-4 py-3 rounded"
-        href="{{include.ctaHref}}"
-      >
-        {{include.cta}}
-      </a>
-    </div>
+    <img
+      class="hero-image aspect-[3/2] object-cover bg-left-top lg:aspect-auto lg:h-full lg:w-full"
+      src="{{site.baseurl}}/assets/images/hero1.png"
+      alt=""
+    />
   </div>
 </div>

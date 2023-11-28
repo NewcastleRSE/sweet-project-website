@@ -7,31 +7,20 @@ title: Home Page
   <div class="app-wrapper">
     <!-- prettier-ignore -->
     {% include navbar.html %}
-
-    <!-- Hero -->
-    <!-- prettier-ignore -->
-    {% include hero.html title= site.data.data.heroSection.title cta =
-    site.data.data.heroSection.ctaText ctaHref = "#program" description =
-    site.data.data.heroSection.blurb %}
-
-    <!-- prettier-ignore -->
-    {% include program.html includeCta=true
-    %}
-
-    
-    
-    {% include updates.html %}
-    {% include teams3.html %}
-
-    {% include News2.html %}
-
-    <!-- prettier-ignore -->
-
-    <!-- prettier-ignore -->
-
-    {% include affiliations.html %}
-    {% include
-    footer.html %}
+    <main>
+      <!-- Hero -->
+      <!-- prettier-ignore -->
+      {% include hero.html title = site.data.hero.title cta =
+      site.data.hero.btnText ctaHref = site.data.hero.sendTo description =
+      site.data.hero.blurb %}
+      {% include programme.html %}
+      {% include workstreams.html %}
+      {% include updates.html %}
+      {% include teams.html %}
+      {% include HTAndMe.html %}
+      {% include contact.html %}
+    </main>
+    <footer>{% include footer.html %}</footer>
   </div>
   <script src="script.js"></script>
 </body>

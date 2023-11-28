@@ -1,0 +1,96 @@
+- categoryName: Patient Advisory Group Chairs
+  categoryData:
+    - name: Jan Rose
+      title: PAG co-chair
+
+    - name: Mrs Lesley Turner
+      title: PAG co-chair
+
+- categoryName: Patient Advisory Group Members
+  categoryData:
+    - name: Akos Adu
+    - name: Mrs Jan Backhouse
+    - name: Sue Bailey
+    - name: Jane Coogan
+    - name: Ms Birgit Cloos
+    - name: Rosemary Dooley
+    - name: Helen Howitt
+    - name: Mrs Valerie Jones
+    - name: Mrs Sue Lightfoot
+    - name: Kerry McNamee
+    - name: Dr Adrienne Morgan
+
+- categoryName: The wider research team
+  categoryData:
+    - name: Mr Henry Cain
+      title: Collaborator
+      affiliation: Consultant Oncoplastic Breast Surgeon, Newcastle Upon Tyne Hospital NHS Foundation Trust
+    - name: Dr Caitriona Cahir
+      title: Co-applicant
+      affiliation: Lecturer, Data Science Centre, School of Population Health, Royal College of Surgeons in Ireland
+    - name: Helen Dakin
+      title: Collaborator
+      affiliation: Health Economist, University of Oxford
+    - name: Mr Peter Donnelly
+      title: Co-applicant
+      affiliation: Honorary Research Consultant and retired Breast Surgeon to Torbay and South Devon NHS Foundation Trust
+    - name: Professor Janet Dunn
+      title: Co-applicant
+      affiliation: Professor of Clinical Trials and Head of cancer trials at Warwick Clinical Trials Unit at Warwick Medical School
+    - name: Professor Debbie Fenlon
+      title: Co-applicant
+      affiliation: Professor of Nursing, Swansea University
+    - name: Dr Victoria Harmer
+      title: Collaborator
+      affiliation: Consultant Breast Nurse, Imperial College Healthcare NHS Trust
+    - name: Louise Hiller
+      title: Collaborator
+      affiliation: Associate Professor in Medical Statistics, University of Warwick
+    - name: Professor Rob Horne
+      title: Co-applicant
+      affiliation: Professor of Behavioural Medicine, University College London
+    - name: Dr Lyndsey Hughes
+      title: Co-applicant
+      affiliation: Senior Lecturer in Health Psychology, King’s College London
+    - name: Dr Alex King
+      title: Collaborator
+      affiliation: Consultant Clinical Psychologist & Lead for Psycho-Oncology, Imperial College Healthcare NHS Trust
+    - name: Sally Kum
+      title: Collaborator
+      affiliation: Associate Director of Nursing and Health Information, Breast Cancer Now
+    - name: Dr Nicky Levitt
+      title: Collaborator
+      affiliation: Consultant in Medical Oncology, Oxford University Hospitals NHS Foundation Trust
+    - name: Professor Colin McCowan
+      title: Collaborator
+      affiliation: Professor in Health Data Science, University of St Andrews
+    - name: Dr Zoe Moon
+      title: Collaborator
+      affiliation: Senior Research Fellow, University College London
+    - name: Dr Brian Nicholson
+      title: Co-applicant
+      affiliation: NIHR Academic Clinical Lecturer Nuffield Department of Primary Care Health Sciences, University of Oxford
+    - name: Dr Farah Rehman
+      title: Collaborator
+      affiliation: Consultant Medical Oncologist and Honorary Clinical Senior Lecturer, Imperial College Healthcare NHS Trust
+    - name: Jan Rose
+      title: Co-applicant
+      affiliation: NCRI- National Cancer Research Institute
+    - name: Sam Smith
+      title: Collaborator
+      affiliation: Associate Professor, University of Leeds
+    - name: Dr Adam Todd
+      title: Co-applicant
+      affiliation: Reader in Pharmaceutical Public Health, Newcastle University
+    - name: Lesley Turner
+      title: Co-applicant
+      affiliation: Independent Cancer Patients’ Voice
+    - name: Mr Simon Vincent
+      title: Collaborator
+      affiliation: Director of Research, Support and Influencing at Breast Cancer Now, Breast Cancer Now
+    - name: Professor Andrew Wardley
+      title: Co-applicant
+      affiliation: CEO & Medical Director of Outreach Research & Innovation Group. Co-Founder Manchester Breast Centre. NHS Consortium Technical Advisor.
+    - name: Dr Jane Wolstenholme
+      title: Co-applicant
+      affiliation: Associate Professor of Health Economics, University of Oxford

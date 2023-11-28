@@ -1,9 +1,17 @@
-<header class="sticky top-0 z-[100]">
+<header class="w-screen fixed bg-white top-0 z-[100]">
   <nav
-    class="navbar px-4 sticky top-0 bg-white shadow-lg flex justify-between navbar-light navbar-expand-lg"
+    class="navbar px-4 border-b bg-white flex justify-between navbar-light navbar-expand-lg"
   >
-    <a class="nav-item" href="/">
-      <img src="{{site.baseurl}}/assets/images/logo1.png" class="brand-img" />
+    <a class="nav-item flex flex-row items-center" href="/">
+      <img
+        src="{{site.baseurl}}/assets/images/cropped-logo.png"
+        class="brand-img w-22 h-22 lg:w-28 lg:h-28 p-2"
+      />
+      <h1
+        class="text-3xl lg:text-4xl ml-4 text-primary font-bold tracking-wide uppercase"
+      >
+        SWEET
+      </h1>
     </a>
     <button
       class="navbar-toggler"
@@ -17,31 +25,14 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="flex items-center justify-between gap-6 hidden md:flex">
-      <a href="/workstreams"
-         class="nav-link mx-2 px-2 py-2 font-medium hover:text-violet-900"
-        >Programme</a
-      >
-      <a
-        href="/#updates"
-        class="nav-link mx-2 py-2 px-3 font-medium hover:text-violet-900"
-        >Updates</a
-      >
-      <a
-        href="/#team"
-        class="nav-link mx-2 py-2 px-3 font-medium hover:text-violet-900"
-        >Team</a
-      >
-      <a
-        href="/#news"
-        class="nav-link mx-2 py-2 px-3 font-medium hover:text-violet-900"
-        >News</a
-      >
-      <a
-        href="mailto:sweetstudy@newcastle.ac.uk"
-        class="nav-link mx-2 py-2 px-3 font-medium hover:text-violet-900"
-        >Contact</a
-      >
+    <div
+      class="flex text-lg lg:text-2xl items-center justify-between gap-0 lg:gap-6 hidden md:flex"
+    >
+      <a href="/#programme" class="nav-link">Programme</a>
+      <a href="/#team" class="nav-link">Team</a>
+      <a href="/#updates" class="nav-link">Updates</a>
+      <a href="/#htandme" class="nav-link">HT&Me</a>
+      <a href="/#contact" class="nav-link">Contact</a>
     </div>
   </nav>
   <!-- <div class="px-4">

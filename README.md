@@ -12,10 +12,10 @@ Professor Eila Watson, Oxford Brookes University([ewatson@brookes.ac.uk](mailto:
 
 ### RSE Contact
 
-C. Adipiscing  
+Mark Turner
 RSE Team  
 Newcastle University  
-([consectetur.adpiscing@newcastle.ac.uk](mailto:consectetur.adpiscing@newcastle.ac.uk))
+([mark.turner@newcastle.ac.uk](mailto:mark.turner@newcastle.ac.uk))
 
 ## Built With
 
@@ -27,6 +27,20 @@ This project is built with Jekyll and Tailwind CSS
 ## Getting Started
 
 This is the repository for The SWEET Project. The majority of data that's being displayed on the website can be edited using the "data.yml" file.
+
+## Running the project locally
+
+1. Git clone the repo to your local machine.
+2. Install Ruby globally, if you have already installed Ruby then skip to step 6. If you're having permissions issues on step 9 then uninstall Ruby and continue from here. I'd recommend installing [chruby](https://github.com/postmodern/chruby) and [ruby-install](https://github.com/postmodern/ruby-install) over just Ruby. This gives you more freedom to switch between versions and fixes a lot of permission issues you could possibly have with Ruby. To install with homebrew, run `brew install chruby ruby-install`.
+3. Install the latest stable ruby version `ruby-install --latest ruby`.
+4. If you're not using macOS then add these lines `source /usr/local/share/chruby/chruby.sh` to your shell of choice. If you are using macOS, add these lines `source /opt/homebrew/opt/chruby/share/chruby/chruby.sh source` `/opt/homebrew/opt/chruby/share/chruby/auto.sh` to your shell of choice. If you're using bash, it should be ~/.bash_profile (or ~/.bashrc on some systems). If you're using zsh, it should be ~/.zshrc. Save changes and restart the terminal. These just enable chruby commands to be run in your shell.
+5. Run `ls /opt/homebrew/opt/chruby/share/chruby/chruby.sh ls /opt/homebrew/opt/chruby/share/chruby/auto.sh` to check these lines exist.
+6. Open the repo folder in your IDE of choice.
+7. Open the terminal. Ensure the terminal is pointing to your repo directory.
+8. If you completed step 2, run `chruby 3.2.2`, else skip this step. 3.2.2 is the latest stable release at the time of writing this and the version of ruby that was installed during step 3. You can check it's the most up to date release [here](https://www.ruby-lang.org/en/downloads/releases/) or by running `ruby-install -U`. Just replace 3.2.2 with the version that was installed during step 3.
+9. Run `gem install jekyll bundler`.
+10. Run `bundle install`.
+11. Run `bundle exec jekyll serve` to start the project locally at locahost:4000.
 
 #### Location of the data file
 
@@ -71,7 +85,7 @@ img
 
 1. Visit the github URL and locate the data.yml file.
 
-<pre>The file can be found by clicking on _data and then cliking on data.yml file</pre>
+<pre>The file can be found by clicking on _data and then clicking on data.yml file</pre>
 
 2. Once file is open in github, Click on the **edit icon** on the right hand side. The file should now be editable.
 
