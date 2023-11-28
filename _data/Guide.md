@@ -1,8 +1,10 @@
+# Guide to .yml files
+
 - These .yml files contain data which feeds into the website.
 - You can change the data within these files but ensure you keep the spacing and format the same.
 - Lets look at an example of how to add information
 
-\_data/team.yml
+### \_data/team.yml
 
 - categoryName: Co-Lead Investigators
   categoryData:
