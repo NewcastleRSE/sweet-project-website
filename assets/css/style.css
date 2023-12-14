@@ -180,6 +180,10 @@ main {
   text-decoration: underline;
 }
 
+.content details summary {
+  cursor: pointer;
+}
+
 .content img {
   display: block;
   border-radius: 0.5rem;
