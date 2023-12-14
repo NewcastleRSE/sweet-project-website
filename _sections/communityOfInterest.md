@@ -1,0 +1,1 @@
+We have also set up a Community of Interest, a group of 28 women who have previously had breast cancer and have been prescribed hormone therapy. They advise us on an ad hoc basis, via email, on a range of topics such as real-life hints and tips for dealing with side-effects, for inclusion on the HT&Me website.

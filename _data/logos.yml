@@ -1,13 +1,15 @@
 # To add another logo to the project you can add the image into the /assets/images/logos folder and then add the new file name to this list. Simply copy the last item and change the name and image extension.
 logos:
   - logoSrc: /assets/images/logos/BCN.png
+  - logoSrc: /assets/images/logos/ICH.png
   - logoSrc: /assets/images/logos/ICPV.jpg
+  - logoSrc: /assets/images/logos/KCL.png
   - logoSrc: /assets/images/logos/NIHR.jpg
   - logoSrc: /assets/images/logos/NU.jpg
-  - logoSrc: /assets/images/logos/UCL.png
-  - logoSrc: /assets/images/logos/OB.jpg
-  - logoSrc: /assets/images/logos/UofW.png
-  - logoSrc: /assets/images/logos/KCL.png
   - logoSrc: /assets/images/logos/NUTH.png
-  - logoSrc: /assets/images/logos/ICH.png
+  - logoSrc: /assets/images/logos/OB.jpg
+  - logoSrc: /assets/images/logos/RCSI.png
   - logoSrc: /assets/images/logos/TSD.jpg
+  - logoSrc: /assets/images/logos/UCL.png
+  - logoSrc: /assets/images/logos/UofO.png
+  - logoSrc: /assets/images/logos/UofW.png
