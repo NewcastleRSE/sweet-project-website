@@ -9,45 +9,34 @@
 - categoryName: Patient Advisory Group Members
   categoryData:
     - name: Mrs Jan Backhouse
+      description: As a breast cancer survivor, I know how important it is to have comprehensive help available easily. It is absolutely useful in supporting our health journey.
     - name: Ms Birgit Cloos
+      description: Having run breast support groups, I’ve met many ladies unable to get appropriate hormone therapy support. A website like this is an oasis in the desert, and will be valued!
     - name: Rosemary Dooley
+      description: I have had breast cancer and struggled with severe endocrine therapy side effects. I feel my experience has enabled me to help others through contributing to this research.
     - name: Helen Howitt
+      description: After 30 years in Clinical Research I wanted to give back after my own diagnosis, having learnt how critical supporting patients with their medication is.
     - name: Mrs Valerie Jones
+      description: I am a breast cancer patient.  Being a PAG member I am proud to have assisted in giving women clear information and easy to use tools for their hormone therapy journey.
     - name: Mrs Sue Lightfoot
+      description:
     - name: Dr Adrienne Morgan
+      description: I might not have retired if this resource had been available after my diagnosis in 2005 - insomnia, hot flushes, sexual dysfunction! I am so proud to be part of the team.
 
-- categoryName: The wider research team
+- categoryName: SWEET Collaborators
   categoryData:
     - name: Mr Henry Cain
       title: Collaborator
       affiliation: Consultant Oncoplastic Breast Surgeon, Newcastle Upon Tyne Hospital NHS Foundation Trust
-    - name: Dr Caitriona Cahir
-      title: Co-applicant
-      affiliation: Lecturer, Data Science Centre, School of Population Health, Royal College of Surgeons in Ireland
     - name: Helen Dakin
       title: Collaborator
       affiliation: Health Economist, University of Oxford
-    - name: Mr Peter Donnelly
-      title: Co-applicant
-      affiliation: Honorary Research Consultant and retired Breast Surgeon to Torbay and South Devon NHS Foundation Trust
-    - name: Professor Janet Dunn
-      title: Co-applicant
-      affiliation: Professor of Clinical Trials and Head of cancer trials at Warwick Clinical Trials Unit at Warwick Medical School
-    - name: Professor Debbie Fenlon
-      title: Co-applicant
-      affiliation: Professor of Nursing, Swansea University
     - name: Dr Victoria Harmer
       title: Collaborator
       affiliation: Consultant Breast Nurse, Imperial College Healthcare NHS Trust
     - name: Dr Louise Hiller
       title: Collaborator
       affiliation: Associate Professor in Medical Statistics, University of Warwick
-    - name: Professor Rob Horne
-      title: Co-applicant
-      affiliation: Professor of Behavioural Medicine, University College London
-    - name: Dr Lyndsey Hughes
-      title: Co-applicant
-      affiliation: Senior Lecturer in Health Psychology, King’s College London
     - name: Dr Alex King
       title: Collaborator
       affiliation: Consultant Clinical Psychologist & Lead for Psycho-Oncology, Imperial College Healthcare NHS Trust
@@ -63,27 +52,48 @@
     - name: Dr Zoe Moon
       title: Collaborator
       affiliation: Senior Research Fellow, University College London
-    - name: Dr Brian Nicholson
-      title: Co-applicant
-      affiliation: NIHR Academic Clinical Lecturer Nuffield Department of Primary Care Health Sciences, University of Oxford
     - name: Dr Farah Rehman
       title: Collaborator
       affiliation: Consultant Medical Oncologist and Honorary Clinical Senior Lecturer, Imperial College Healthcare NHS Trust
+    - name: Professor Sam Smith
+      title: Collaborator
+      affiliation: Associate Professor, University of Leeds
+    - name: Mr Simon Vincent
+      title: Collaborator
+      affiliation: Director of Research, Support and Influencing at Breast Cancer Now, Breast Cancer Now
+
+- categoryName: SWEET Co-applicants
+  categoryData:
+    - name: Dr Caitriona Cahir
+      title: Co-applicant
+      affiliation: Lecturer, Data Science Centre, School of Population Health, Royal College of Surgeons in Ireland
+    - name: Mr Peter Donnelly
+      title: Co-applicant
+      affiliation: Honorary Research Consultant and retired Breast Surgeon to Torbay and South Devon NHS Foundation Trust
+    - name: Professor Janet Dunn
+      title: Co-applicant
+      affiliation: Professor of Clinical Trials and Head of cancer trials at Warwick Clinical Trials Unit at Warwick Medical School
+    - name: Professor Debbie Fenlon
+      title: Co-applicant
+      affiliation: Professor of Nursing, Swansea University
+    - name: Professor Rob Horne
+      title: Co-applicant
+      affiliation: Professor of Behavioural Medicine, University College London
+    - name: Dr Lyndsey Hughes
+      title: Co-applicant
+      affiliation: Senior Lecturer in Health Psychology, King’s College London
+    - name: Dr Brian Nicholson
+      title: Co-applicant
+      affiliation: NIHR Academic Clinical Lecturer Nuffield Department of Primary Care Health Sciences, University of Oxford
     - name: Jan Rose
       title: Co-applicant
       affiliation: NCRI- National Cancer Research Institute
-    - name: Dr Sam Smith
-      title: Collaborator
-      affiliation: Associate Professor, University of Leeds
-    - name: Dr Adam Todd
+    - name: Professor Adam Todd
       title: Co-applicant
       affiliation: Reader in Pharmaceutical Public Health, Newcastle University
     - name: Mrs Lesley Turner
       title: Co-applicant
       affiliation: Independent Cancer Patients’ Voice
-    - name: Mr Simon Vincent
-      title: Collaborator
-      affiliation: Director of Research, Support and Influencing at Breast Cancer Now, Breast Cancer Now
     - name: Professor Andrew Wardley
       title: Co-applicant
       affiliation: CEO & Medical Director of Outreach Research & Innovation Group. Co-Founder Manchester Breast Centre. NHS Consortium Technical Advisor.
