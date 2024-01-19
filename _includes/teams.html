@@ -24,11 +24,21 @@
     >
       {% if member.imageURL %}
       <div class="flex-shrink-0">
+        {% if member.url %}
+        <a href="{{ member.url }}">
+          <img
+            class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32"
+            src="{{ member.imageURL }}"
+            alt="{{ member.name }}"
+          />
+        </a>
+        {% else %}
         <img
           class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32"
           src="{{ member.imageURL }}"
           alt="{{ member.name }}"
         />
+        {% endif %}
       </div>
       {% endif %}
       <div class="min-w-0 flex-1 pl-4">
@@ -41,15 +51,6 @@
           {{ member.affiliation }}
         </p>
       </div>
-      {% if member.url %}
-      <a href="{{ member.url }}" class="inline-block mt-2">
-        <img
-          src="/assets/images/user-profile.jpg"
-          alt="Profile link"
-          class="h-6 w-6 2xl:h-8 2xl:w-8 inline hover:underline"
-        />
-      </a>
-      {% endif %}
     </div>
     {% endfor %}
   </div>

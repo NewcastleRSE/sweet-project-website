@@ -18,7 +18,7 @@
 - categoryName: The Core Team
   categoryData:
     - name: Dr Jo Brett
-      title: Researcher/Co-applicant
+      title: Reader
       affiliation: Oxford Brookes University
       imageURL: "/assets/images/core-team/Jo.jpg"
       url: https://www.brookes.ac.uk/profiles/staff/jo-brett
@@ -35,19 +35,19 @@
       url: https://www.ncl.ac.uk/medical-sciences/people/profile/philmawson.html
 
     - name: Dr Lucy McGeagh
-      title: Researcher
+      title: Senior Research Fellow
       affiliation: Oxford Brookes University
       imageURL: "/assets/images/core-team/Lucy-McGeagh.jpg"
       url: https://www.brookes.ac.uk/profiles/staff/lucy-mcgeagh
 
     - name: Dr Ruth Norris
-      title: Researcher
+      title: Research Associate
       affiliation: Newcastle University
       imageURL: /assets/images/core-team/Ruth.jpg
       url: https://www.ncl.ac.uk/medical-sciences/people/profile/ruthnorris.html
 
     - name: Dr Sarah-Jane Stewart
-      title: Researcher
+      title: Research Fellow
       affiliation: University College London
       imageURL: /assets/images/core-team/Sarah.jpeg
       url: https://profiles.ucl.ac.uk/87338
@@ -58,7 +58,7 @@
       imageURL: /assets/images/core-team/Sue-Thompson.jpg
 
     - name: Professor Mary Wells
-      title: Research / Co-applicant
+      title: Professor of Practice in Cancer Nursing
       affiliation: Imperial College Healthcare NHS Trust
       imageURL: /assets/images/core-team/Mary.jpg
       url: https://www.imperial.ac.uk/people/mary.wells
