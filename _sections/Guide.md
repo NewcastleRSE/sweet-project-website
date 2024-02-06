@@ -17,7 +17,7 @@ The website will redeploy with your changes, you should be able to see them with
 
 ## Workstream guides
 
-If you want to add another workstream you can do so in the \_workstream file. Copy and paste one of the existing ones and renaming it such that it increments up one from the previous highest workstream. You do not have to include an image and workstream number but should include a title.
+If you want to add another workstream you can do so in the \_workstream file. Copy and paste one of the existing ones and rename it such that it increments up one from the previous highest workstream. You do not have to include an image and workstream number but should include a title.
 
 ## Sections
 
