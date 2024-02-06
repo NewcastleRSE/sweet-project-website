@@ -1,4 +1,4 @@
-he SWEET research programme will develop and investigate the effectiveness of a support package (HT&Me) to support adherence to hormone therapy and improve quality of life for women with early breast cancer.
+The SWEET research programme will develop and investigate the effectiveness of a support package (HT&Me) to support adherence to hormone therapy and improve quality of life for women with early breast cancer.
 
 The HT&Me support package includes:
 
