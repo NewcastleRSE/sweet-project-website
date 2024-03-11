@@ -1,6 +1,6 @@
 ---
 number: Workstream 3
-title: Workstream 3 - Randomised control trial (RCT)
+title: Evaluation of intervention effectiveness in reducing poor adherence and improving HRQoL in pragmatic RCT
 image: /assets/images/workstreams/workstream3.png
 ---
 
