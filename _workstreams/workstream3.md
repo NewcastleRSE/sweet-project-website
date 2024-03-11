@@ -1,6 +1,6 @@
 ---
 number: Workstream 3
-title: Evaluation of intervention effectiveness in reducing poor adherence and improving HRQoL in pragmatic RCT
+title: Workstream 3 - Randomised control trial
 image: /assets/images/workstreams/workstream3.png
 ---
 
