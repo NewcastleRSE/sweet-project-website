@@ -1,4 +1,7 @@
 # To add another logo to the project you can add the image into the /assets/images/logos folder and then add the new file name to this list. Simply copy the last item and change the name and image extension.
+
+We are working with the following organisations as partners
+
 logos:
   - logoSrc: /assets/images/logos/BCN.png
   - logoSrc: /assets/images/logos/ICPV.jpg
