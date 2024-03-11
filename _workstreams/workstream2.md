@@ -1,6 +1,6 @@
 ---
 number: Workstream 2
-title: Feasibility Study
+title: Workstream 2 - Feasibility study
 image: /assets/images/workstreams/workstream2.png
 ---
 
