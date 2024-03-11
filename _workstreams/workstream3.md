@@ -1,6 +1,6 @@
 ---
 number: Workstream 3
-title: Workstream 3 - Randomised control trial
+title: Workstream 3 - Randomised control trial (RCT)
 image: /assets/images/workstreams/workstream3.png
 ---
 
