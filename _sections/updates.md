@@ -41,13 +41,13 @@ The SWEET team have presented, or will be presenting, findings from the programm
 
 Publications from the SWEET programme so far:
 
-- <b>[“Development of the HT&Me intervention to support women with breast cancer to adhere to adjuvant endocrine therapy and improve quality of life.”](https://www.sciencedirect.com/science/article/pii/S0960977623005039)</b> Stewart et al. 2023. The Breast.
+- <b>Development of the HT&Me intervention to support women with breast cancer to adhere to adjuvant endocrine therapy and improve quality of life.</b> Stewart et al. 2023. <em>The Breast</em>. [Click here to read](https://www.sciencedirect.com/science/article/pii/S0960977623005039)
 
   Lay summary:
 
   The HT&Me intervention was created to help women with ER+ breast cancer take their hormone therapy, and also improve their overall quality of life. It was created with involvement and input from lots of people with varied backgrounds – including women with breast cancer, researchers and medical experts. HT&Me includes appointments with a trained nurse, a short video, the HT&Me website, and motivational text/email messages to help women to manage their treatment. We tested this with a small number of women taking hormone therapy for their breast cancer and made improvements based on feedback to make sure that HT&Me is practical and acceptable. We are testing the HT&Me intervention in future larger studies to see if it works well and is cost effective.
 
-- <b>["Informing interventions to improve uptake of adjuvant endocrine therapy in women with breast cancer: a theoretical-based examination of modifiable influences on non-adherence.”](https://pubmed.ncbi.nlm.nih.gov/36869943/)</b> Cahir et al. 2023, Supportive Cancer Care.
+- <b>Informing interventions to improve uptake of adjuvant endocrine therapy in women with breast cancer: a theoretical-based examination of modifiable influences on non-adherence.</b> Cahir et al. 2023. <em>Supportive Cancer Care</em>. [Click here to read](https://pubmed.ncbi.nlm.nih.gov/36869943/)
 
   Lay summary:
 
