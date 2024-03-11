@@ -1,6 +1,6 @@
 ---
 number: Workstream 2
-title: Intervention Development & Optimisation
+title: Feasibility Study
 image: /assets/images/workstreams/workstream2.png
 ---
 
