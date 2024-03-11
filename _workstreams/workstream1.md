@@ -12,4 +12,4 @@ The diagram below provides an overview of the support package development, desig
 
 ![PPIDiagram](/assets/images/PPIDiagram.png)
 
-Workstream 1 is complete, and the development process has been published: [Science Direct](https://www.sciencedirect.com/science/article/pii/S0960977623005039)
+Workstream 1 is complete, and the development process has been published: [Click Here to read](https://www.sciencedirect.com/science/article/pii/S0960977623005039)
