@@ -1,6 +1,6 @@
 ---
 number: Workstream 1
-title: Workstream 1 - Intervention development & optimisation
+title: Intervention development & optimisation
 image: /assets/images/workstreams/workstream1.png
 ---
 
