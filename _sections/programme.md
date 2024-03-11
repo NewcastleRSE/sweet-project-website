@@ -4,7 +4,7 @@ The HT&Me support package includes:
 
 - A short animation video explaining how hormone therapy works, why it is important to take daily, and advice for managing side-effects
 - Two appointments with HT&Me Study Nurses
-- Access to the interactive HT&Me website, accessible on desktop computer, laptop computer, tablet or mobile phone
+- Access to the interactive HT&Me website, accessible on a desktop computer, laptop computer, tablet or mobile phone
 - Regular text or email messages reminding of the importance of hormone therapy and signposting back to the HT&Me website
 
 ![Diagram1](/assets/images/Programme1.png "Timeline of intervention")
