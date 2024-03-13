@@ -15,3 +15,19 @@ We have recruited women from the following sites:
 - Imperial College Hospital Trust
 - Newcastle-upon-Tyne Hospitals NHS Foundation Trust
 - Oxford University Hospitals NHS Foundation Trust
+
+To view study documentation please see below. Please note these are for the Feasibility study and therefore are NOT currently in use. 
+- To access the participant information sheet for the SWEET Feasibility study, CLICK HERE
+- To access the participant consent forms (face-to-face and verbal) for the SWEET Feasibiility study, CLICK HERE
+
+The SWEET Feasibility data controller is Newcastle upon Tyne Hospitals NHS Foundation Trust (NuTH)
+Privacy notice: [Click here](https://www.newcastle-hospitals.nhs.uk/help/privacy/privacy-notice-for-patients/)
+Email for Data Protection Officer at NuTH: nuth.dpo@nhs.net 
+
+The SWEET Feasibility data processor is Newcastle University
+Data protection policy at Newcastle University: [Click here](https://www.ncl.ac.uk/data-protection/)
+
+For more info on how we use your information, [Click here](https://www.hra.nhs.uk/information-about-patients/)
+For a link to the information commissioner's office, [Click here](https://ico.org.uk/make-a-complaint/)
+If you would like to email patient relations (NuTH): patient.relations@nuth.nhs.uk 
+
