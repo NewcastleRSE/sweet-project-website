@@ -40,7 +40,7 @@ If I want to add another name to the core team, I can copy and paste the one tha
     affiliation: Oxford Brookes University
     imageURL: "/assets/images/core-team/Jo-Brett.jpg"
 
-  - name: Miss Alice Longe
+  - name: Miss Raegan Barrows
     title: Clinical Trial Manager
     affiliation: Warwick Clinical Trials Unit
     imageURL: "/assets/images/core-team/Alice-Longe.jpg"
