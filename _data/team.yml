@@ -17,10 +17,10 @@
 
 - categoryName: The Core Team
   categoryData:
-   - name: Miss Rae Barrows
+    - name: Miss Rae Barrows
       title: Clinical Trial Manager
       affiliation: Warwick Clinical Trials Unit
-      imageURL: 
+      
       
     - name: Dr Jo Brett
       title: Reader
