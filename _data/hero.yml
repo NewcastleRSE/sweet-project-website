@@ -5,6 +5,8 @@ title:
   Welcome!
   # Change the main body of information.
 blurb: SWEET is a research programme developing and testing a support package called HT&Me, which aims to help women who are prescribed hormone therapy following a breast cancer diagnosis. It is hoped HT&Me will help improve adherence to hormone therapy and improve quality of life for women.
+
+SWEET is now recruiting from NHS sites across the UK
 # Changes the buttons text.
 btnText: Learn about the programme
 # If you want to send the user to a different section, click on the section using the navigation bar at the top and make a note of what the url is that is added on after the base domain name. If you want to change this button to go to the team section instead then sendTo would be '#/team' because the url would be something like 'www.sweet.com/#team' after clicking on the team button. You can replicate this for the other sections also.
