@@ -1,11 +1,25 @@
-The SWEET research programme will develop and investigate the effectiveness of a support package (HT&Me) to support adherence to hormone therapy and improve quality of life for women with early breast cancer.
+The SWEET programme has developed and completed feasibility testing of the HT&Me support package. A randomised controlled trial is now underway to trial investigate the effectiveness of HT&Me in reducing poor adherence to hormone therapy and improving quality of life in women with early breast cancer.
 
 The HT&Me support package includes:
 
 - A short animation video explaining how hormone therapy works, why it is important to take daily, and advice for managing side-effects
-- Two appointments with HT&Me Study Nurses
+- Two appointments with HT&Me Study Nurses/Practitioners
 - Access to the interactive HT&Me website, accessible on a desktop computer, laptop computer, tablet or mobile phone
 - Regular text or email messages reminding of the importance of hormone therapy and signposting back to the HT&Me website
+
+ Sites are open for trial recruitment across the UK.  We are seeking to recruit a total of 1460 women with early breast cancer, who will be randomised to receive either:
+ 
+ i) the HT&Me support package alongside their usual care
+ 
+ or
+ 
+ii) usual care alone
+
+Women will be asked to complete a questionnaire when they sign up to the study (baseline), and then again 6,12 and 18-months later.  These questionnaires will measure adherence to hormone therapy, quality of life, and other factors that might impact the effectiveness of the HT&Me support package.
+
+To read about our earlier intervention development work and feasibility study click here.
+
+We are also conducting a cost-effectiveness evaluation and developing a scale-up implementation strategy- to read about these click here.
 
 ![Diagram1](/assets/images/Programme1.png "Timeline of intervention")
 
