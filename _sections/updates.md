@@ -37,9 +37,20 @@ The SWEET team have presented, or will be presenting, findings from the programm
 | 2020 | National Cancer Research Institute (NCRI) Conference | Supporting women with adherence to adjuvant endocrine therapy following breast cancer (SWEET) |
 | | UK Interdisciplinary of Breast Cancer Symposium (UKIBCS) | Improving outcomes for women diagnosed with early breast cancer through adherence to adjuvant endocrine therapy (SWEET) |
 
-## Publications
+## Recent Publications
 
 Publications from the SWEET programme so far:
+
+- <b>Identifying determinants of adherence to adjuvant endocrine therapy following breast cancer: A systematic review of reviews.</b> Todd et al. 2024. <em> Cancer Medicine</em>. [Click here to read]
+ (https://onlinelibrary.wiley.com/doi/10.1002/cam4.6937)
+
+Lay summary:
+
+The use of hormone treatment for certain types of breast cancer has been shown to be beneficial for patients.  Despite these benefits, research tells us that some people don’t take their hormone treatment all of the time, while some people stop taking it altogether – broadly speaking this is known as non-adherence.  
+The reasons for non-adherence to hormone treatment in in breast cancer are complex and are very much dependent on the individual person and their circumstances. The aim of this work was to review the comprehensive summaries of this research (known as systematic reviews), to help us understand the reasons why people don’t take their hormone all of the time.  
+In total, we found 17 reviews in this area – 9 were quantitative (focusing on numerical information), while 4 were qualitative (focusing on how people feel and think about using the treatment), and the remaining 4 focused on both quantitative and qualitative information.  
+Overall, there were many identified reasons why people are non-adherent. Patient factors (e.g. how important people think the treatment is), healthcare system/professional factors (e.g. having a positive relationship with the healthcare professional) were most commonly reported.  Other factors included socio-economic factors (e.g. lower levels of social or economic support), medication related factors (e.g. developing side effects), and condition related factors (e.g. the size and extent of the cancer).  The results of this work show us that any new services designed to improve adherence to hormone therapy should address these different factors.
+
 
 - <b>Development of the HT&Me intervention to support women with breast cancer to adhere to adjuvant endocrine therapy and improve quality of life.</b> Stewart et al. 2023. <em>The Breast</em>. [Click here to read](https://www.sciencedirect.com/science/article/pii/S0960977623005039)
 
