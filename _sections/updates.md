@@ -1,22 +1,14 @@
-This page will provide updates on progress with the SWEET research programme.
 
-## Trial updates
 
-Data collection for our Feasibility study is now complete.
+## News and updates
 
-A total of 59 women have been recruited to sub-study 1 investigating the acceptability and feasibility of delivering the SWEET support package across our 5 sites:
+The SWEET Trial is open for recruitment with over 25 sites.
 
-- Gateshead Health NHS Foundation Trust
-- Great Western Hospitals NHS Foundation Trust
-- Imperial College Hospital Trust
-- Newcastle-upon-Tyne Hospitals NHS Foundation Trust
-- Oxford University Hospitals NHS Foundation Trust
+We currently have 10 participants recruited to SWEET
 
-We have also recruited a total of 56 women to sub-study 2, testing the processes for collecting prescription encashment data.
+## Recent presentations
 
-## Conferences and meetings
-
-The SWEET team have presented, or will be presenting, findings from the programme at the following conferences:
+The SWEET team have presented at the following recent conferences. Click here to see a list of all conferences we've been to.
 
 | <b>Year</b> | <b>Conference</b> | <b>Presentation Title</b>
 | 2024 | The UK Interdisciplinary of Breast Cancer Symposium (UKIBCS) | Developing and feasibility testing of an intervention to support women with adherence to adjuvant endocrine therapy and improve quality of life - the SWEET study |
