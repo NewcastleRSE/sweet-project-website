@@ -1,4 +1,4 @@
-We are working with the following organisations as partners:
+We are working with the following partners:
 
 - Breast Cancer Now
 - Independent Cancer Patients’ Voice
