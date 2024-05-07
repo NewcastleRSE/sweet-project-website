@@ -8,8 +8,8 @@ If you are interested in taking part in SWEET, please contact your hospital to s
 
 You are eligible to take part if you:
 
-- Aged 18+
-- Female
+- Are Aged 18+
+- Are Female
 - Have had a diagnosis of ER positive invasive breast cancer, stages 1-3, treated with curative intent
 - Are within <b>3 months of first oral AET prescription</b> (tamoxifen or aromatase inhibitor)
 - Have completed surgery to remove breast cancer
