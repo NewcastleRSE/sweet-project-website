@@ -28,7 +28,7 @@ To contact the SWEET research team for general queries about SWEET or taking par
 
 - Email: [SWEET@warwick.ac.uk ](mailto:SWEET@warwick.ac.uk)
 
-If you are a participant already taking part in SWEET and have a question about the HT&Me intervention, you can contact the team on:
+If you are a participant already taking part in SWEET and have a question about the HT&Me support package, you can contact the team on:
 
 - Email: [HTandMeSupport@warwick.ac.uk](mailto:HTandMeSupport@warwick.ac.uk)
 
