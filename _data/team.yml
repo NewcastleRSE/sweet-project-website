@@ -28,10 +28,10 @@
       imageURL: "/assets/images/core-team/Jo.jpg"
       url: https://www.brookes.ac.uk/profiles/staff/jo-brett
 
-    - name: Miss Alice Longe
-      title: Clinical Trial Manager
+    - name: Miss Anna Mann
+      title: Clinical Trial Coordinator
       affiliation: Warwick Clinical Trials Unit
-      imageURL: "/assets/images/core-team/Alice-Longe.jpg"
+      imageURL: 
 
     - name: Mr Phil Mawson
       title: Research Project Manager
@@ -50,6 +50,12 @@
       affiliation: Newcastle University
       imageURL: /assets/images/core-team/Ruth.jpg
       url: https://www.ncl.ac.uk/medical-sciences/people/profile/ruthnorris.html
+
+    - name: Mia Porteous
+      title: Research Project Manager
+      affiliation: Newcastle University 
+      imageURL: 
+      url: https://www.ncl.ac.uk/medical-sciences/people/profile/miaporteous.html
 
     - name: Dr Sarah-Jane Stewart
       title: Research Fellow
