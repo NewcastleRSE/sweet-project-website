@@ -4,27 +4,27 @@ Here you can find contact details for the SWEET team, links to websites you may 
 
 ### As a Participant...
 
-If you are interested in taking part, please contact your hospital to see if they are taking part in the study, and whether you are eligible to take part.
+If you are interested in taking part in SWEET, please contact your hospital to see if they are taking part in the trial, and whether you are eligible to take part.
 
-The eligibility criteria for participation are:
+You are eligible to take part if you:
 
 - Aged 18+
 - Female
-- Diagnosis of ER positive invasive breast cancer, stages 1-3, treated with curative intent
-- Within <b>3 months of first oral AET prescription</b> (tamoxifen or aromatase inhibitor)
-- Completed surgery
-- Completed chemotherapy (if applicable)
+- Have had a diagnosis of ER positive invasive breast cancer, stages 1-3, treated with curative intent
+- Are within <b>3 months of first oral AET prescription</b> (tamoxifen or aromatase inhibitor)
+- Have completed surgery to remove breast cancer
+- Have completed chemotherapy (if applicable)
 - Can access the internet and have an email address; and
-- Are willing to use a support package with a web-based component.
+- Are willing to receive a support package with a web-based component.
 
 ### As a Health Care Professional...
 
-If you are a health care professional and you think your hospital would like to become a study site, please contact the SWEET team to find out more on [SWEET@warwick.ac.uk](mailto:SWEET@warwick.ac.uk).
+If you are a health care professional and you think your hospital would like to become a study site, please contact the SWEET team to find out more about getting involved on [SWEET@warwick.ac.uk](mailto:SWEET@warwick.ac.uk).
 
 
 ## Contact the SWEET research team
 
-If you would like to contact the SWEET research team for general queries about SWEET or taking part, you can contact the team on:
+To contact the SWEET research team for general queries about SWEET or taking part, you can contact the team on:
 
 - Email: [SWEET@warwick.ac.uk ](mailto:SWEET@warwick.ac.uk)
 
