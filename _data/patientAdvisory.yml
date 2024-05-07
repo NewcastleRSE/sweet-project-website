@@ -1,6 +1,6 @@
 - categoryName: Patient Advisory Group Chairs
   categoryData:
-    - name: Jan Rose
+    - name: Mrs Jan Rose
       title: PAG co-chair
 
     - name: Mrs Lesley Turner
@@ -8,11 +8,15 @@
 
 - categoryName: Patient Advisory Group Members
   categoryData:
+    -name: Ms Akos Adu
+     description: As a breast cancer survivor, I know how important it is to have comprehensive help available easily. It is absolutely useful in supporting our health journey.
     - name: Mrs Jan Backhouse
-      description: As a breast cancer survivor, I know how important it is to have comprehensive help available easily. It is absolutely useful in supporting our health journey.
-    - name: Ms Birgit Cloos
       description: Having run breast support groups, I’ve met many ladies unable to get appropriate hormone therapy support. A website like this is an oasis in the desert, and will be valued!
-    - name: Rosemary Dooley
+    - name: Mrs Sue Bailey
+      description: I am a breast cancer patient. By being part of the SWEET PAG I hope we have improved the support available and health outcomes for other women taking hormone therapy.
+    - name: Ms Birgit Cloos
+      description: I have had breast cancer and I am a healthcare professional.  I would like to support women who are on endocrine therapy and contribute with my experience and knowledge.
+      - name: Rosemary Dooley
       description: I have had breast cancer and struggled with severe endocrine therapy side effects. I feel my experience has enabled me to help others through contributing to this research.
     - name: Helen Howitt
       description: After 30 years in Clinical Research I wanted to give back after my own diagnosis, having learnt how critical supporting patients with their medication is.
