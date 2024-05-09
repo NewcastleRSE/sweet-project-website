@@ -33,8 +33,7 @@ The SWEET team have presented at the following recent conferences. Click here to
 
 Publications from the SWEET programme so far:
 
-- <b>Identifying determinants of adherence to adjuvant endocrine therapy following breast cancer: A systematic review of reviews.</b> Todd et al. 2024. <em> Cancer Medicine</em>. [Click here to read]
-(https://onlinelibrary.wiley.com/doi/10.1002/cam4.6937)
+- <b>Identifying determinants of adherence to adjuvant endocrine therapy following breast cancer: A systematic review of reviews.</b> Todd et al. 2024. <em> Cancer Medicine</em>. [Click here to read](https://onlinelibrary.wiley.com/doi/10.1002/cam4.6937)
 
 Lay summary:
 
