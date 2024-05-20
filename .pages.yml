@@ -8,13 +8,21 @@ content:
     type: file
     fields:
       - name: categoryName
+        label: Category
         type: string
       - name: categoryData
+        label: content
         type: object
         fields:
         - name: name
-          label: Name
           type: string
         - name: title
-          label: Title
+          type: string
+        - name: jobTitle
+          type: string
+        - name: affiliation
+          type: string
+        - name: imageURL
+          type: string
+        - name: url
           type: string
