@@ -9,7 +9,7 @@ content:
     fields:
       - name: team
         label: Team
-        type: collection
+        type: object
         fields: 
           - name: categoryName
             label: Category
