@@ -1,0 +1,15 @@
+media:
+  input: assets/images
+  output: /assets/images
+content:
+  - name: team
+    label: Team
+    path: _data/team.yml
+    type: file
+    fields: 
+      - name: name
+        label: Name
+        type: string
+      - name: title
+        label: Title
+        type: string
