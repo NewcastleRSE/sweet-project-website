@@ -1,2 +1,8 @@
-name: Test
-title: Test
+categoryName: Co-lead investigators
+categoryData:
+  name: Professor Linda Sharp
+  title: Co-lead Investigator
+  jobTitle: Professor of Cancer Epidemiology
+  affiliation: Newcastle University
+  imageURL: /assets/images/core-team/Linda.jpg
+  url: https://www.ncl.ac.uk/medical-sciences/people/profile/lindasharp.html
