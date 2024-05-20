@@ -4,8 +4,8 @@ media:
 content:
   - name: team
     label: Team
-    path: _data/team.yml
-    type: file
+    path: _data
+    type: collection
     fields:
       - name: team
         label: Team
