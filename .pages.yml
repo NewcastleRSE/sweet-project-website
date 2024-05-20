@@ -7,22 +7,26 @@ content:
     path: _data/team.yml
     type: file
     fields:
-      - name: categoryName
-        label: Category
-        type: string
-      - name: categoryData
-        label: content
-        type: object
-        fields:
-        - name: name
-          type: string
-        - name: title
-          type: string
-        - name: jobTitle
-          type: string
-        - name: affiliation
-          type: string
-        - name: imageURL
-          type: string
-        - name: url
-          type: string
+      - name: team
+        label: Team
+        type: collection
+        fields: 
+          - name: categoryName
+            label: Category
+            type: string
+          - name: categoryData
+            label: content
+            type: object
+            fields:
+              - name: name
+                type: string
+              - name: title
+                type: string
+              - name: jobTitle
+                type: string
+              - name: affiliation
+                type: string
+              - name: imageURL
+                type: string
+              - name: url
+                type: string
