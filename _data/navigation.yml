@@ -1,8 +1,20 @@
 - title: Home
   url: /
 
-- title: Programme
+- title: News and updates
+  url: /pages/updates.html
+
+- title: The SWEET Programme
   url: /pages/programme.html
 
-- title: Team
+- title: Taking part in SWEET
+  url: /pages/taking-part.html
+
+- title: SWEET recruiting sites
+  url: /pages/sites.html
+
+- title: The SWEET Team
   url: /pages/teams.html
+
+- title: Contact updates
+  url: /pages/contact.html
