@@ -2,7 +2,7 @@
   url: /
 
 - title: Programme
-  url: /_includes/programme.html
+  url: /pages/programme.html
 
 - title: Team
-  url: /_includes/teams.html
+  url: /pages/teams.html

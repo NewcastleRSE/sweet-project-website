@@ -1,10 +1,15 @@
+---
+layout: default
+title: Team
+---
+
 <div class="mx-auto l:px-4 my-container">
   <!-- Text center for all the child! Careful -->
   {% include heading.html content="Meet the team!" id="team" class="text-center"
   %}
   <div class="my-8">
     <div class="w-[80%] mx-auto">
-      {% capture team_content %}{% include_relative _sections/team.md %}{%
+      {% capture team_content %}{% include_relative sections/team.md %}{%
       endcapture %}
       <div class="mt-4 text-base lg:text-lg">
         {{ team_content | markdownify }}
@@ -62,7 +67,7 @@
     <div class="my-8">
       <div class="w-[80%] mx-auto">
         {% capture patientAdvisory_content %}{% include_relative
-        _sections/patientAdvisory.md %}{% endcapture %}
+        sections/patientAdvisory.md %}{% endcapture %}
         <div class="mt-4 text-base lg:text-lg">
           {{ patientAdvisory_content | markdownify }}
         </div>
@@ -130,7 +135,7 @@
         </h1>
         <div class="w-[80%] mx-auto content">
           {% capture community_content %}{% include_relative
-          _sections/communityOfInterest.md %}{% endcapture %}
+          sections/communityOfInterest.md %}{% endcapture %}
           <div class="mt-4 text-base lg:text-lg">
             {{ community_content | markdownify }}
           </div>
