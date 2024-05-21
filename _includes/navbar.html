@@ -21,11 +21,7 @@
         src="{{site.baseurl}}/assets/images/cropped-logo.png"
         class="brand-img w-22 h-22 lg:w-28 lg:h-28 p-2"
       />
-      <h1
-        class="text-3xl lg:text-4xl ml-4 text-primary font-bold tracking-wide uppercase"
-      >
-        SWEET
-      </h1>
+     
     </a>
     <button
       class="navbar-toggler"
@@ -40,8 +36,13 @@
     </button>
 
     <div
-      class="flex text-lg lg:text-2xl items-center justify-between gap-0 lg:gap-6 hidden md:flex"
+      class="flex text-sm lg:text-lg items-center justify-between gap-1  hidden md:flex"
     >
+    <h1
+    class="text-3xl lg:text-4xl ml-4 text-primary font-bold tracking-wide uppercase"
+  >
+    SWEET
+  </h1>
     {% for entry in site.data.navigation %}
     {% if entry.url == current_page %}
     {% assign current = ' class="current"' %}
@@ -54,12 +55,12 @@
     <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
     <ul>
         {% for sublink in sublinks %}
-        <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+        <a class="nav-link" href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
         {% endfor %}
     </ul>
     </li>
     {% else %}
-    <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+    <a {{ current }} class="nav-link" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
     {% endif %}
     {% endfor %}
 

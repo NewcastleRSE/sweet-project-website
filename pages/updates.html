@@ -1,8 +1,13 @@
+---
+layout: default
+title: News and updates
+---
+
 <div class="my-container">
   <!-- prettier-ignore -->
   <div class="section">
       {% include heading.html id="updates" content="Updates" %}
-      {% capture updates_content %}{% include_relative _sections/updates.md %}{% endcapture %}
+      {% capture updates_content %}{% include_relative sections/updates.md %}{% endcapture %}
       <div class="section-content content">
       {{ updates_content | markdownify }}
       </div>

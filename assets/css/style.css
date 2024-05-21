@@ -105,10 +105,21 @@ main {
   width: auto;
 }
 
+.current {
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 5px;
+  background-color: #633188 !important;
+}
+
 .nav-link {
   color: #633188;
   padding: 1rem;
-  font-weight: 500;
+  font-weight: 300;
+  font-size: medium;
 }
 
 .nav-link:hover {

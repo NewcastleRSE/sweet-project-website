@@ -1,8 +1,12 @@
+---
+layout: default
+title: The SWEET Programme
+---
 <div class="my-container">
   <!-- prettier-ignore -->
   <div class="section">
     <div>{% include heading.html content="Programme" id="programme" %}</div>
-    {% capture programme_content %}{% include_relative _sections/programme.md %}{% endcapture %}
+    {% capture programme_content %}{% include_relative sections/programme.md %}{% endcapture %}
       <div class="section-content content">
       {{ programme_content | markdownify }}
       </div>
