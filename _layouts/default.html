@@ -47,6 +47,19 @@
     />
   </head>
   <body>
+
+    <header>
+      <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+  </header>
+  {% include navbar.html %}
+
+  <section >
     {{ content }}
+</section>
+
+<footer>
+  {% include footer.html %}
+   
+</footer>
   </body>
 </html>

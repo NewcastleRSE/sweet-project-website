@@ -1,0 +1,8 @@
+- title: Home
+  url: /
+
+- title: Programme
+  url: /_includes/programme.html
+
+- title: Team
+  url: /_includes/teams.html

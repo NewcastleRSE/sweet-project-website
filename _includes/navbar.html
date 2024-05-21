@@ -1,3 +1,17 @@
+<!-- This finds the current page so it can be highlighted. -->
+
+{% for entry in site.data.navigation %}
+{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
+{% if fullurl == page.url %}
+{% assign current_page = fullurl %}
+{% break %}
+{% elsif page.url contains fullurl %}
+{% assign current_page = fullurl %}
+{% endif %}
+{% endfor %}
+
+<!-- Then we build the nav bar. -->
+
 <header class="w-screen fixed bg-white top-0 z-[100]">
   <nav
     class="navbar px-4 border-b bg-white flex justify-between navbar-light navbar-expand-lg"
@@ -28,11 +42,32 @@
     <div
       class="flex text-lg lg:text-2xl items-center justify-between gap-0 lg:gap-6 hidden md:flex"
     >
-      <a href="/#programme" class="nav-link">Programme</a>
-      <a href="/#team" class="nav-link">Team</a>
+    {% for entry in site.data.navigation %}
+    {% if entry.url == current_page %}
+    {% assign current = ' class="current"' %}
+    {% else %}
+    {% assign current = null %}
+    {% endif %}
+    {% assign sublinks = entry.sublinks %}
+    {% if sublinks %}
+    <li{{ current }}>
+    <a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+    <ul>
+        {% for sublink in sublinks %}
+        <li><a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a></li>
+        {% endfor %}
+    </ul>
+    </li>
+    {% else %}
+    <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+
+      <!-- <a href="/#programme" class="nav-link">Programme</a>
+      <a href="{{site.baseurl}}/_includes/teams.html" class="nav-link">Team</a>
       <a href="/#updates" class="nav-link">Updates</a>
       <a href="/#htandme" class="nav-link">HT&Me</a>
-      <a href="/#contact" class="nav-link">Contact</a>
+      <a href="/#contact" class="nav-link">Contact</a> -->
     </div>
   </nav>
   <!-- <div class="px-4">
