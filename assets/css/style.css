@@ -106,14 +106,15 @@ main {
 }
 
 .current {
-  color: white;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-radius: 5px;
-  background-color: #633188 !important;
+ border:indigo;
+ color: indigo;
+ font-weight: 500;
+ padding-top: 0.25rem;
+ padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    align-self: center;
 }
+
 
 .nav-link {
   color: #633188;
