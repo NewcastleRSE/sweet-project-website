@@ -17,32 +17,30 @@ title: The SWEET Team
     </div>
   </div>
   {% for category in site.data.team %}
-  <h2
-    class="text-3xl font-semibold tracking-tight text-primary mt-20 mb-8 text-center"
-  >
+  <h2 class="text-3xl font-semibold tracking-tight text-primary mt-20 mb-8 text-center">
     {{ category.categoryName }}
   </h2>
   <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
     {% for member in category.categoryData %}
     <div
-      class="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-purple-800 focus-within:ring-offset-2 hover:border-gray-400"
-    >
+      class="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-purple-800 focus-within:ring-offset-2 hover:border-gray-400">
+      {% if member.imageURL == null %}
+      <img class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32" src="../assets/images/user-profile.jpg"
+        alt="{{ member.name }}" />
+
+      {% else %}
       {% if member.imageURL %}
       <div class="flex-shrink-0">
+
         {% if member.url %}
         <a href="{{ member.url }}">
-          <img
-            class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32"
-            src="{{ member.imageURL }}"
-            alt="{{ member.name }}"
-          />
+          <img class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32" src="{{ member.imageURL }}"
+            alt="{{ member.name }}" />
         </a>
         {% else %}
-        <img
-          class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32"
-          src="{{ member.imageURL }}"
-          alt="{{ member.name }}"
-        />
+        <img class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32" src="{{ member.imageURL }}"
+          alt="{{ member.name }}" />
+        {% endif %}
         {% endif %}
       </div>
       {% endif %}
@@ -50,6 +48,7 @@ title: The SWEET Team
         <a class="text-base lg:text-lg font-medium text-gray-900">
           {{ member.name }}
         </a>
+
         <p class="text-sm lg:text-base text-gray-500">{{ member.title }}</p>
         <p class="text-sm lg:text-base text-gray-500">{{ member.jobTitle }}</p>
         <p class="text-sm lg:text-base text-gray-500">
@@ -60,6 +59,7 @@ title: The SWEET Team
     {% endfor %}
   </div>
   {% endfor %}
+
   <!-- PAG -->
   <div class="my-12">
     {% include heading.html content="Patient Advisory Group" class="text-center
@@ -75,64 +75,108 @@ title: The SWEET Team
     </div>
 
     {% for category in site.data.patientAdvisory %}
-
-    <h2
-      class="text-3xl font-semibold tracking-tight text-primary mt-20 mb-8 text-center"
-    >
+    {% if category.categoryName == "Patient Advisory Group Chairs" %}
+    <!-- CHAIRS -->
+    <h2 class="text-3xl font-semibold tracking-tight text-primary mt-20 mb-8 text-center">
       {{ category.categoryName }}
     </h2>
-    {% if category.categoryName == "Patient Advisory Group Chairs" %}
     <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-      {% else %}
-      <div class="grid grid-cols-1 gap-4 md:grid-cols-4">
-        {% endif %} {% for member in category.categoryData %}
-        <div
-          class="relative flex items-start space-x-3 rounded-lg border border-gray-300 bg-white px-4 py-2 shadow-sm focus-within:ring-2 focus-within:ring-purple-800 focus-within:ring-offset-2 hover:border-gray-400"
-        >
-          {% if member.imageURL %}
-          <div class="flex-shrink-0">
-            <img
-              class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32"
-              src="{{ member.imageURL }}"
-              alt="{{ member.name }}"
-            />
-          </div>
-          {% endif %}
+      {% for member in category.categoryData %}
+      <div
+        class="relative flex items-start space-x-3 rounded-lg border border-gray-300 bg-white px-4 py-2 shadow-sm focus-within:ring-2 focus-within:ring-purple-800 focus-within:ring-offset-2 hover:border-gray-400">
+        {% if member.imageURL == null %}
+        <img class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32" src="../assets/images/user-profile.jpg"
+          alt="{{ member.name }}" />
 
-          <div class="min-w-0 flex-1">
-            <p class="text-base lg:text-xl font-medium text-gray-900">
-              {{ member.name }}
-            </p>
-            <p class="text-sm pb-2 lg:text-base text-gray-700">
-              {{ member.title }}
-            </p>
-            <p class="text-sm lg:text-base text-gray-600">
-              {{ member.jobTitle }}
-            </p>
-            <p class="text-sm lg:text-base text-gray-500">
-              {{ member.affiliation }}
-            </p>
-            <p class="text-sm lg:text-base text-gray-500">
-              {{ member.description }}
-            </p>
-            {% if member.url %}
-            <a
-              class="flex pt-2 text-sm lg:text-base text-gray-500 cursor-pointer underline hover:font-bold"
-              href="{{ member.url }}"
-              >Find out more</a
-            >
-            {% endif %}
-          </div>
+        {% else %}
+        {% if member.imageURL %}
+        <div class="flex-shrink-0">
+          <img class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32" src="{{ member.imageURL }}"
+            alt="{{ member.name }}" />
         </div>
-        {% endfor %}
+        {% endif %}
+
+        {% endif %}
+        <div class="min-w-0 flex-1">
+          <p class="text-base lg:text-xl font-medium text-gray-900">
+            {{ member.name }}
+          </p>
+          <p class="text-sm pb-2 lg:text-base text-gray-700">
+            {{ member.title }}
+          </p>
+          <p class="text-sm lg:text-base text-gray-600">
+            {{ member.jobTitle }}
+          </p>
+          <p class="text-sm lg:text-base text-gray-500">
+            {{ member.affiliation }}
+          </p>
+          <p class="text-sm lg:text-base text-gray-500">
+            {{ member.description }}
+          </p>
+          {% if member.url %}
+          <a class="flex pt-2 text-sm lg:text-base text-gray-500 cursor-pointer underline hover:font-bold"
+            href="{{ member.url }}">Find out more</a>
+
+          {% endif %}
+        </div>
+
       </div>
       {% endfor %}
+    </div>
+
+    {% elsif category.categoryName == "Patient Advisory Group Members" %}
+    <!-- MEMBERS -->
+    <h2 class="text-3xl font-semibold tracking-tight text-primary mt-20 mb-8 text-center">
+      {{ category.categoryName }}
+    </h2>
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-4">
+
+
+      {% for member in category.categoryData %}
+      <div
+        class="relative flex items-start space-x-3 rounded-lg border border-gray-300 bg-white px-4 py-2 shadow-sm focus-within:ring-2 focus-within:ring-purple-800 focus-within:ring-offset-2 hover:border-gray-400">
+
+        {% if member.imageURL %}
+        <div class="flex-shrink-0">
+          <img class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32" src="{{ member.imageURL }}"
+            alt="{{ member.name }}" />
+        </div>
+
+
+        {% endif %}
+        <div class="min-w-0 flex-1">
+          <p class="text-base lg:text-xl font-medium text-gray-900">
+            {{ member.name }}
+          </p>
+          <p class="text-sm pb-2 lg:text-base text-gray-700">
+            {{ member.title }}
+          </p>
+          <p class="text-sm lg:text-base text-gray-600">
+            {{ member.jobTitle }}
+          </p>
+          <p class="text-sm lg:text-base text-gray-500">
+            {{ member.affiliation }}
+          </p>
+          <p class="text-sm lg:text-base text-gray-500">
+            {{ member.description }}
+          </p>
+          {% if member.url %}
+          <a class="flex pt-2 text-sm lg:text-base text-gray-500 cursor-pointer underline hover:font-bold"
+            href="{{ member.url }}">Find out more</a>
+
+          {% endif %}
+        </div>
+
+      </div>
+
+      {% endfor %}
+      {% endif %}
+      {% endfor %}
+      </div>
+      <!-- COMMUNITY -->
       <div class="my-8">
-        <h1
-          class="text-3xl font-semibold tracking-tight text-primary mt-20 mb-8 text-center"
-        >
-          Community of Interest
-        </h1>
+        {% include heading.html content="Community of Interest" class="text-center
+        mb-4" %}
         <div class="w-[80%] mx-auto content">
           {% capture community_content %}{% include_relative
           sections/communityOfInterest.md %}{% endcapture %}
@@ -141,28 +185,81 @@ title: The SWEET Team
           </div>
         </div>
       </div>
+
+
+      <!-- PAG cont. Co-applicants and collaborators-->
+      <div class="my-12">
+        {% include heading.html content="The wider research team" class="text-center
+        mb-4" %}
+
+        {% for category in site.data.patientAdvisory %}
+        {% if category.categoryName == "SWEET Co-applicants" or category.categoryName == "SWEET Collaborators" %}
+        <h2 class="text-3xl font-semibold tracking-tight text-primary mt-20 mb-8 text-center">
+          {{ category.categoryName }}
+        </h2>
+
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-4">
+
+
+          {% for member in category.categoryData %}
+          <div
+            class="relative flex items-start space-x-3 rounded-lg border border-gray-300 bg-white px-4 py-2 shadow-sm focus-within:ring-2 focus-within:ring-purple-800 focus-within:ring-offset-2 hover:border-gray-400">
+
+            {% if member.imageURL %}
+            <div class="flex-shrink-0">
+              <img class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32" src="{{ member.imageURL }}"
+                alt="{{ member.name }}" />
+            </div>
+
+
+            {% endif %}
+            <div class="min-w-0 flex-1">
+              <p class="text-base lg:text-xl font-medium text-gray-900">
+                {{ member.name }}
+              </p>
+              <p class="text-sm pb-2 lg:text-base text-gray-700">
+                {{ member.title }}
+              </p>
+              <p class="text-sm lg:text-base text-gray-600">
+                {{ member.jobTitle }}
+              </p>
+              <p class="text-sm lg:text-base text-gray-500">
+                {{ member.affiliation }}
+              </p>
+              <p class="text-sm lg:text-base text-gray-500">
+                {{ member.description }}
+              </p>
+              {% if member.url %}
+              <a class="flex pt-2 text-sm lg:text-base text-gray-500 cursor-pointer underline hover:font-bold"
+                href="{{ member.url }}">Find out more</a>
+
+              {% endif %}
+            </div>
+
+          </div>
+          {% endfor %}
+
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+
+
+
+
       <div class="my-8">
-        <h1
-          class="text-3xl font-semibold tracking-tight text-primary mt-20 mb-8 text-center"
-        >
+        <h1 class="text-3xl font-semibold tracking-tight text-primary mt-20 mb-8 text-center">
           Partners
         </h1>
         <h3>We are working with the following organisations as partners</h3>
         <div class="py-4 w-full bg-white w-[80%] mx-auto">
-          <div
-            class="flex justify-center items-center flex-wrap p-1 mx-auto footer 2xl:gap-2 2xl:py-2"
-          >
+          <div class="flex justify-center items-center flex-wrap p-1 mx-auto footer 2xl:gap-2 2xl:py-2">
             <!-- Partner images loop -->
             {% for img in site.data.partners.logos %}
-            <img
-              src="{{ img.logoSrc }}"
-              alt="Affiliation logo"
-              class="h-16 mx-auto my-4 rounded md:h-12 2xl:h-24"
-            />
+            <img src="{{ img.logoSrc }}" alt="Affiliation logo" class="h-16 mx-auto my-4 rounded md:h-12 2xl:h-24" />
             {% endfor %}
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
