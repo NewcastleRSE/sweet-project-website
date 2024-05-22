@@ -52,3 +52,26 @@ for (let i = 0; i < elems.length; i++) {
 //     }
 //   }
 // });
+
+// show hamburger menu and change hamburger icon
+function openMenu() {
+  console.log('open')
+  const closed = document.querySelector("#closedIcon");
+  const open = document.querySelector("#openIcon");
+  closed.classList.add("hidden");
+  open.classList.remove("hidden");
+
+  const menu = document.querySelector("#mobile-menu");
+  menu.classList.remove("hidden");
+}
+
+// hide hamburger menu and change hamburger icon
+function closeMenu() {
+  const closed = document.querySelector("#closedIcon");
+  const open = document.querySelector("#openIcon");
+  closed.classList.remove("hidden");
+  open.classList.add("hidden");
+
+  const menu = document.querySelector("#mobile-menu");
+  menu.classList.add("hidden");
+}
