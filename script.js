@@ -75,3 +75,8 @@ function closeMenu() {
   const menu = document.querySelector("#mobile-menu");
   menu.classList.add("hidden");
 }
+
+function toggleDocsDropdown() {
+  const dropdown = document.querySelector("#docs-dropdown");
+  dropdown.classList.toggle("hidden");
+}
