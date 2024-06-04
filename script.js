@@ -80,3 +80,16 @@ function toggleDocsDropdown() {
   const dropdown = document.querySelector("#docs-dropdown");
   dropdown.classList.toggle("hidden");
 }
+
+function toggleWorkstreamAcc(id) {
+
+  // toggle content
+  const acc = document.querySelector("#" + id);
+  acc.classList.toggle("hidden");
+  // toggle plus sign
+  const plus = document.querySelector("#plus-" + id);
+  plus.classList.toggle("hidden");
+  // toggle minus sign
+  const minus = document.querySelector("#minus-" + id);
+  minus.classList.toggle("hidden");
+}

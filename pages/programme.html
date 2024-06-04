@@ -3,12 +3,50 @@ layout: default
 title: The SWEET Programme
 ---
 <div class="my-container">
-  <!-- prettier-ignore -->
+
   <div class="section">
     <div>{% include heading.html content="Programme" id="programme" %}</div>
     {% capture programme_content %}{% include_relative sections/programme.md %}{% endcapture %}
       <div class="section-content content">
       {{ programme_content | markdownify }}
       </div>
+
+<!--  Workstreams acordion -->
+      <div class="hs-accordion-group">
+
+ <!-- for each workstream file -->  {% for stream in site.workstreams %}
+
+        <!-- Block -->
+        <div class="hs-accordion active" id="hs-basic-heading-one">
+          <button onclick="toggleWorkstreamAcc('{{ stream.acc-id }}')" class="hs-accordion-toggle hs-accordion-active:text-blue-600 py-3 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 hover:text-gray-500 rounded-lg disabled:opacity-50 disabled:pointer-events-none" aria-controls="hs-basic-collapse-one">
+            <!-- plus sign -->
+            <svg id="plus-{{ stream.acc-id }}" class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5v14"></path>
+            </svg>
+            <!-- minus sign -->
+            <svg id="minus-{{ stream.acc-id }}" class="hs-accordion-active:block hidden size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+            </svg>
+           {{ stream.number }}: {{ stream.title }}
+          </button>
+          <!-- Accordion content -->
+          <div id={{ stream.acc-id }} class="hidden hs-accordion-content w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-heading-one">
+
+            <p class="text-gray-800">
+              {{ stream.content }}
+             
+            </p>
+          </div>
+        </div>
+
+        <!--  end for each workstream file --> {% endfor %}
+      
+        
+      
+        
+      </div>
+
+
     </div>
 </div>
