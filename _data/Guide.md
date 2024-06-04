@@ -62,3 +62,9 @@ If you want to add a url field which will create a link under the information, y
     affiliation: Warwick Clinical Trials Unit
     imageURL: "/assets/images/core-team/Alice-Longe.jpg"
     url: 'example.com'
+
+
+## Study documents
+To add more documents to the dropdown menu:
+1. Move the PDF into assets/study_documents
+2. Create a new entry in _data/documents.yml including the name you want to appear in the dropdown and the filename. Documents will appear in the order listed in the yml file.
