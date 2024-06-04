@@ -1,8 +1,4 @@
-Here you can find contact details for the SWEET team, links to websites you may find helpful, and information about getting involved with SWEET either as a participant or as a healthcare professional.
-
-## Taking Part in SWEET
-
-### As a Participant...
+This section is for patients.   
 
 If you are interested in taking part in SWEET, please contact your hospital to see if they are taking part in the trial, and whether you are eligible to take part.
 
@@ -19,4 +15,4 @@ You are eligible to take part if you:
 
 ### As a Health Care Professional...
 
-If you are a health care professional and you think your hospital would like to become a study site, please contact the SWEET team to find out more about getting involved on [SWEET@warwick.ac.uk](mailto:SWEET@warwick.ac.uk).
+To contact the SWEET research team for general queries about SWEET or taking part, you can contact the team on:  [SWEET@warwick.ac.uk](mailto:SWEET@warwick.ac.uk).
