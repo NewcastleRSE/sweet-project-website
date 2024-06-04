@@ -17,9 +17,9 @@ title: The SWEET Programme
  <!-- for each workstream file -->  {% for stream in site.workstreams %}
 
         <!-- Block -->
-        <div class="hs-accordion active" id="hs-basic-heading-one">
-          <button onclick="toggleWorkstreamAcc('{{ stream.acc-id }}')" class="justify-between group py-5 px-4 relative flex  w-full  rounded-t-lg font-medium border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white " aria-controls="hs-basic-collapse-one">
-            <h3 class="pl-4">{{ stream.number }}: {{ stream.title }}</h3>
+        <div >
+          <button onclick="toggleWorkstreamAcc('{{ stream.acc-id }}')" class="justify-between group py-5 px-4  flex  w-full  rounded-t-lg font-medium border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white " aria-controls="hs-basic-collapse-one">
+            <p class="text-sm font-normal">{{ stream.number }}: {{ stream.title }}</p>
             <!-- plus sign -->
             <svg id="plus-{{ stream.acc-id }}" class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14"></path>
@@ -34,7 +34,7 @@ title: The SWEET Programme
           <!-- Accordion content -->
           <div id={{ stream.acc-id }} class="hidden hs-accordion-content w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-heading-one">
 
-            <p class="text-gray-800">
+            <p class=" text-gray-800">
               {{ stream.content }}
              
             </p>

@@ -81,6 +81,7 @@ function toggleDocsDropdown() {
   dropdown.classList.toggle("hidden");
 }
 
+// workstreams accordions
 function toggleWorkstreamAcc(id) {
 
   // toggle content
@@ -97,11 +98,9 @@ function toggleWorkstreamAcc(id) {
 }
 
 function closeOtherWorkstreams(keepOpen) {
-  console.log(keepOpen)
   for (let i = 1; i < 6; i++) {
     const ws = document.querySelector("#workstream-acc-" + i);
     if (ws.id !== keepOpen) {
-      console.log('close ' + i)
       // close content
       ws.classList.add("hidden");
       // show plus sign
@@ -113,5 +112,19 @@ function closeOtherWorkstreams(keepOpen) {
     }
   
   }
+
+}
+
+// presentations accordion
+function togglePresentationAcc() {
+  // toggle content
+  const acc = document.querySelector("#pres-content");
+  acc.classList.toggle("hidden");
+  // toggle plus sign
+  const plus = document.querySelector("#plus-pres");
+  plus.classList.toggle("hidden");
+  // toggle minus sign
+  const minus = document.querySelector("#minus-pres" );
+  minus.classList.toggle("hidden");
 
 }
