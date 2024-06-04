@@ -5,6 +5,7 @@
 - Lets look at an example of how to add information
 
 ### \_data/team.yml
+To use a stock image where a headshot is not available, the imageURL field should be marked as 'null'.
 
 - categoryName: Co-Lead Investigators
   categoryData:
@@ -20,7 +21,7 @@
     title: Co-Lead Investigator
     jobTitle: Professor of Supportive Cancer Care
     affiliation: Oxford Brookes University
-    imageURL: /assets/images/Eila.jpg
+    imageURL: null
     url: https://www.brookes.ac.uk/profiles/staff/eila-watson
 
 - categoryName: The Core Team

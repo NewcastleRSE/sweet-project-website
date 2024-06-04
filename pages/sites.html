@@ -4,7 +4,7 @@ title: SWEET recruiting sites
 ---
 
 <div class="my-container">
-  <!-- prettier-ignore -->
+
   <div class="section">
     <div>{% include heading.html content="SWEET recruiting sites" id="sites" %}</div>
     {% capture sites_content %}{% include_relative sections/sites.md %}{% endcapture %}
@@ -26,27 +26,13 @@ title: SWEET recruiting sites
           </button>
         </div>
 
-        <!--
-            Dropdown menu, show/hide based on menu state.
-        
-            Entering: "transition ease-out duration-100"
-              From: "transform opacity-0 scale-95"
-              To: "transform opacity-100 scale-100"
-            Leaving: "transition ease-in duration-75"
-              From: "transform opacity-100 scale-100"
-              To: "transform opacity-0 scale-95"
-          -->
-
-
         <div id="docs-dropdown"
           class="hidden absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
           role="menu" aria-orientation="vertical" aria-labelledby="menu-button">
           {% for doc in site.data.documents %}
 
-          <div class="py-1" role="none">
-            <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
-         
-            <a target="_blank" href="/assets/study_documents/{{doc.filename}}" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">{{
+          <div class="py-1" role="none">      
+           <a target="_blank" href="/assets/study_documents/{{doc.filename}}" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">{{
               doc.name }}</a>
               
             {% endfor %}
@@ -54,10 +40,6 @@ title: SWEET recruiting sites
         </div>
        
       </div>
-
-      
-
-
     </div>
 
   </div>
