@@ -9,7 +9,7 @@ title: The SWEET Programme
     {% capture programme_content %}{% include_relative sections/programme.md %}{% endcapture %}
       <div class="section-content content">
       {{ programme_content | markdownify }}
-      </div>
+      
 
 <!--  Workstreams acordion -->
       <div class="hs-accordion-group">
@@ -18,7 +18,8 @@ title: The SWEET Programme
 
         <!-- Block -->
         <div class="hs-accordion active" id="hs-basic-heading-one">
-          <button onclick="toggleWorkstreamAcc('{{ stream.acc-id }}')" class="hs-accordion-toggle hs-accordion-active:text-blue-600 py-3 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 hover:text-gray-500 rounded-lg disabled:opacity-50 disabled:pointer-events-none" aria-controls="hs-basic-collapse-one">
+          <button onclick="toggleWorkstreamAcc('{{ stream.acc-id }}')" class="justify-between group py-5 px-4 relative flex  w-full  rounded-t-lg font-medium border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white " aria-controls="hs-basic-collapse-one">
+            <h3 class="pl-4">{{ stream.number }}: {{ stream.title }}</h3>
             <!-- plus sign -->
             <svg id="plus-{{ stream.acc-id }}" class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14"></path>
@@ -28,7 +29,7 @@ title: The SWEET Programme
             <svg id="minus-{{ stream.acc-id }}" class="hs-accordion-active:block hidden size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14"></path>
             </svg>
-           {{ stream.number }}: {{ stream.title }}
+          
           </button>
           <!-- Accordion content -->
           <div id={{ stream.acc-id }} class="hidden hs-accordion-content w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-heading-one">
@@ -47,6 +48,6 @@ title: The SWEET Programme
         
       </div>
 
-
+    </div>
     </div>
 </div>

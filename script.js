@@ -92,4 +92,26 @@ function toggleWorkstreamAcc(id) {
   // toggle minus sign
   const minus = document.querySelector("#minus-" + id);
   minus.classList.toggle("hidden");
+
+  closeOtherWorkstreams(id);
+}
+
+function closeOtherWorkstreams(keepOpen) {
+  console.log(keepOpen)
+  for (let i = 1; i < 6; i++) {
+    const ws = document.querySelector("#workstream-acc-" + i);
+    if (ws.id !== keepOpen) {
+      console.log('close ' + i)
+      // close content
+      ws.classList.add("hidden");
+      // show plus sign
+      const plus = document.querySelector("#plus-workstream-acc-" + i);
+      plus.classList.remove("hidden");
+      // hide minus sign
+      const minus = document.querySelector("#minus-workstream-acc-" + i);
+      minus.classList.add("hidden");
+    }
+  
+  }
+
 }
