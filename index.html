@@ -5,22 +5,18 @@ title: Home Page
 
 <body>
   <div class="app-wrapper">
-    <!-- prettier-ignore -->
-    {% include navbar.html %}
+
     <main>
       <!-- Hero -->
       <!-- prettier-ignore -->
       {% include hero.html title = site.data.hero.title alert = site.data.hero.alert cta =
-      site.data.hero.btnText ctaHref = site.data.hero.sendTo description =
-      site.data.hero.blurb %}
-      {% include programme.html %}
-      {% include workstreams.html %}
-      {% include updates.html %}
-      {% include teams.html %}
-      {% include HTAndMe.html %}
-      {% include contact.html %}
+        site.data.hero.btnText ctaHref = site.data.hero.sendTo description =
+        site.data.hero.blurb subdescription=site.data.hero.blurb2 %}
+
+   
+      
     </main>
-    <footer>{% include footer.html %}</footer>
+    
   </div>
   <script src="script.js"></script>
 </body>

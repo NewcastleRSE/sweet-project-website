@@ -1,0 +1,56 @@
+- categoryName: recent
+  categoryData:
+    - year: 2024
+      conference: The UK Interdisciplinary of Breast Cancer Symposium (UKIBCS)
+      title: Developing and feasibility testing of an intervention to support women with adherence to adjuvant endocrine therapy and improve quality of life - the SWEET study
+    - year: 2023
+      conference: International Psycho-oncology Society (IPOS) World Congress of Psycho-Oncology
+      title: Development of HT&Me, a blended supported self-management intervention to support adherence to endocrine therapy in women with breast cancer
+    - year: 2023
+      conference: International Conference on Cancer Nursing
+      title: Developing and feasibility testing a self-management endocrine therapy adherence intervention
+    - year: 2023
+      conference: UK Oncology Nursing Society Conference
+      title: The development and feasibility of a nurse-supported self-management intervention for endocrine therapy adherence
+    - year: 2023
+      conference: Cancer and Primary Care Research International Network (Ca-PRI) Conference
+      title: Development of the HT&Me intervention to support women with breast cancer to adhere to adjuvant endocrine therapy and improve quality of life
+    - year: 2023
+      conference: UCL Cancer Symposium
+      title: "Supporting women with breast cancer to adhere to adjuvant endocrine therapy: development and optimisation of the HT&Me web-app"
+    
+- categoryName: archived
+  categoryData:
+    - year: 2022
+      conference: Association of Breast Surgery (ABS)
+      title: Supporting women with adherence to endocrine therapy
+    - year: 2022
+      conference: UK Interdisciplinary of Breast Cancer Symposium (UKIBCS)
+      title: "Supporting women with adherence to endocrine therapy following breast cancer: the SWEET Programme"
+    - year: 2022
+      conference: British Psychological Society (BPS) Division of Health Psychology (DHP) Annual Conference
+      title: Exploring the acceptability and usefulness of a digital intervention to support adherence to adjuvant endocrine therapy (AET) in women with breast cancer 
+    - year: 2022
+      conference: British Psychosocial Oncology Society (BPOS)
+      title: Developing and optimising the HT&Me website to support adherence to adjuvant endocrine therapy (AET) in women with breast cancer
+    - year: 2022
+      conference: UK Society for Behavioural Medicine (UKBSM)
+      title: "Supporting women with breast cancer to adhere to hormone therapy: development and optimisation of the HT&Me web-app"
+    - year: 2021
+      conference: UKONS - Virtual Annual Conference
+      title: "Improving outcomes for women diagnosed with early breast cancer through adherence to adjuvant endocrine therapy (SWEET): Developing a digitally based intervention"
+    - year: 2021
+      conference: Multinational Association of Supportive Care in Cancer Annual Meeting (MASCC)
+      title: Improving outcomes for women diagnosed with early breast cancer through adherence to adjuvant endocrine therapy (SWEET) 
+    - year: 2021
+      conference: International Psycho-oncology Society (IPOS) World Congress of Psycho-Oncology (Virtual)
+      title: Improving outcomes for women diagnosed with early breast cancer through adherence to adjuvant endocrine therapy (SWEET) 
+    - year: 2021
+      conference: Symposium Mammographicum
+      title: Supporting women with adherence to adjuvant endocrine therapy following breast cancer (SWEET) 
+    - year: 2020
+      conference: National Cancer Research Institute (NCRI) Conference
+      title: Supporting women with adherence to adjuvant endocrine therapy following breast cancer (SWEET) 
+    - year: 2020
+      conference: UK Interdisciplinary of Breast Cancer Symposium (UKIBCS)
+      title: Improving outcomes for women diagnosed with early breast cancer through adherence to adjuvant endocrine therapy (SWEET) 

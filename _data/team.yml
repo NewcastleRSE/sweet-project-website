@@ -17,9 +17,10 @@
 
 - categoryName: The Core Team
   categoryData:
-    - name: Miss Rae Barrows
+    - name: Miss Raegan Barrows
       title: Clinical Trial Manager
       affiliation: Warwick Clinical Trials Unit
+      imageURL: null
       
     - name: Dr Jo Brett
       title: Reader
@@ -30,7 +31,7 @@
     - name: Miss Anna Mann
       title: Clinical Trial Coordinator
       affiliation: Warwick Clinical Trials Unit
-      imageURL: 
+      imageURL: null
 
     - name: Mr Phil Mawson
       title: Research Project Manager

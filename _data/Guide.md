@@ -5,6 +5,7 @@
 - Lets look at an example of how to add information
 
 ### \_data/team.yml
+To use a stock image where a headshot is not available, the imageURL field should be marked as 'null'.
 
 - categoryName: Co-Lead Investigators
   categoryData:
@@ -20,7 +21,7 @@
     title: Co-Lead Investigator
     jobTitle: Professor of Supportive Cancer Care
     affiliation: Oxford Brookes University
-    imageURL: /assets/images/Eila.jpg
+    imageURL: null
     url: https://www.brookes.ac.uk/profiles/staff/eila-watson
 
 - categoryName: The Core Team
@@ -61,3 +62,9 @@ If you want to add a url field which will create a link under the information, y
     affiliation: Warwick Clinical Trials Unit
     imageURL: "/assets/images/core-team/Alice-Longe.jpg"
     url: 'example.com'
+
+
+## Study documents
+To add more documents to the dropdown menu:
+1. Move the PDF into assets/study_documents
+2. Create a new entry in _data/documents.yml including the name you want to appear in the dropdown and the filename. Documents will appear in the order listed in the yml file.

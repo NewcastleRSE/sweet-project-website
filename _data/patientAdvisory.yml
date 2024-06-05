@@ -2,9 +2,11 @@
   categoryData:
     - name: Mrs Jan Rose
       title: PAG co-chair
+      imageURL: null
 
     - name: Mrs Lesley Turner
       title: PAG co-chair
+      imageURL: null
 
 - categoryName: Patient Advisory Group Members
   categoryData:

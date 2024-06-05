@@ -1,8 +1,13 @@
+---
+layout: default
+title: Contact us
+---
+
 <div class="my-container">
   <!-- prettier-ignore -->
   <div class="section">
     {% include heading.html content="Contact us" id="contact" %}
-    {% capture contact_content %}{% include_relative _sections/contact.md %}{% endcapture %}
+    {% capture contact_content %}{% include_relative sections/contact.md %}{% endcapture %}
     <div class="section-content content">
     {{ contact_content | markdownify }}
     </div>

@@ -1,34 +1,3 @@
-
-
-## News and updates
-
-The SWEET Trial is open for recruitment with over 25 sites.
-
-We currently have 40 participants recruited to SWEET
-
-## Recent presentations
-
-The SWEET team have presented at the following recent conferences. Click here to see a list of all conferences we've been to.
-
-| <b>Year</b> | <b>Conference</b> | <b>Presentation Title</b>
-| 2024 | The UK Interdisciplinary of Breast Cancer Symposium (UKIBCS) | Developing and feasibility testing of an intervention to support women with adherence to adjuvant endocrine therapy and improve quality of life - the SWEET study |
-| 2023 | International Psycho-oncology Society (IPOS) World Congress of Psycho-Oncology | Development of HT&Me, a blended supported self-management intervention to support adherence to endocrine therapy in women with breast cancer |
-| | International Conference on Cancer Nursing | Developing and feasibility testing a self-management endocrine therapy adherence intervention |
-| | UK Oncology Nursing Society Conference | The development and feasibility of a nurse-supported self-management intervention for endocrine therapy adherence |
-| | Cancer and Primary Care Research International Network (Ca-PRI) Conference | Development of the HT&Me intervention to support women with breast cancer to adhere to adjuvant endocrine therapy and improve quality of life |
-| | UCL Cancer Symposium | Supporting women with breast cancer to adhere to adjuvant endocrine therapy: development and optimisation of the HT&Me web-app |
-| 2022 | Association of Breast Surgery (ABS) | Supporting women with adherence to endocrine therapy  |
-| | UK Interdisciplinary of Breast Cancer Symposium (UKIBCS) | Supporting women with adherence to endocrine therapy following breast cancer: the SWEET Programme  |
-| | British Psychological Society (BPS) Division of Health Psychology (DHP) Annual Conference | Exploring the acceptability and usefulness of a digital intervention to support adherence to adjuvant endocrine therapy (AET) in women with breast cancer |
-| | British Psychosocial Oncology Society (BPOS) | Developing and optimising the HT&Me website to support adherence to adjuvant endocrine therapy (AET) in women with breast cancer |
-| | UK Society for Behavioural Medicine (UKBSM) | Supporting women with breast cancer to adhere to hormone therapy:  development and optimisation of the HT&Me web-app |
-| 2021 | UKONS - Virtual Annual Conference | Improving outcomes for women diagnosed with early breast cancer through adherence to adjuvant endocrine therapy (SWEET): Developing a digitally based intervention |
-| | Multinational Association of Supportive Care in Cancer Annual Meeting (MASCC) | Improving outcomes for women diagnosed with early breast cancer through adherence to adjuvant endocrine therapy (SWEET) |
-| | International Psycho-oncology Society (IPOS) World Congress of Psycho-Oncology (Virtual) | Improving outcomes for women diagnosed with early breast cancer through adherence to adjuvant endocrine therapy (SWEET) |
-| | Symposium Mammographicum | Supporting women with adherence to adjuvant endocrine therapy following breast cancer (SWEET) |
-| 2020 | National Cancer Research Institute (NCRI) Conference | Supporting women with adherence to adjuvant endocrine therapy following breast cancer (SWEET) |
-| | UK Interdisciplinary of Breast Cancer Symposium (UKIBCS) | Improving outcomes for women diagnosed with early breast cancer through adherence to adjuvant endocrine therapy (SWEET) |
-
 ## Recent Publications
 
 Publications from the SWEET programme so far:

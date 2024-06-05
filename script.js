@@ -52,3 +52,79 @@ for (let i = 0; i < elems.length; i++) {
 //     }
 //   }
 // });
+
+// show hamburger menu and change hamburger icon
+function openMenu() {
+  console.log('open')
+  const closed = document.querySelector("#closedIcon");
+  const open = document.querySelector("#openIcon");
+  closed.classList.add("hidden");
+  open.classList.remove("hidden");
+
+  const menu = document.querySelector("#mobile-menu");
+  menu.classList.remove("hidden");
+}
+
+// hide hamburger menu and change hamburger icon
+function closeMenu() {
+  const closed = document.querySelector("#closedIcon");
+  const open = document.querySelector("#openIcon");
+  closed.classList.remove("hidden");
+  open.classList.add("hidden");
+
+  const menu = document.querySelector("#mobile-menu");
+  menu.classList.add("hidden");
+}
+
+function toggleDocsDropdown() {
+  const dropdown = document.querySelector("#docs-dropdown");
+  dropdown.classList.toggle("hidden");
+}
+
+// workstreams accordions
+function toggleWorkstreamAcc(id) {
+
+  // toggle content
+  const acc = document.querySelector("#" + id);
+  acc.classList.toggle("hidden");
+  // toggle plus sign
+  const plus = document.querySelector("#plus-" + id);
+  plus.classList.toggle("hidden");
+  // toggle minus sign
+  const minus = document.querySelector("#minus-" + id);
+  minus.classList.toggle("hidden");
+
+  closeOtherWorkstreams(id);
+}
+
+function closeOtherWorkstreams(keepOpen) {
+  for (let i = 1; i < 6; i++) {
+    const ws = document.querySelector("#workstream-acc-" + i);
+    if (ws.id !== keepOpen) {
+      // close content
+      ws.classList.add("hidden");
+      // show plus sign
+      const plus = document.querySelector("#plus-workstream-acc-" + i);
+      plus.classList.remove("hidden");
+      // hide minus sign
+      const minus = document.querySelector("#minus-workstream-acc-" + i);
+      minus.classList.add("hidden");
+    }
+  
+  }
+
+}
+
+// presentations accordion
+function togglePresentationAcc() {
+  // toggle content
+  const acc = document.querySelector("#pres-content");
+  acc.classList.toggle("hidden");
+  // toggle plus sign
+  const plus = document.querySelector("#plus-pres");
+  plus.classList.toggle("hidden");
+  // toggle minus sign
+  const minus = document.querySelector("#minus-pres" );
+  minus.classList.toggle("hidden");
+
+}
