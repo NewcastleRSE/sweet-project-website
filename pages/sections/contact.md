@@ -16,7 +16,7 @@ Follow us on Twitter and keep up to date with all the latest news related to the
 
 ## Useful Links and resources
 
-Below are some links to charities and support organizations that you may find helpful.
+Below are some links to charities and support organisations that you may find helpful.
 
 - [Breast Cancer Now](https://breastcancernow.org/)
 - [Macmillan Cancer Support](https://www.macmillan.org.uk/)
