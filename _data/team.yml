@@ -21,6 +21,7 @@
       title: Clinical Trial Manager
       affiliation: Warwick Clinical Trials Unit
       imageURL: null
+      url: https://warwick.ac.uk/fac/sci/med/research/ctu/aboutus/team/
       
     - name: Professor Jo Brett
       title: Reader
@@ -28,11 +29,18 @@
       imageURL: "/assets/images/core-team/Jo.jpg"
       url: https://www.brookes.ac.uk/profiles/staff/jo-brett
 
+    - name: Helen Higgins
+      title: Senior Project Manager
+      affiliation: Warwick Clinical Trials Unit
+      imageURL: null
+      url: https://warwick.ac.uk/fac/sci/med/research/ctu/aboutus/team/
+
     - name: Miss Anna Mann
       title: Clinical Trial Coordinator
       affiliation: Warwick Clinical Trials Unit
       imageURL: null
-
+      url: https://warwick.ac.uk/fac/sci/med/research/ctu/aboutus/team/
+      
     - name: Mr Phil Mawson
       title: Research Project Manager
       affiliation: Newcastle University
