@@ -134,9 +134,13 @@ title: The SWEET Team
 
       {% for member in category.categoryData %}
       <div
-        class="relative flex items-start space-x-3 rounded-lg border border-gray-300 bg-white px-4 py-2 shadow-sm focus-within:ring-2 focus-within:ring-purple-800 focus-within:ring-offset-2 hover:border-gray-400">
+        class="relative flex flex-col items-center space-x-3 rounded-lg border border-gray-300 bg-white px-4 py-2 shadow-sm focus-within:ring-2 focus-within:ring-purple-800 focus-within:ring-offset-2 hover:border-gray-400">
 
-        {% if member.imageURL %}
+        {% if member.imageURL == null %}
+        <img class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32" src="../assets/images/user-profile.jpg"
+          alt="{{ member.name }}" />
+
+        {% elsif member.imageURL %}
         <div class="flex-shrink-0">
           <img class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32" src="{{ member.imageURL }}"
             alt="{{ member.name }}" />
