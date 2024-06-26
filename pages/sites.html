@@ -38,7 +38,33 @@ title: SWEET recruiting sites
             {% endfor %}
           </div>
         </div>
+
+        
        
+      </div>
+      <!-- Sites table -->
+
+      <div class="px-4 sm:px-6 lg:px-8">
+        <div class="mt-8 flow-root">
+          <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+            <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8 text-center">
+              <table class="min-w-full divide-y divide-gray-300">
+                
+                <tbody class="divide-y divide-gray-200 bg-white">
+                  <!-- odd numbers in list in first col, even in second -->
+                  {% assign sites = site.data.sites %}
+                  {% for i in (0..sites.size) offset:1 %}
+                    {% assign firstcol = i | minus:1 %}
+                       <tr>
+                    <td class=" py-4 pl-4 pr-3 text-sm font-medium text-gray-900 "> {{ sites[firstcol].name }}</td>
+                    <td class=" py-4 pl-4 pr-3 text-sm font-medium text-gray-900 ">  {{ sites[i].name }}</td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 

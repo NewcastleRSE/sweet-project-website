@@ -6,108 +6,126 @@ title: News and updates
 <div class="my-container">
   <!-- prettier-ignore -->
   <div class="section">
-      {% include heading.html id="updates" content="Updates" %}
-      {% capture updates_content %}{% include_relative sections/updates.md %}{% endcapture %}
-      <div class="section-content content">
+    {% include heading.html id="updates" content="Updates" %}
+    {% capture updates_content %}{% include_relative sections/updates.md %}{% endcapture %}
+    <div class="section-content content">
       {{ updates_content | markdownify }}
-      <!-- for each section -->  {% for category in site.data.presentations %}
-     
-      <!--  Recent publications -->
- {% if category.categoryName == "recent" %}
- <div class="px-4 sm:px-6 lg:px-8">
-  <div class="mt-8 flow-root">
-    <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-      <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
-        <table class="min-w-full divide-y divide-gray-300">
-    
-      <thead>
-        <tr>
-          <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">Year</th>
-          <th scope="col" class="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 sm:table-cell">Conference</th>
-          <th scope="col" class="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 lg:table-cell">Presentation Title</th>
-           
-        </tr>
-      </thead>
-      <tbody class="divide-y divide-gray-200 bg-white">
-        {% for pres in category.categoryData %}
-        <tr>
-          <td class=" py-4 pl-4 pr-3 text-sm font-medium text-gray-900 ">{{ pres.year }}</td>
-          <td class=" px-3 py-4 text-sm text-gray-500 ">{{ pres.conference }}</td>
-          <td class=" px-3 py-4 text-sm text-gray-500 ">{{ pres.title }}</td>
-        </tr>
-        {% endfor %}
-       
-      </tbody>
-    </table>
-</div>
-</div>
-</div>
- </div>
+      <!-- for each section --> {% for category in site.data.presentations %}
 
- {% else %}
- 
+      <!--  Recent publications -->
+      {% if category.categoryName == "recent" %}
+      <div class="px-4 sm:px-6 lg:px-8">
+        <div class="mt-8 flow-root">
+          <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+            <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
+              <table class="min-w-full divide-y divide-gray-300">
+
+                <thead>
+                  <tr>
+                    <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">Year
+                    </th>
+                    <th scope="col"
+                      class="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 sm:table-cell">Conference
+                    </th>
+                    <th scope="col"
+                      class="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 lg:table-cell">
+                      Presentation Title</th>
+
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-200 bg-white">
+                  {% for pres in category.categoryData %}
+                  <tr>
+                    <td class=" py-4 pl-4 pr-3 text-sm font-medium text-gray-900 ">{{ pres.year }}</td>
+                    <td class=" px-3 py-4 text-sm text-gray-500 ">{{ pres.conference }}</td>
+                    <td class=" px-3 py-4 text-sm text-gray-500 ">{{ pres.title }}</td>
+                  </tr>
+                  {% endfor %}
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {% else %}
+
       <!--  Arcchived presentations accordion -->
       <div class="hs-accordion-group">
-               <!-- Recent -->
-              
-               <div >
-                 <button onclick="togglePresentationAcc()" class="justify-between group py-5 px-4 border-b flex  w-full  rounded-t-lg font-medium  " aria-controls="hs-basic-collapse-one">
-                   <p class="text-md font-normal">Archived conferences</p>
-                   <!-- plus sign -->
-                   <svg id="plus-pres" class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                     <path d="M5 12h14"></path>
-                     <path d="M12 5v14"></path>
-                   </svg>
-                   <!-- minus sign -->
-                   <svg id="minus-pres" class="hs-accordion-active:block hidden size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                     <path d="M5 12h14"></path>
-                   </svg>
-                 
-                 </button>
-                 <!-- Accordion content -->
-                 <div id="pres-content" class="hidden hs-accordion-content w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-heading-one">
-                  <div class="px-4 sm:px-6 lg:px-8">
-                    <div class="mt-8 flow-root">
-                      <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-                        <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
-                          <table class="min-w-full divide-y divide-gray-300">
-                      
-                        <thead>
-                          <tr>
-                            <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">Year</th>
-                            <th scope="col" class="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 sm:table-cell">Conference</th>
-                            <th scope="col" class="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 lg:table-cell">Presentation Title</th>
-                             
-                          </tr>
-                        </thead>
-                        <tbody class="divide-y divide-gray-200 bg-white">
-                          {% for pres in category.categoryData %}
-                          <tr>
-                            <td class=" py-4 pl-4 pr-3 text-sm font-medium text-gray-900 ">{{ pres.year }}</td>
-                            <td class=" px-3 py-4 text-sm text-gray-500 ">{{ pres.conference }}</td>
-                            <td class=" px-3 py-4 text-sm text-gray-500 ">{{ pres.title }}</td>
-                          </tr>
-                          {% endfor %}
-                          
-                        </tbody>
-                      </table>
+        <!-- Recent -->
+
+        <div>
+          <button onclick="togglePresentationAcc()"
+            class="justify-between group py-5 px-4 border-b flex  w-full  rounded-t-lg font-medium  "
+            aria-controls="hs-basic-collapse-one">
+            <p class="text-md font-normal">Archived conferences</p>
+            <!-- plus sign -->
+            <svg id="plus-pres" class="hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg"
+              width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5v14"></path>
+            </svg>
+            <!-- minus sign -->
+            <svg id="minus-pres" class="hs-accordion-active:block hidden size-3.5" xmlns="http://www.w3.org/2000/svg"
+              width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+            </svg>
+
+          </button>
+          <!-- Accordion content -->
+          <div id="pres-content"
+            class="hidden hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
+            aria-labelledby="hs-basic-heading-one">
+            <div class="px-4 sm:px-6 lg:px-8">
+              <div class="mt-8 flow-root">
+                <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                  <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
+                    <table class="min-w-full divide-y divide-gray-300">
+
+                      <thead>
+                        <tr>
+                          <th scope="col"
+                            class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">Year</th>
+                          <th scope="col"
+                            class="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 sm:table-cell">
+                            Conference</th>
+                          <th scope="col"
+                            class="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 lg:table-cell">
+                            Presentation Title</th>
+
+                        </tr>
+                      </thead>
+                      <tbody class="divide-y divide-gray-200 bg-white">
+                        {% for pres in category.categoryData %}
+                        <tr>
+                          <td class=" py-4 pl-4 pr-3 text-sm font-medium text-gray-900 ">{{ pres.year }}</td>
+                          <td class=" px-3 py-4 text-sm text-gray-500 ">{{ pres.conference }}</td>
+                          <td class=" px-3 py-4 text-sm text-gray-500 ">{{ pres.title }}</td>
+                        </tr>
+                        {% endfor %}
+
+                      </tbody>
+                    </table>
                   </div>
-                  </div>
-                  </div>
-                   </div>
-                   
-                 </div>
-               </div>
-               <!-- end archived section -->
- 
-             </div>
-             {% endif %}
-<!--  end for each section --> {% endfor %}
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- end archived section -->
+
+      </div>
+      {% endif %}
+      <!--  end for each section --> {% endfor %}
       <!-- Publications -->
       {% capture publications_content %}{% include_relative sections/publications.md %}{% endcapture %}
       <div class="mt-16">
-      {{ publications_content | markdownify }}
-    
+        {{ publications_content | markdownify }}
+
+      </div>
     </div>
-    </div>
-</div>
+  </div>
