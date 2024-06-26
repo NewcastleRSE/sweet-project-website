@@ -19,4 +19,5 @@ You are eligible to take part if you:
 
 ### As a Health Care Professional...
 
-To contact the SWEET research team for general queries about SWEET or taking part, you can contact the team on:  [SWEET@warwick.ac.uk](mailto:SWEET@warwick.ac.uk).
+To contact the SWEET research team for general queries about SWEET or taking part, you can contact the team on:  [SWEET@warwick.ac.uk ](mailto:SWEET@warwick.ac.uk)
+
