@@ -1,4 +1,4 @@
-This section is for patients.   
+Watch our recruitment animation below.   
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/967809387?h=0c8bdbf40a" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
@@ -17,7 +17,6 @@ You are eligible to take part if you:
 - Can access the internet and have an email address; and
 - Are willing to receive a support package with a web-based component.
 
-### As a Health Care Professional...
 
 To contact the SWEET research team for general queries about SWEET or taking part, you can contact the team on:  [SWEET@warwick.ac.uk ](mailto:SWEET@warwick.ac.uk)
 
