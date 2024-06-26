@@ -509,3 +509,31 @@ main {
     width: 100%;
   }
 }
+
+/* home page banner */
+#banner .scroll {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: fit-content;
+  white-space: nowrap;
+  animation: loop 30s linear infinite;
+}
+@keyframes loop {
+  0% {transform: translateX(0%);}
+  100% {transform: translateX(-50%);}
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0 0.2rem;
+  
+  font-size: .9rem;
+  
+  padding: 0.7rem 1rem;
+  margin: 0rem 1rem;
+  border-radius: 0.4rem;
+  white-space: nowrap;
+ 
+}

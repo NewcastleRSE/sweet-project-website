@@ -7,11 +7,25 @@ title: Home Page
   <div class="app-wrapper">
 
     <main>
-      <!-- Hero -->
-      <!-- prettier-ignore -->
+      
+      <!-- banner -->
+      <div id="banner" class="overflow-x-hidden">
+        <div class="mt-4 mb-4 whitespace-nowrap scroll text-primary text-sm">
+            <span class="mx-8 text-4xl item ">We currently have {{site.data.banner.participants}} participants recruited to SWEET.</span>      
+            <span class="mx-8 text-4xl item">We currently have {{site.data.banner.participants}} participants recruited to SWEET.</span>      
+            <span class="mx-8 text-4xl item">We currently have {{site.data.banner.participants}} participants recruited to SWEET.</span>      
+            <span class="mx-8 text-4xl item">We currently have {{site.data.banner.participants}} participants recruited to SWEET.</span>      
+            <span class="mx-8 text-4xl item">We currently have {{site.data.banner.participants}} participants recruited to SWEET.</span>      
+            <span class="mx-8 text-4xl item">We currently have {{site.data.banner.participants}} participants recruited to SWEET.</span>  
+
+        </div>
+    </div>
+       
+
+       <!-- Hero -->
       {% include hero.html title = site.data.hero.title alert = site.data.hero.alert cta =
         site.data.hero.btnText ctaHref = site.data.hero.sendTo description =
-        site.data.hero.blurb subdescription=site.data.hero.blurb2 %}
+        site.data.hero.blurb subdescription=site.data.hero.blurb2 participants=site.data.hero.participants %}
 
    
       
