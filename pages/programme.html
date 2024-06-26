@@ -8,6 +8,14 @@ title: The SWEET Programme
     <div>{% include heading.html content="Programme" id="programme" %}</div>
     {% capture programme_content %}{% include_relative sections/programme.md %}{% endcapture %}
       <div class="section-content content">
+
+{% if site.data.images.programme %}
+        <img
+          src="{{ site.data.images.programme }}"
+         
+          class="w-full">
+{% endif %}
+
       {{ programme_content | markdownify }}
       
 

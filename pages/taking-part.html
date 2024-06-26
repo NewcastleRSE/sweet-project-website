@@ -10,6 +10,12 @@ title: Taking part on SWEET
     {% include heading.html content="Taking part in SWEET" id="takingpart" %}
     {% capture contact_content %}{% include_relative sections/takingpart.md %}{% endcapture %}
     <div class="section-content content">
+      {% if site.data.images.programme %}
+        <img
+          src="{{ site.data.images.programme }}"
+         
+          class="w-full">
+{% endif %}
     {{ contact_content | markdownify }}
 
     
