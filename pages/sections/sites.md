@@ -1,4 +1,4 @@
-This part of the website is for hospitals who are currently recruiting, and for those who may be considering opening to recruitment.      
+This part of the website is for hospitals who are currently recruiting, and for those who may be considering opening to recruitment.  Below are some of the hospitals already set up for recruitment.    
 
 <br/>
 
