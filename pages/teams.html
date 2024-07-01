@@ -12,6 +12,12 @@ title: The SWEET Team
       {% capture team_content %}{% include_relative sections/team.md %}{%
       endcapture %}
       <div class="mt-4 text-base lg:text-lg">
+        {% if site.data.images.teams %}
+        <img
+          src="{{ site.data.images.teams }}"
+         
+          class="w-full">
+{% endif %}
         {{ team_content | markdownify }}
       </div>
     </div>

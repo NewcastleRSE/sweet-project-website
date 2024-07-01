@@ -9,6 +9,12 @@ title: SWEET recruiting sites
     <div>{% include heading.html content="SWEET recruiting sites" id="sites" %}</div>
     {% capture sites_content %}{% include_relative sections/sites.md %}{% endcapture %}
     <div class="section-content content">
+      {% if site.data.images.sites %}
+        <img
+          src="{{ site.data.images.sites }}"
+         
+          class="w-full">
+{% endif %}
       {{ sites_content | markdownify }}
 
        <!-- Sites table -->

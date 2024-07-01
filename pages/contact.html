@@ -9,6 +9,12 @@ title: Contact us
     {% include heading.html content="Contact us" id="contact" %}
     {% capture contact_content %}{% include_relative sections/contact.md %}{% endcapture %}
     <div class="section-content content">
+      {% if site.data.images.contact %}
+        <img
+          src="{{ site.data.images.contact }}"
+         
+          class="w-full">
+{% endif %}
     {{ contact_content | markdownify }}
     </div>
   </div>

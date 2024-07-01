@@ -9,6 +9,12 @@ title: News and updates
     {% include heading.html id="updates" content="Updates" %}
     {% capture updates_content %}{% include_relative sections/updates.md %}{% endcapture %}
     <div class="section-content content">
+      {% if site.data.images.updates %}
+        <img
+          src="{{ site.data.images.updates }}"
+         
+          class="w-full">
+{% endif %}
       {{ updates_content | markdownify }}
       <!-- for each section --> {% for category in site.data.presentations %}
 
