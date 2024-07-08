@@ -1,7 +1,7 @@
 <div class="my-container">
   <!-- prettier-ignore -->
   <div class="section">
-    {% include heading.html content="HT&amp;Me" id="htandme" %}
+    {% include heading.html content="HT&amp;Me" id="htandme" image="htandme.png"%}
     {% capture htandme_content %}{% include_relative sections/htandme.md %}{% endcapture %}
     <div class="section-content content">
     {{ htandme_content | markdownify }}

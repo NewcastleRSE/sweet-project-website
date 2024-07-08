@@ -7,15 +7,11 @@ title: Taking part in SWEET
 <div class="my-container">
   <!-- prettier-ignore -->
   <div class="section">
-    {% include heading.html content="Taking part in SWEET" id="takingpart" %}
+{% assign img = site.images.takingpart %}
+    {% include headingwithimage.html content="Taking part in SWEET" image="takingpart.png" id="takingpart" %}
     {% capture contact_content %}{% include_relative sections/takingpart.md %}{% endcapture %}
     <div class="section-content content">
-      {% if site.data.images.takingpart %}
-        <img
-          src="{{ site.data.images.takingpart }}"
-         
-          class="w-full">
-{% endif %}
+     
     {{ contact_content | markdownify }}
 
     
