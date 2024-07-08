@@ -40,7 +40,12 @@ The HT&Me support package includes:
         <!-- Block -->
         <div >
           <button onclick="toggleWorkstreamAcc('{{ stream.acc-id }}')" class="grid grid-cols-5 py-5 px-4  w-full  rounded-t-lg font-medium border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-white " aria-controls="hs-basic-collapse-one">
+            {% if stream.number %}
             <p class="text-left font-bold text-primary col-span-4">{{ stream.number }}: {{ stream.title }}</p>
+            {% else %}
+            <p class="text-left font-bold text-primary col-span-4">{{ stream.title }}</p>
+            {% endif %}
+            
             <div class="">
             <!-- plus sign -->
             <svg id="plus-{{ stream.acc-id }}" class="float-right hs-accordion-active:hidden block size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
