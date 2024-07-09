@@ -1,11 +1,13 @@
 - categoryName: Patient Advisory Group Chairs
   categoryData:
-    - name: Mrs Jan Rose
+    - name: Jan Rose
       title: PAG co-chair
+      description: Sharing my experiences with PAG members and researchers, to create the HT&Me website, is important. I hope it will benefit future patients taking hormone therapy.
       imageURL: /assets/images/pag/Jan Rose.png
 
-    - name: Mrs Lesley Turner
+    - name: Lesley Turner
       title: PAG co-chair
+      description: I am a breast cancer patient. I strongly believe that women deserve better tools to support them navigate their endocrine therapy and improve their quality of life.
       imageURL: /assets/images/pag/Lesley.png
 
 - categoryName: Patient Advisory Group Members
@@ -14,7 +16,7 @@
       description: As a breast cancer survivor, I know how important it is to have comprehensive help available easily. It is absolutely useful in supporting our health journey.
       imageURL: /assets/images/pag/Akos 1.png
     - name: Jan Backhouse
-      description: Having run breast support groups, I have met many ladies unable to get appropriate hormone therapy support. A website like this is an oasis in the desert, and will be valued!
+      description: Having run breast support groups, I have met many ladies unable to get appropriate hormone therapy support. A website like HT&Me is an oasis in the desert, and will be valued!
       imageURL: /assets/images/pag/Jan B.png
     - name: Sue Bailey
       description: I am a breast cancer patient. By being part of the SWEET PAG I hope we have improved the support available and health outcomes for other women taking hormone therapy.
@@ -57,7 +59,7 @@
     - name: Dr Brian Nicholson
       title: Co-applicant
       affiliation: NIHR Academic Clinical Lecturer Nuffield Department of Primary Care Health Sciences, University of Oxford
-    - name: Jan Rose
+    - name: Mrs Jan Rose
       title: Co-applicant
       affiliation: NCRI- National Cancer Research Institute
     - name: Professor Adam Todd
