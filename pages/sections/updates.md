@@ -2,9 +2,9 @@
 
 ## News and updates
 
-The SWEET Trial is open for recruitment with over 25 sites.
+We have 26 sites open for recruitment.
 
-We currently have 111 participants recruited to SWEET
+We currently have 111 participants recruited to SWEET.
 
 ## Recent presentations
 
