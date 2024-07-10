@@ -8,7 +8,8 @@ We currently have 111 participants recruited to SWEET
 
 ## Recent presentations
 
-Lesley Turner presenting at the MASCC 2024 Annual Meeting in June
+Lesley Turner presenting at the MASCC 2024 Annual Meeting in June.
+image URL:/assets/images/Lesley T MASCC 2024 (2).jpg
 
 
 
