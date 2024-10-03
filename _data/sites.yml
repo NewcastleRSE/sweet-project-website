@@ -1,11 +1,12 @@
 
 - name: Airedale General Hospital
-- name: Basingstoke and North Hampshire Hospital
+- name: Basingstoke & North Hampshire Hospital
 - name: Borders General Hospital
 - name: Charing Cross Hospital
 - name: Derriford Hospital
 - name: East Surrey Hospital
 - name: James Cook University Hospital
+- name: Kent Oncology Centre
 - name: Kings Mill Hospital
 - name: Milton Keynes University Hospital
 - name: Neville Hall Hospital
@@ -15,13 +16,16 @@
 - name: Queen's Hospital
 - name: Queen's Hospital Burton
 - name: Queen Elizabeth Hospital
-- name: Royal Albert and Edward Imfirmary Hospital
+- name: Royal Albert & Edward Infirmary 
 - name: Royal Bournemouth Hospital
 - name: Royal Hampshire County Hospital
+- name: Royal Liverpool University Hospital
 - name: Singleton Hospital
+- name: Southmead Hospital
 - name: Stoke Mandeville Hospital
 - name: Tameside General Hospital
 - name: Royal Victoria Infirmary
+- name: University Hospitals Coventry & Warwickshire
 - name: University Hospital of North Tees
 - name: West Sussex Hospital
 - name: Wycombe Hospital
