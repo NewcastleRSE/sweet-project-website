@@ -1,12 +1,12 @@
-const element = document.querySelector(".workstream-2");
+var elementw = document.querySelector(".workstream-2");
 
-const navElement = document.querySelector("nav");
-const navLinkElements = document.querySelectorAll(".nav-link");
+var navElement = document.querySelector("nav");
+var navLinkElements = document.querySelectorAll(".nav-link");
 
-console.log(element);
-const primaryColor = "#633188";
+console.log(elementw);
+var primaryColor = "#633188";
 
-const handleClassToggle = (entry) => {
+var handleClassToggle = (entry) => {
   // console.log("toggling entry: ", entry);
   entry.target.classList.toggle("visible", entry.isIntersecting);
 
@@ -15,7 +15,7 @@ const handleClassToggle = (entry) => {
   }
 };
 
-let options = {
+var options = {
   root: null,
   rootMargin: "0px",
   threshold: 0.7,

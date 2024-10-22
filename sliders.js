@@ -1,48 +1,4 @@
----
-layout: default
-title: Home Page
----
-
-<body>
-  
-  <div class="app-wrapper">
-
-    <main>
-      
-      <!-- banner -->
-      <div id="banner" class="overflow-x-hidden">
-        <!-- recruitment progress scale (really a slider) -->
-         <!-- <input type="text" class="slider1" name="progress" text="Recruitment progress" min="0" max="1460" value="260"> -->
-
-
-         <div class="mt-4 mb-4 whitespace-nowrap scroll text-primary text-sm">
-            <span class="mx-8 text-4xl item ">We currently have {{site.data.banner.participants}} participants recruited to SWEET, {{site.data.banner.percentage}} of our 1460 target.</span>      
-            <span class="mx-8 text-4xl item">We currently have {{site.data.banner.participants}} participants recruited to SWEET, {{site.data.banner.percentage}} of our 1460 target.</span>      
-            <span class="mx-8 text-4xl item">We currently have {{site.data.banner.participants}} participants recruited to SWEET, {{site.data.banner.percentage}} of our 1460 target.</span>      
-            <span class="mx-8 text-4xl item">We currently have {{site.data.banner.participants}} participants recruited to SWEET, {{site.data.banner.percentage}} of our 1460 target.</span>      
-            <span class="mx-8 text-4xl item">We currently have {{site.data.banner.participants}} participants recruited to SWEET, {{site.data.banner.percentage}} of our 1460 target.</span>      
-            <span class="mx-8 text-4xl item">We currently have {{site.data.banner.participants}} participants recruited to SWEET, {{site.data.banner.percentage}} of our 1460 target.</span>  
-
-        </div>
-    </div>
-       
-
-       <!-- Hero -->
-      {% include hero.html title = site.data.hero.title alert = site.data.hero.alert cta =
-        site.data.hero.btnText ctaHref = site.data.hero.sendTo description =
-        site.data.hero.blurb subdescription=site.data.hero.blurb2 participants=site.data.hero.participants %}
-
-   
-      
-    </main>
-    
-  </div>
-  <script src="script.js">
-
-  </script>
-
-  <script>
-    var mousePosition, active_element;
+var mousePosition, active_element;
 var offset = [0,0];
 var isDown = false;
 var slider_min = -11;
@@ -96,7 +52,6 @@ document.addEventListener('mousemove', function(event) {
 
 var sliders = document.getElementsByClassName('slider1');
 
-
 for (var i = 0; i < sliders.length; i++) {
     var slider_parent = createSuperElement('div', {'class':'slider1_parent'});
     sliders[i].parentNode.insertBefore(slider_parent, sliders[i]);
@@ -117,8 +72,6 @@ for (var i = 0; i < sliders.length; i++) {
     var slider_groove = createSuperElement('div', {'class':'groove'});
     var slider_fill = createSuperElement('div', {'class':'fill'}, '', {'background-color':color});
     var slider_rider = createSuperElement('div', {'class':'rider'});
-    var total = createSuperElement('p', {'class':'total'});
-    total.innerHTML = sliders[i].value;
 
     var min = parseFloat(sliders[i].min);
     var max = parseFloat(sliders[i].max);
@@ -134,7 +87,6 @@ for (var i = 0; i < sliders.length; i++) {
     slider_groove.appendChild(slider_fill);
     slider_groove_parent.appendChild(slider_groove);
     slider_groove_parent.appendChild(slider_rider);
-    slider_rider.appendChild(total);
     slider_main_block.appendChild(slider_groove_parent);
     slider_main_block.appendChild(slider_range);
     slider_parent.appendChild(slider_main_block);
@@ -286,6 +238,3 @@ function createSuperTable(data, attributes) {
 
 	return table;
 }
-  </script>
-  
-</body>
