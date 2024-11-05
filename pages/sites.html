@@ -42,6 +42,48 @@ title: SWEET recruiting sites
         </div>
       </div>
 <hr/>
+
+<!-- Nurses -->
+<h2 class="mt-8 text-3xl font-semibold tracking-tight text-primary mt-20 mb-8 text-center">
+  Breast Cancer Now Nurses
+</h2>
+ <div class="grid grid-cols-1 gap-4 md:grid-cols-3 mb-4">
+{% for member in site.data.nurses %}
+<div
+        class="relative flex flex-col items-center space-x-3 rounded-lg border border-gray-300 bg-white px-4 py-2 shadow-sm focus-within:ring-2 focus-within:ring-purple-800 focus-within:ring-offset-2 hover:border-gray-400">
+
+        {% if member.imageURL == null %}
+        <img class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32" src="../assets/images/user-profile.jpg"
+          alt="{{ member.name }}" />
+
+        {% elsif member.imageURL %}
+        <div class="flex-shrink-0">
+          <img class="object-cover rounded-full h-16 w-16 2xl:h-32 2xl:w-32" src="{{ member.imageURL }}"
+            alt="{{ member.name }}" />
+        </div>
+
+
+        {% endif %}
+        <div class="min-w-0 flex-1">
+          <p class="text-base lg:text-xl font-medium text-gray-900">
+            {{ member.name }}
+          </p>
+          
+          <p class="text-sm lg:text-base text-gray-500">
+            {{ member.description }}
+          </p>
+          {% if member.url %}
+          
+
+          {% endif %}
+        </div>
+        
+
+      </div>
+{% endfor %}
+</div>
+      <hr/>
+
       <div class="relative inline-block text-left mt-4">
         <div>
           <button type="button" onclick="toggleDocsDropdown()"
