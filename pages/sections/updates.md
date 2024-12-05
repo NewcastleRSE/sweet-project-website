@@ -2,7 +2,7 @@
 
 ## News and updates
 
-We have 42 sites open for recruitment.
+We have 45 sites open for recruitment.
 
 We currently have 474 participants recruited and randomised to SWEET.
 
