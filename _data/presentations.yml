@@ -1,6 +1,12 @@
 - categoryName: recent
   categoryData:
     - year: 2024
+      conference: MASCC/AFSO/ISOO (Multinational Association of Supportive Care in Cancer, the Association Francophone des Soins Oncologiques de Support, and the International Society of Oral Oncology) Annual Meeting
+      title: Supporting women with breast cancer with adherence to adjuvant endocrine therapy – results from the feasibility study of the HT&Me intervention
+    - year: 2024
+      conference: ABS (Association of Breast Surgery)
+      title: Supporting women with adherence to adjuvant endocrine therapy – results from the SWEET feasibility study 
+    - year: 2024
       conference: The UK Interdisciplinary of Breast Cancer Symposium (UKIBCS)
       title: Developing and feasibility testing of an intervention to support women with adherence to adjuvant endocrine therapy and improve quality of life - the SWEET study
     - year: 2023
