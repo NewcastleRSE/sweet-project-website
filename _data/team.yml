@@ -34,18 +34,18 @@
       affiliation: Warwick Clinical Trials Unit
       imageURL: "/assets/images/core-team/Helen Higgins.jpg"
       url: https://www.warwick.ac.uk/fac/sci/med/research/ctu/aboutus/team/
-
-    - name: Miss Anna Mann
-      title: Clinical Trial Coordinator
-      affiliation: Warwick Clinical Trials Unit
-      imageURL: null
-      url: https://www.warwick.ac.uk/fac/sci/med/research/ctu/aboutus/team/
-      
+  
     - name: Mr Phil Mawson
       title: Research Project Manager
       affiliation: Newcastle University
       imageURL: "/assets/images/core-team/Phil-Mawson.jpg"
       url: https://www.ncl.ac.uk/medical-sciences/people/profile/philmawson.html
+
+    - name: Miss Sneha Mehta
+      title: Clinical Trial Coordinator
+      affiliation: Warwick Clinical Trials Unit
+      imageURL: null
+      url: https://www.warwick.ac.uk/fac/sci/med/research/ctu/aboutus/team/
 
     - name: Dr Lucy McGeagh
       title: Senior Research Fellow
