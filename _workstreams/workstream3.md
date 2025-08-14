@@ -15,4 +15,3 @@ If you are a healthcare professional at an NHS site that delivers breast cancer 
 <br>
 If you are interested in taking part as a participant, please contact your hospital to see if they are taking part in the SWEET study, and whether you are eligible to take part.
 <br>
-You can access the current version of the participant information sheet for workstream 3 as a PDF file please [click here](#assets/study_documents).
