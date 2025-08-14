@@ -18,12 +18,6 @@ We have recruited women from the following sites:
 - Oxford University Hospitals NHS Foundation Trust
 <br>
 
-### Feasibility study documentation
-Please note these are for the Feasibility study and therefore are NOT currently in use for the RCT. 
-- To access the participant information sheet for the SWEET Feasibility study, CLICK HERE
-- To access the participant consent forms (face-to-face and verbal) for the SWEET Feasibiility study, CLICK HERE
-<br>
-
 #### The SWEET Feasibility data controller is Newcastle upon Tyne Hospitals NHS Foundation Trust (NuTH)
 
 Privacy notice: [Click here](https://www.newcastle-hospitals.nhs.uk/help/privacy/privacy-notice-for-patients/)     
