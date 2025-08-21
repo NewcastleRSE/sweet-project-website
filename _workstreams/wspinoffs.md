@@ -22,8 +22,8 @@ Women with breast cancer and experience of CDK4/6 inhibitors have been involved 
 #### **Impact and Dissemination**
 Our support tool will help women take their treatment as recommended, which will ultimately reduce the chances of the cancer returning and improve survival rates. This will benefit patients, their families, and the NHS. We will share results in papers, briefings and infographics and work with charities and other organisations to ensure they are used to benefit patients.  
 <br>
-
-#### **2. QUIETER+ Inequalities in adherence to endocrine therapy in women with ER+ve breast cancer: can these explain disparities in survival?**
+![QUIETER+logo](/assets/images/workstreams/QUIETER+logo.png)
+**2. QUIETER+ Inequalities in adherence to endocrine therapy in women with ER+ve breast cancer: can these explain disparities in survival?**
 <br>
 #### **Background**
 In the UK, women with breast cancer living in more deprived areas, and Black women, have shorter survival. We don’t understand why. One reason could be differences in treatments between different groups of women.
