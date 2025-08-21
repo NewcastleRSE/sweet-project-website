@@ -5,7 +5,8 @@ title: Spin off projects
 image: /assets/images/workstreams/SWEET PLUS logo.png
 ---
 
-#### 1. SWEET-PLUS: Supporting adherence to adjuvant CDK4/6 inhibitors in women with early breast cancer
+#### 1. **SWEET-PLUS: Supporting adherence to adjuvant CDK4/6 inhibitors in women with early breast cancer**
+
 #### Background
 Breast cancer is the commonest cancer in UK women. While many women are diagnosed with early-stage disease, meaning the cancer hasn’t spread, there is still a risk the cancer could come back (recur), even after successful hospital treatment. For women whose cancers are sensitive to the hormone oestrogen, doctors recommend hormone therapy for 5-10 years after hospital treatment to reduce the chance of recurrence.  
 New drugs – called CDK4/6 inhibitors - are now being used alongside hormone therapy to further reduce the chance of the cancer coming back. However, studies have shown that many women stop taking these drugs before the two or three year recommended treatment period. Not following the treatment plan could mean the drugs don’t work as well. To get full benefit of these new drugs, women should be supported to take them as recommended, wherever possible.    
