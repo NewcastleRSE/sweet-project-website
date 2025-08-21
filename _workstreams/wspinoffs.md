@@ -19,13 +19,14 @@ SWEET-PLUS will have three phases:
 Phase 1: We will interview around 25 women with early breast cancer who use or have used CDK4/6 inhibitors to learn about their experiences. This will help us understand what challenges they face, how they feel about taking the drug every day, and what might help them stick to the treatment plan.  
 <br>
 Phase 2: We will also hold focus groups with around 20 healthcare professionals, including doctors and nurses, to understand how they prescribe CDK4/6 inhibitors and what advice they give women about continuing or stopping early. 
+
 <br>
 Phase 3: Using insights from women and healthcare professionals, we will work together to develop a support tool to help women take their CDK4/6 inhibitor as recommended. This will be an addition to our existing HT&Me support package which we developed to help women stay on hormone therapy. We will look for more funding to test the new tool. 
 #### **Public & Patient Involvement**
 Women with breast cancer and experience of CDK4/6 inhibitors have been involved in developing the project and will continue to play a key role throughout. They will help design patient materials, advise on recruitment, review results, and co-develop the support tool.
 #### **Impact and Dissemination**
 Our support tool will help women take their treatment as recommended, which will ultimately reduce the chances of the cancer returning and improve survival rates. This will benefit patients, their families, and the NHS. We will share results in papers, briefings and infographics and work with charities and other organisations to ensure they are used to benefit patients.  
-![QUIETER+logo](/assets/images/workstreams/QUIETER+logo.png)  
+ 
 **2. QUIETER+ Inequalities in adherence to endocrine therapy in women with ER+ve breast cancer: can these explain disparities in survival?**
 <br>
 #### **Background**
