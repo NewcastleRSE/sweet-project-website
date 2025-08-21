@@ -3,6 +3,7 @@ number:
 acc-id: workstream-acc-6
 title: Spin off projects
 image: /assets/images/workstreams/SWEET PLUS logo.png
+image: /assets/images/workstreams/QUIETER+logo.png
 ---
 ![SWEET PLUS logo](/assets/images/workstreams/SWEET PLUS logo.png)
 **1. SWEET-PLUS: Supporting adherence to adjuvant CDK4/6 inhibitors in women with early breast cancer**
@@ -14,8 +15,11 @@ New drugs – called CDK4/6 inhibitors - are now being used alongside hormone th
 This SWEET-PLUS project will understand what helps, and what makes it difficult, for women with early breast cancer, who are prescribed CDK4/6 inhibitors, to keep taking them as recommended. Using this information, we will create a support tool, in collaboration with patients, that will help women take their treatment as recommended. 
 #### **Design and methods** 
 SWEET-PLUS will have three phases:
+<br>
 Phase 1: We will interview around 25 women with early breast cancer who use or have used CDK4/6 inhibitors to learn about their experiences. This will help us understand what challenges they face, how they feel about taking the drug every day, and what might help them stick to the treatment plan.  
+<br>
 Phase 2: We will also hold focus groups with around 20 healthcare professionals, including doctors and nurses, to understand how they prescribe CDK4/6 inhibitors and what advice they give women about continuing or stopping early. 
+<br>
 Phase 3: Using insights from women and healthcare professionals, we will work together to develop a support tool to help women take their CDK4/6 inhibitor as recommended. This will be an addition to our existing HT&Me support package which we developed to help women stay on hormone therapy. We will look for more funding to test the new tool. 
 #### **Public & Patient Involvement**
 Women with breast cancer and experience of CDK4/6 inhibitors have been involved in developing the project and will continue to play a key role throughout. They will help design patient materials, advise on recruitment, review results, and co-develop the support tool.
