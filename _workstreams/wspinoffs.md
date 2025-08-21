@@ -4,7 +4,7 @@ acc-id: workstream-acc-6
 title: Spin off projects
 image: /assets/images/workstreams/SWEET PLUS logo.png
 ---
-
+![SWEET PLUS logo](/assets/images/workstreams/SWEET PLUS logo.png)
 #### **1. SWEET-PLUS: Supporting adherence to adjuvant CDK4/6 inhibitors in women with early breast cancer**
 <br>
 #### **Background**
