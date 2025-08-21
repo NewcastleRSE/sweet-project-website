@@ -6,8 +6,7 @@ image: /assets/images/workstreams/SWEET PLUS logo.png
 ---
 
 #### **1. SWEET-PLUS: Supporting adherence to adjuvant CDK4/6 inhibitors in women with early breast cancer**
-
-
+<br>
 #### **Background**
 Breast cancer is the commonest cancer in UK women. While many women are diagnosed with early-stage disease, meaning the cancer hasn’t spread, there is still a risk the cancer could come back (recur), even after successful hospital treatment. For women whose cancers are sensitive to the hormone oestrogen, doctors recommend hormone therapy for 5-10 years after hospital treatment to reduce the chance of recurrence.  
 New drugs – called CDK4/6 inhibitors - are now being used alongside hormone therapy to further reduce the chance of the cancer coming back. However, studies have shown that many women stop taking these drugs before the two or three year recommended treatment period. Not following the treatment plan could mean the drugs don’t work as well. To get full benefit of these new drugs, women should be supported to take them as recommended, wherever possible.    
@@ -24,8 +23,7 @@ Women with breast cancer and experience of CDK4/6 inhibitors have been involved 
 Our support tool will help women take their treatment as recommended, which will ultimately reduce the chances of the cancer returning and improve survival rates. This will benefit patients, their families, and the NHS. We will share results in papers, briefings and infographics and work with charities and other organisations to ensure they are used to benefit patients.  
 
 #### **2. QUIETER+ Inequalities in adherence to endocrine therapy in women with ER+ve breast cancer: can these explain disparities in survival?**
-
-
+<br>
 #### **Background**
 In the UK, women with breast cancer living in more deprived areas, and Black women, have shorter survival. We don’t understand why. One reason could be differences in treatments between different groups of women.
 Endocrine therapy (ET) is recommended after surgery for oestrogen-receptor positive (ER+ve) breast cancer. By controlling levels of the hormone oestrogen in the body, it reduces the risk of breast cancer coming back (recurrence) and of dying. It is taken as one tablet every day, for at least 5 years. However, up to half of women regularly miss ET tablets (accidentally or deliberately) or stop taking ET completely. This increases their chance of dying from breast cancer.
