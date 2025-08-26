@@ -5,7 +5,8 @@ title: Spin off projects
 image: /assets/images/workstreams/SWEET PLUS logo.png
 image: /assets/images/workstreams/QUIETER+logo.png
 ---
-![SWEET PLUS logo](/assets/images/workstreams/SWEET PLUS logo.png)
+
+<img class="smallerimg" src="/assets/images/workstreams/SWEET PLUS logo.png" width="50"/>
 **1. SWEET-PLUS: Supporting adherence to adjuvant CDK4/6 inhibitors in women with early breast cancer**
 <br>
 #### **Background**
@@ -27,7 +28,8 @@ Women with breast cancer and experience of CDK4/6 inhibitors have been involved 
 #### **Impact and Dissemination**
 Our support tool will help women take their treatment as recommended, which will ultimately reduce the chances of the cancer returning and improve survival rates. This will benefit patients, their families, and the NHS. We will share results in papers, briefings and infographics and work with charities and other organisations to ensure they are used to benefit patients.  
 <br>
-![QUIETER+logo](/assets/images/workstreams/QUIETER+logo.png)
+<img class="smallerimg" src="/assets/images/workstreams/QUIETER+logo.png" width="50"/>
+
 **2. QUIETER+ Inequalities in adherence to endocrine therapy in women with ER+ve breast cancer: can these explain disparities in survival?**
 <br>
 #### **Background**

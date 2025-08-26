@@ -221,6 +221,16 @@ main {
   cursor: pointer;
 }
 
+.content .smallerimg {
+  display: block;
+  border-radius: 0.5rem;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin: 2rem auto 2rem auto;
+}
+
+
 .content img {
   display: block;
   border-radius: 0.5rem;
@@ -229,6 +239,7 @@ main {
   width: 65%;
   margin: 2rem auto 2rem auto;
 }
+
 
 .content table {
   width: 100%;
