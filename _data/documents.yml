@@ -1,8 +1,8 @@
 
 #To include another document, add the document into the assets/study_documents folder and then add the new file name to this list. Simply copy the last item and change the name and document extension. Documents appear in the order they are listed here.
 
-- name: Patient Information Sheet v4.0 03apr2024
-  filename: sweet_patientinformationsheet_v4.0_03apr2024.pdf  
+- name: Patient Information Sheet v5.0 08Jul2025
+  filename: SWEET_PatientInformationSheet_v5.0_08Jul2025.pdf
 
 - name: Informed Consent Form v5.0 30 Oct2024
   filename: sweet_informedconsentform_v5.0_30oct2024.pdf
