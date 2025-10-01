@@ -2,9 +2,10 @@
 
 ## News and updates
 
-We have 66 sites open for recruitment.
+Recruitment for the SWEET study is now closed.
+Thanks to the amazing response we've successfully reached over our recruitment target.
 
-We currently have 1630 participants recruited and randomised to SWEET.
+
 
 ## Recent presentations
 
