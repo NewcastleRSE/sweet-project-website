@@ -1,5 +1,5 @@
 <br/>
 
-Hospitals who have taken part in SWEET. 
+Hospitals who are taking part in SWEET. 
 
 <hr/>
