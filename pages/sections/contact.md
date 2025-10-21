@@ -1,6 +1,6 @@
 ## Contact the SWEET research team
 
-To contact the SWEET research team for general queries about SWEET or taking part, you can contact the team on:
+To contact the SWEET research team for general queries about SWEET you can contact the team on:
 
 - Email: [SWEET@warwick.ac.uk ](mailto:SWEET@warwick.ac.uk)
 
