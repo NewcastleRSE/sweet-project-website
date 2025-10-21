@@ -4,9 +4,9 @@ Watch our recruitment animation below.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1045041824?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-If you are interested in taking part in SWEET, please contact your hospital to see if they are taking part in the trial, and whether you are eligible to take part.
+<b>Recruitment for the SWEET Study is now closed.</b>
 
-You are eligible to take part if you:
+Eligibility Criteria:
 
 - Are Aged 18+
 - Are Female
@@ -18,5 +18,5 @@ You are eligible to take part if you:
 - Are willing to receive a support package with a web-based component.
 
 
-To contact the SWEET research team for general queries about SWEET or taking part, you can contact the team on:  [SWEET@warwick.ac.uk ](mailto:SWEET@warwick.ac.uk)
+To contact the SWEET research team for general queries about SWEET you can contact the team on:  [SWEET@warwick.ac.uk ](mailto:SWEET@warwick.ac.uk)
 
