@@ -4,7 +4,7 @@ Publications from the SWEET programme so far:
 
 Lay summary of articles (known as papers)
 
-- <b>Improving outcomeS for Women diagnosed with early breast cancer through adhErence to adjuvant Endocrine Therapy (SWEET):study protocol for a pragmatic randomised control trial of a patient‑centred intervention to improve adherence to endocrine therapy in early breast cancer.</b>  McGeagh et al. 2025. <em> Trials </em>. [Click here to read](https://pmc.ncbi.nlm.nih.gov/articles/PMC12659038/)
+- <b>Improving outcomeS for Women diagnosed with early breast cancer through adhErence to adjuvant Endocrine Therapy (SWEET): study protocol for a pragmatic randomised control trial of a patient‑centred intervention to improve adherence to endocrine therapy in early breast cancer.</b>  McGeagh et al. 2025. <em> Trials </em>. [Click here to read](https://pmc.ncbi.nlm.nih.gov/articles/PMC12659038/)
 
 - <b>Identifying determinants of adherence to adjuvant endocrine therapy following breast cancer: A systematic review of reviews.</b> Todd et al. 2024. <em> Cancer Medicine</em>. [Click here to read](https://onlinelibrary.wiley.com/doi/10.1002/cam4.6937)
 
