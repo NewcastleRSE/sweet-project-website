@@ -6,6 +6,12 @@ Lay summary of articles (known as papers)
 
 - <b>Improving outcomeS for Women diagnosed with early breast cancer through adhErence to adjuvant Endocrine Therapy (SWEET): study protocol for a pragmatic randomised control trial of a patient‑centred intervention to improve adherence to endocrine therapy in early breast cancer.</b>  McGeagh et al. 2025. <em> Trials </em>. [Click here to read](https://pmc.ncbi.nlm.nih.gov/articles/PMC12659038/)
 
+Lay summary:
+
+Women who have had early breast cancer often take hormone endocrine therapy for at least five years after treatment. This greatly reduces the risk of the cancer coming back and improves survival. However, many women find it hard to keep taking this medicine regularly, or stop completely. The SWEET trial is a UK-based study which is testing whether a new support package called HT&Me can help women to keep taking their hormone therapy, and improve their quality of life. Approximately 1,460 women will take part. Half will receive usual care, and half will receive usual care, plus the extra support package HT&Me. This includes an animation, two consultations with a trained health professional, access to an interactive web app for 18 months, and monthly reminders to take their medication and return to the web app for support.
+
+The study will check whether this program improves adherence to hormone therapy and quality of life, and whether it offers good value for money. If successful, the trial could help reduce breast cancer recurrences and subsequent deaths, and improve quality of life, benefiting women, their families, and the NHS.
+
 - <b>Identifying determinants of adherence to adjuvant endocrine therapy following breast cancer: A systematic review of reviews.</b> Todd et al. 2024. <em> Cancer Medicine</em>. [Click here to read](https://onlinelibrary.wiley.com/doi/10.1002/cam4.6937)
 
 Lay summary:
