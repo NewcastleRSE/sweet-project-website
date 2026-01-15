@@ -21,6 +21,9 @@
     - year: 2024
       conference: The UK Interdisciplinary of Breast Cancer Symposium (UKIBCS)
       title: Developing and feasibility testing of an intervention to support women with adherence to adjuvant endocrine therapy and improve quality of life - the SWEET study
+                     
+- categoryName: archived
+  categoryData:
     - year: 2023
       conference: International Psycho-oncology Society (IPOS) World Congress of Psycho-Oncology
       title: Development of HT&Me, a blended supported self-management intervention to support adherence to endocrine therapy in women with breast cancer
@@ -36,9 +39,6 @@
     - year: 2023
       conference: UCL Cancer Symposium
       title: "Supporting women with breast cancer to adhere to adjuvant endocrine therapy: development and optimisation of the HT&Me web-app"
-    
-- categoryName: archived
-  categoryData:
     - year: 2022
       conference: Association of Breast Surgery (ABS)
       title: Supporting women with adherence to endocrine therapy
