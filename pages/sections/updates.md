@@ -8,6 +8,7 @@ Thanks to the amazing response we've successfully reached over our recruitment t
 
 
 ## Recent presentations
+
 <img src='../../assets/images/UKIBCS.jpg'>
 Dr Lucy McGeagh with the SWEET poster at The UK Interdisciplinary Breast Cancer Symposium in Jan 2026.
 
