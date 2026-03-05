@@ -1,17 +1,31 @@
 - categoryName: recent
   categoryData:
+    - year: 2026
+      conference: Irish Association for Cancer Research Annual Meeting (IACR) 
+      title: Supporting adherence to endocrine therapyin breast cancer: the HT&Me intervention 
+    - year: 2026
+      conference: The UK Interdisciplinary Breast Cancer Symposium (UKIBCS) 
+      title: Supporting adherence to endocrine therapy: Health Care Professionals' views on the HT&Me intervention and potential for implementation 
     - year: 2025
       conference: IPOS World Congress of Psycho-Oncology and Psychosocial Academy (IPOS)
       title: Supporting women with breast cancer with adherence to adjuvant endocrine therapy (SWEET) a feasibility study of the HT&Me intervention
     - year: 2025
       conference: Royal College of Nursing (RCN) Conference
-      title: Supporting women with breast cancer with adherence to adjuvant endocrine therapy (SWEET) a feasibility study of the HT&Me intervention
+      title: Supporting women with breast cancer with adherence to adjuvant endocrine therapy (SWEET) a feasibility study of the HT&Me intervention   
     - year: 2025
       conference: Beaumont RCSI Cancer Conference
       title: Supporting women with breast cancer with adherence to adjuvant endocrine therapy (SWEET) a feasibility study of the HT&Me intervention
     - year: 2025
+      conference: Cancer in Primary Care Research International Conference (CA-PRI)
+      title: Supporting women with breast cancer with adherence to adjuvant endocrine therapy (SWEET) a feasibility study of the HT&Me intervention
+      title: Assessing medication adherence through primary care prescribing vs pharmacy encashment data: Experiences from the SWEET feasibility study
+    - year: 2025
       conference: British Psychosocial Oncology Society (BPOS)
       title: Supporting women with breast cancer with adherence to adjuvant endocrine therapy (SWEET) a feasibility study of the HT&Me intervention
+      
+                     
+- categoryName: archived
+  categoryData:
     - year: 2024
       conference: Multinational Association of Supportive Care in Cancer, the Association Francophone des Soins Oncologiques de Support, and the International Society of Oral Oncology) Annual Meeting (MASCC/AFSO/ISOO)
       title: Supporting women with breast cancer with adherence to adjuvant endocrine therapy – results from the feasibility study of the HT&Me intervention
@@ -21,9 +35,6 @@
     - year: 2024
       conference: The UK Interdisciplinary of Breast Cancer Symposium (UKIBCS)
       title: Developing and feasibility testing of an intervention to support women with adherence to adjuvant endocrine therapy and improve quality of life - the SWEET study
-                     
-- categoryName: archived
-  categoryData:
     - year: 2023
       conference: International Psycho-oncology Society (IPOS) World Congress of Psycho-Oncology
       title: Development of HT&Me, a blended supported self-management intervention to support adherence to endocrine therapy in women with breast cancer
