@@ -13,8 +13,12 @@ Thanks to the amazing response we've successfully reached over our recruitment t
 (above) Dr Lucy McGeagh with the SWEET poster at The UK Interdisciplinary Breast Cancer Symposium in January 2026.
 
 
+
+
 <img src='../../assets/images/IPOS.jpg'>
 (above) Dr Jo Brett presenting at International Psycho-Oncology Society Annual World Congress in November 2025.
+
+
 
 
 <img src='../../assets/images/Lesley T MASCC 2024 (2).jpg'>
