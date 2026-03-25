@@ -52,25 +52,13 @@
       affiliation: Oxford Brookes University
       imageURL: "/assets/images/core-team/Lucy McGeagh .jpg"
       url: https://www.brookes.ac.uk/profiles/staff/lucy-mcgeagh
-
-    - name: Dr Ruth Norris
-      title: Research Associate
-      affiliation: Newcastle University
-      imageURL: /assets/images/core-team/Ruth.jpg
-      url: https://www.ncl.ac.uk/medical-sciences/people/profile/ruthnorris.html
-
+        
     - name: Ms Mia Porteous
       title: Research Project Manager
       affiliation: Newcastle University 
       imageURL: "/assets/images/core-team/Mia P.jpg"
       url: https://www.ncl.ac.uk/medical-sciences/people/profile/miaporteous.html
-
-    - name: Dr Sarah-Jane Stewart
-      title: Research Fellow
-      affiliation: University College London
-      imageURL: /assets/images/core-team/Sarah.jpeg
-      url: https://profiles.ucl.ac.uk/87338
-
+                       
     - name: Dr Guy Taylor
       title: Research Associate
       affiliation: Newcastle University
