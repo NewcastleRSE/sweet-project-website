@@ -30,5 +30,5 @@ Lesley Turner presenting at the MASCC 2024 Annual Meeting in June.
 
 
 The SWEET team have presented at the following recent conferences. 
-In March we will be presenting at the European Breast Cancer Conference (EBCC). In June we have a poster at the ABS conference and in September we will be presenting at the RCN International Nursing Research Conference both events in Glasgow.
+In June we have a poster at the ABS conference and in September we will be presenting at the RCN International Nursing Research Conference both events in Glasgow.
 
