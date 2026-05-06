@@ -20,18 +20,18 @@ We have recruited women from the following sites:
 
 #### The SWEET Feasibility data controller is Newcastle upon Tyne Hospitals NHS Foundation Trust (NuTH)
 
-Privacy notice: [Click here](https://www.newcastle-hospitals.nhs.uk/help/privacy/privacy-notice-for-patients/)     
+Privacy notice: [click here](https://www.newcastle-hospitals.nhs.uk/help/privacy/privacy-notice-for-patients/)     
 <br>
 Email for Data Protection Officer at NuTH: nuth.dpo@nhs.net 
 <br>
 
 #### The SWEET Feasibility data processor is Newcastle University
 
-Data protection policy at Newcastle University: [Click here](https://www.ncl.ac.uk/data-protection/)      
+Data protection policy at Newcastle University: [click here](https://www.ncl.ac.uk/data-protection/)      
 <br>
-For more info on how we use your information, [Click here](https://www.hra.nhs.uk/information-about-patients/)     
+For more info on how we use your information, [click here](https://www.hra.nhs.uk/information-about-patients/)     
 <br>
-For a link to the information commissioner's office, [Click here](https://ico.org.uk/make-a-complaint/)     
+For a link to the information commissioner's office, [click here](https://ico.org.uk/make-a-complaint/)     
 <br>
 Email for patient relations (NuTH): patient.relations@nuth.nhs.uk 
 
