@@ -1,6 +1,6 @@
 
 
- Sites are open for trial recruitment across the UK.  We are seeking to recruit a total of 1460 women with early breast cancer, who will be randomised to receive either:
+ Recruitment for the study is now closed. We recruited a total of 1676 women who were randomised to receive either:
  
  i) the HT&Me support package alongside their usual care
  
@@ -8,7 +8,7 @@
  
 ii) usual care alone
 
-Women will be asked to complete a questionnaire when they sign up to the study (baseline), and then again 6,12 and 18-months later.  These questionnaires will measure adherence to hormone therapy, quality of life, and other factors that might impact the effectiveness of the HT&Me support package.
+Women were asked to complete a questionnaire when they sign up to the study (baseline), and then again 6,12 and 18-months later.  These questionnaires will measure adherence to hormone therapy, quality of life, and other factors that might impact the effectiveness of the HT&Me support package.
 
 To read about our earlier intervention development work and feasibility study click here.
 
