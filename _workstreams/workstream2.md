@@ -18,6 +18,8 @@ We have recruited women from the following sites:
 - Oxford University Hospitals NHS Foundation Trust
 <br>
 
+Workstream 2 is complete, and the findings have been published [click here ](https://www.ejoncologynursing.com/article/S1462-3889(25)00250-9/fulltext/)
+
 #### The SWEET Feasibility data controller is Newcastle upon Tyne Hospitals NHS Foundation Trust (NuTH)
 
 Privacy notice: [click here](https://www.newcastle-hospitals.nhs.uk/help/privacy/privacy-notice-for-patients/)     
