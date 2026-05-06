@@ -10,8 +10,11 @@ Lay summary of articles (known as papers)
 Lay summary:
 
 Many women with a common type of breast cancer (estrogen receptor-positive) are advised to take hormone (endocrine) therapy tablets every day for at least five years after their initial treatment. However, up to half of women stop taking this medication earlier than recommended, which can increase the risk of the cancer returning.
+
 This study tested a new support programme called HT&Me, designed to help women continue their treatment and improve their quality of life. The programme included a short animation, two personalised sessions with a nurse or healthcare professional (either in person or online), access to an interactive website, and regular email reminders.
+
 Fifty-one women who had recently started hormone therapy took part. The study found that the programme was practical to deliver within the UK National Health Service. Most women found HT&Me helpful, and many said it encouraged them to keep taking their medication. Women with different levels of confidence using digital tools were able to take part, and both online and face-to-face support were well received. Healthcare professionals also felt the programme addressed an important gap in patient support.
+
 Overall, HT&Me appears to be a useful and acceptable way to support women in continuing their hormone therapy. These findings will help guide a larger study now underway to test how effective the programme is. If successful, HT&Me could help reduce the chances of breast cancer returning by improving long-term treatment adherence.
 
 
