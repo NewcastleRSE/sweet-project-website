@@ -7,6 +7,8 @@ Publications from the SWEET programme so far:
 
 <b><ins>Lay summary </ins></b>
 
+[Click here for a visual lay summary](../../assets/study_documents/SWEET%20Feasibility%20Study%20SS1%20Lay%20Summary.pdf)
+
 Many women with a common type of breast cancer (estrogen receptor-positive) are advised to take hormone (endocrine) therapy tablets every day for at least five years after their initial treatment. However, up to half of women stop taking this medication earlier than recommended, which can increase the risk of the cancer returning.
 
 This study tested a new support programme called HT&Me, designed to help women continue their treatment and improve their quality of life. The programme included a short animation, two personalised sessions with a nurse or healthcare professional (either in person or online), access to an interactive website, and regular email reminders.
@@ -16,7 +18,7 @@ Fifty-one women who had recently started hormone therapy took part. The study fo
 Overall, HT&Me appears to be a useful and acceptable way to support women in continuing their hormone therapy. These findings will help guide a larger study now underway to test how effective the programme is. If successful, HT&Me could help reduce the chances of breast cancer returning by improving long-term treatment adherence.
 
 
-- <b>Improving outcomeS for Women diagnosed with early breast cancer through adhErence to adjuvant Endocrine Therapy (SWEET): study protocol for a pragmatic randomised control trial of a patient‑centred intervention to improve adherence to endocrine therapy in early breast cancer.</b>  McGeagh et al. 2025. <em> Trials </em>. [Click here to read](https://pmc.ncbi.nlm.nih.gov/articles/PMC12659038/)
+- <b>Improving outcomes for Women diagnosed with early breast cancer through adhErence to adjuvant Endocrine Therapy (SWEET): study protocol for a pragmatic randomised control trial of a patient‑centred intervention to improve adherence to endocrine therapy in early breast cancer.</b>  McGeagh et al. 2025. <em> Trials </em>. [Click here to read](https://pmc.ncbi.nlm.nih.gov/articles/PMC12659038/)
 
 <b><ins>Lay summary </ins></b>
 
