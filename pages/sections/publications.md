@@ -1,4 +1,4 @@
-## Recent Publications
+<!--## Recent Publications
 
 Publications from the SWEET programme so far:
 
@@ -47,3 +47,4 @@ The HT&Me intervention was created to help women with oestrogen receptor (ER+) p
 <b><ins>Lay summary </ins></b>
 
 To develop interventions to support women to take their hormone therapy, our research aimed to identify the reasons women may not take their hormone therapy as prescribed. Women aged over 18 years, with a diagnosis of either oestrogen positive (ER+) or progesterone positive (PR+) breast cancer who were prescribed hormone therapy were invited to complete a questionnaire. The questionnaire measured; (i) key social and demographic factors; (ii) possible reasons non-adherence and; (iii) non-adherence to hormone therapy. Women who said they regularly missed doses or who had stopped taking hormone therapy were classified as non-adherent. 1,606 women completed the questionnaire. 395 women (25%) were classified as non-adherent. Feeling that hormone therapy may disrupt their lifestyle, activities and interests was linked to being less likely to believe that taking hormone therapy is necessary and being more likely to expect negative outcomes, leading to non-adherence. Women who reported they were informed about why they were taking hormone therapy, how it works, their risk of side-effects and what to do if they experienced side-effects, were more likely to believe taking hormone therapy is necessary for them, have better use of coping skills and greater adherence. Women without a medication taking routine and who did not perceive their hormone therapy to be necessary/important were more likely to forget to take it.
+-->
