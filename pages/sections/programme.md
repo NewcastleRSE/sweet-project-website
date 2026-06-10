@@ -12,7 +12,7 @@ Women were asked to complete a questionnaire when they signed up to the study (b
 
 To read about our earlier intervention development work [click here ](https://www.sciencedirect.com/science/article/pii/S0960977623005039) and feasibility study [click here ](https://www.ejoncologynursing.com/article/S1462-3889(25)00250-9/fulltext/)
 
-We are also conducting a cost-effectiveness evaluation and developing a scale-up implementation strategy- to read about these click here.
+We are also conducting a cost-effectiveness evaluation and developing a scale-up implementation strategy- to read about these please click on the workstreams below.
 
 ![Diagram1](/assets/images/Programme1.png "Timeline of intervention")
 
