@@ -4,7 +4,7 @@
 
 Recruitment for the SWEET study is now closed.
 Thanks to the amazing response we've successfully reached over our recruitment target.
-
+The Study is now in the follow-up stage, to find out more [Click here to read our latest newsletter](../../ assets/study_documents/SWEET Participant Newsletter June 26.pdf)
 
 
 ## Recent presentations
