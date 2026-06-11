@@ -5,7 +5,7 @@ title: Evaluation of intervention effectiveness in reducing poor adherence and i
 image: /assets/images/workstreams/workstream3.png
 ---
 
-Workstream 3 involves the delivery of a randomised control trial (RCT) alongside a process evaluation. Recruitment is now closed
+Workstream 3 involves the delivery of a randomised control trial (RCT) alongside a process evaluation. Recruitment has now closed and we are in the follow-up stage.
 <br>
 We are investigating whether the HT&Me support package improves adherence to hormone therapy and cancer-specific health-related quality of life. To do this, a total of 1676 women with early breast cancer were randomised to receive i) either the HT&Me support package alongside their usual care, or ii) usual care alone. Women were asked to complete questionnaires when they signed up to the study (baseline), and then 6, 12 and 18-months later. These will measure their adherence to hormone therapy, quality of life, and other additional factors that might impact the effectiveness of the HT&Me support package.
 <br>
