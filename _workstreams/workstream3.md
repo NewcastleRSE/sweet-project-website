@@ -11,7 +11,7 @@ We are investigating whether the HT&Me support package improves adherence to hor
 <br>
 
 
-<!--Watch our video below on how to navigate around the HT&Me website. 
+Watch our video below on how to navigate around the HT&Me website. 
 
-div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://youtu.be/jG9cpd0TDuU" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>#<script src="https://youtu.be/jG9cpd0TDuU"></script>
--->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jG9cpd0TDuU?si=uKAT6AL-p1OaAP-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
