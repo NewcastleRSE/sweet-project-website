@@ -26,14 +26,14 @@ In the **preparation** phase, we have focussed on two key areas:
 
 In all this work, we have mapped contextual and intervention-related factors that are likely to influence implementation to the constructs specified within the EPIS framework.  These are described as:-
 
-**Outer Context:** NHS and policy environment, Funding, National leadership and support, Patient population, needs and characteristics, Patient advocacy factors
+**Outer Context:** NHS and policy environment, Funding, National leadership and support, Patient population, needs and characteristics, Patient advocacy factors.
 
 
-**Inner Context:** organisational characteristics, leadership within organisations, staff characteristics, quality and fidelity 
+**Inner Context:** organisational characteristics, leadership within organisations, staff characteristics, quality and fidelity. 
 
-**Innovation factors:** how HT&Me ‘fits’ into the existing system, how easily it can be adopted
+**Innovation factors:** how HT&Me ‘fits’ into the existing system, how easily it can be adopted.
 
-**Bridging factors:** partnerships that can facilitate implementation and adoption
+**Bridging factors:** partnerships that can facilitate implementation and adoption.
 
 
 
