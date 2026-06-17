@@ -4,9 +4,9 @@
 
 Recruitment for the SWEET study is now closed.
 Thanks to the amazing response we've successfully reached over our recruitment target.
-
+<!--
 The Study is now in the follow-up stage, to find out more [click here to read our latest newsletter.](../../assets/study_documents/SWEET_ParticipantNewsletter_v1.0_28Nov25_Vol1.pdf)
-
+-->
 ## Recent presentations
 
 <img src='../../assets/images/UKIBCS.jpg'>
