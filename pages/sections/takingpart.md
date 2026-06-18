@@ -31,7 +31,7 @@ Publications from the SWEET programme so far:
 
 <b><ins>Lay summary </ins></b>
 
-[Click here for a visual lay summary](../../assets/study_documents/SWEET%20Feasibility%20Study%20SS1%20Lay%20Summary.pdf)
+[<b>Click here for a visual lay summary</b>](../../assets/study_documents/SWEET%20Feasibility%20Study%20SS1%20Lay%20Summary.pdf)
 
 Many women with a common type of breast cancer (estrogen receptor-positive) are advised to take hormone (endocrine) therapy tablets every day for at least five years after their initial treatment. However, up to half of women stop taking this medication earlier than recommended, which can increase the risk of the cancer returning.
 
