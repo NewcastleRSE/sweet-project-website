@@ -24,7 +24,8 @@ Workstream 2 is complete, and the findings have been published, to read them [<b
 
 Privacy notice: [<b>click here</b>](https://www.newcastle-hospitals.nhs.uk/help/privacy/privacy-notice-for-patients/)     
 <br>
-Email for Data Protection Officer at NuTH: nuth.dpo@nhs.net 
+To email for Data Protection Officer at NuTH:
+- Email: [nuth.dpo@nhs.net](mailto:nuth.dpo@nhs.net)
 <br>
 
 #### The SWEET Feasibility data processor is Newcastle University
