@@ -28,6 +28,7 @@ To email for Data Protection Officer at NuTH:
 - Email: [nuth.dpo@nhs.net](mailto:nuth.dpo@nhs.net)
 <br>
 
+
 #### The SWEET Feasibility data processor is Newcastle University
 
 Data protection policy at Newcastle University: [<b>click here</b>](https://www.ncl.ac.uk/data-protection/)      
@@ -36,5 +37,7 @@ For more info on how we use your information, [<b>click here</b>](https://www.hr
 <br>
 For a link to the information commissioner's office, [<b>click here</b>](https://ico.org.uk/make-a-complaint/)     
 <br>
-Email for patient relations (NuTH): patient.relations@nuth.nhs.uk 
+To email for patient relations (NuTH): 
+- Email: [patient.relations@nuth.nhs.uk](mailto:patient.relations@nuth.nhs.uk)
+
 
