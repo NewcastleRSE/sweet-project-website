@@ -9,7 +9,7 @@ The Study is now in the follow-up stage, to find out more [<b>click here to read
 
 ## Recent presentations
 
-<img src='../../assets/images/IPOS2026'>
+<img src='../../assets/images/IPOS2026.jpg'>
 Dr Lucy McGeagh with the SWEET-PLUS poster at the International Psycho-Oncology Society Annual World Congress in November 2026.
 
 
