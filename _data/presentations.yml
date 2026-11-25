@@ -1,8 +1,18 @@
 - categoryName: recent
   categoryData:
     - year: 2026
+      conference: International Society for Medication Adherence (ESPACOMP)
+      title: Combining self-report and pharmacy data in women with breast cancer prescribed adjuvant endocrine therapy
+    - year: 2026
+      conference: International Psycho-Oncology Society Annual World Congress (IPOS)
+      title: You can’t just let this little demon pill control you (poster)
+    - year: 2026
       conference: Royal College of Nursing (RCN) International Nursing Research Conference
       title: Supporting adherence to endocrine therapy- A process evaluation to inform the implementation of the HT&Me intervention 
+    - year: 2026
+      conference: International Society for Pharmacoepidemiology (ISPE) 42nd Annual Meeting
+      title: Developing Composite Measures of Medication Adherence: Combining Self-Report and Pharmacy Data in Women with Breast Cancer Prescribed Adjuvant Endocrine Therapy (poster)
+      title: Individual and composite measures of medication adherence and their relationship with quality of life in women with breast cancer prescribed adjuvant endocrine therapy (poster)
     - year: 2026
       conference: Association of Breast Cancer (ABS)
       title: Supporting adherence to endocrine therapy- healthcare professionals' views on potential for implementation of the HT&Me intervention (poster) 
